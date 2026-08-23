@@ -2,10 +2,13 @@ name: Sales Report
 
 on:
   workflow_run:
-    workflows: ["<exact name: field from your Firebase workflow yml>"]
+    workflows: ["Sync Firestore Data"]
     types:
       - completed
   workflow_dispatch: {}
+
+permissions:
+  contents: write
 
 jobs:
   run-report:
@@ -14,7 +17,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          ref: main   # make sure this pulls the commit the Firebase workflow just pushed
+          ref: main   # make sure this pulls the commit Sync Firestore Data just pushed
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
