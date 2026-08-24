@@ -4,29 +4,29 @@
     "best_sellers": {
       "name": [
         "Flat White",
-        "Latte",
-        "Iced Latte"
+        "Iced Latte",
+        "Cold Brew"
       ],
       "qty": [
-        29,
-        25,
+        32,
+        23,
         22
       ],
       "scale": [
-        52.63,
-        38.89,
-        69.23
+        52.38,
+        109.09,
+        0.0
       ]
     },
     "snapshot_data": {
-      "today_revenue": 202.75,
-      "today_sales": 29,
-      "items_sold": 46,
-      "avg_order_value": 6.99,
-      "todays_revenue_scale": 39.59,
-      "today_sales_scale": 52.63,
-      "items_sold_scale": 35.29,
-      "avg_order_value_scale": -8.51
+      "today_revenue": 191.0,
+      "today_sales": 25,
+      "items_sold": 43,
+      "avg_order_value": 7.64,
+      "todays_revenue_scale": -5.8,
+      "today_sales_scale": -13.79,
+      "items_sold_scale": -6.52,
+      "avg_order_value_scale": 9.3
     }
   },
   "uptown": {
@@ -34,29 +34,29 @@
     "best_sellers": {
       "name": [
         "Latte",
-        "Mocha",
-        "Espresso"
+        "Iced Latte",
+        "Mocha"
       ],
       "qty": [
-        20,
-        18,
-        17
+        22,
+        17,
+        16
       ],
       "scale": [
-        -25.93,
-        -10.0,
-        -26.09
+        -8.33,
+        30.77,
+        -27.27
       ]
     },
     "snapshot_data": {
-      "today_revenue": 89.5,
-      "today_sales": 13,
-      "items_sold": 22,
-      "avg_order_value": 6.88,
-      "todays_revenue_scale": -8.67,
-      "today_sales_scale": 0.0,
-      "items_sold_scale": -4.35,
-      "avg_order_value_scale": -8.75
+      "today_revenue": 150.0,
+      "today_sales": 19,
+      "items_sold": 35,
+      "avg_order_value": 7.89,
+      "todays_revenue_scale": 67.6,
+      "today_sales_scale": 46.15,
+      "items_sold_scale": 59.09,
+      "avg_order_value_scale": 14.68
     }
   },
   "riverside": {
@@ -64,31 +64,31 @@
     "best_sellers": {
       "name": [
         "Cold Brew",
-        "Flat White",
-        "Iced Latte"
+        "Iced Latte",
+        "Flat White"
       ],
       "qty": [
-        21,
+        20,
         19,
-        18
+        17
       ],
       "scale": [
-        250.0,
-        35.71,
-        38.46
+        233.33,
+        58.33,
+        13.33
       ]
     },
     "snapshot_data": {
-      "today_revenue": 146.0,
-      "today_sales": 20,
-      "items_sold": 34,
-      "avg_order_value": 7.3,
-      "todays_revenue_scale": 27.79,
-      "today_sales_scale": 17.65,
-      "items_sold_scale": 30.77,
-      "avg_order_value_scale": 8.63
+      "today_revenue": 106.0,
+      "today_sales": 18,
+      "items_sold": 25,
+      "avg_order_value": 5.89,
+      "todays_revenue_scale": -27.4,
+      "today_sales_scale": -10.0,
+      "items_sold_scale": -26.47,
+      "avg_order_value_scale": -19.32
     }
   },
   "total_sales_records": 30014,
-  "generated_at": "2026-08-23T13:23:57.916093+00:00"
+  "generated_at": "2026-08-24T12:40:20.681540+00:00"
 }
