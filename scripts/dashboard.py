@@ -76,7 +76,7 @@ def monthly_revenue_calculator(sales_data, today):
         is_current = row['month'] == current_year_month
         result.append({
             'month': int(month_str),
-            'year': int(year_str),
+            'year': int(year_str)+1,
             'revenue': float(row['total']),
             'current_month': bool(is_current),
             'day': int(today.day) if is_current else False,
