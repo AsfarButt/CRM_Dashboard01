@@ -39,20 +39,39 @@ def todays_snapshot_calculator(sales_data, date):
     )
     return snapshot_data
 
+
 def monthly_revenue_calculator(sales_data, today):
     """
-    Returns one entry per month that has sales data, each shaped for the
-    frontend's partial-month chart positioning:
-      { month, year, revenue, current_month, day }
-    'day' is False for every month except the current one (relative to
-    `today`, which is already offset -1 year elsewhere in this file —
-    left untouched here, this function just consumes it as-is).
+    Returns one entry per month, up to and including the current month
+    (relative to `today`), shaped for the frontend's partial-month chart
+    positioning: { month, year, revenue, current_month, day }.
+
+    Fixes applied here:
+      - Any month AFTER the current year-month is dropped, even if rows
+        for it exist in sales_data (e.g. pre-seeded/future demo data).
+        Previously every month present in the data was returned, which is
+        why months "after" the supposedly-current month were showing up.
+      - The current month's revenue only sums rows dated on or before
+        `today` — a true partial-month total — instead of summing every
+        row stamped with that calendar month (which could include
+        future-dated rows within the same month).
     """
-    monthly = sales_data.groupby(['year', 'month'])['total'].sum().reset_index()
     current_year_month = today.strftime('%Y-%m')
 
+    # Never look past the current month, even if the data has it.
+    df = sales_data[sales_data['month'] <= current_year_month].copy()
+
+    # Within the current month, only count days up to and including today.
+    is_current_month_row = df['month'] == current_year_month
+    df = df[~is_current_month_row | (df['date'] <= today)]
+
+    monthly = df.groupby(['year', 'month'])['total'].sum().reset_index()
+    # 'month' is a zero-padded 'YYYY-MM' string, so a plain string sort
+    # is already chronological.
+    monthly = monthly.sort_values('month')
+
     result = []
-    for _, row in monthly.sort_values('month').iterrows():
+    for _, row in monthly.iterrows():
         year_str, month_str = row['month'].split('-')
         is_current = row['month'] == current_year_month
         result.append({
@@ -62,8 +81,9 @@ def monthly_revenue_calculator(sales_data, today):
             'current_month': bool(is_current),
             'day': int(today.day) if is_current else False,
         })
-        
+
     return result
+
 
 def sales_data_calculator(sales_data, today):
     result = {}
@@ -107,13 +127,11 @@ def sales_data_calculator(sales_data, today):
         'qty': current_best_sellers['qty'].head(3).tolist(),
     }
 
-    # Safe lookup: item may not have sold at all in the previous window
     past_reference_data = []
     for name in best_sellers['name']:
         match = past_best_sellers.loc[past_best_sellers['name'] == name, 'qty']
         past_reference_data.append(match.iloc[0] if not match.empty else 0)
 
-    # Safe scale: avoid divide-by-zero when an item had 0 sales last week
     best_sellers['scale'] = [
         round((current - past) / past * 100, 2) if past != 0 else 0
         for current, past in zip(best_sellers['qty'], past_reference_data)
@@ -138,7 +156,7 @@ def sales_data_calculator(sales_data, today):
     )
 
     result['snapshot_data'] = todays_snapshot_data
-    result['monthly_revenue'] = monthly_revenue_calculator(sales_data, today)   # <-- ADD THIS LINE
+    result['monthly_revenue'] = monthly_revenue_calculator(sales_data, today)
     return result
 
 
@@ -201,4 +219,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-    
