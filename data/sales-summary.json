@@ -4,91 +4,433 @@
     "best_sellers": {
       "name": [
         "Flat White",
-        "Iced Latte",
-        "Cold Brew"
+        "Mocha",
+        "Cappuccino"
       ],
       "qty": [
-        32,
-        23,
-        22
+        31,
+        21,
+        20
       ],
       "scale": [
-        52.38,
-        109.09,
-        0.0
+        40.91,
+        75.0,
+        53.85
       ]
     },
     "snapshot_data": {
-      "today_revenue": 191.0,
-      "today_sales": 25,
-      "items_sold": 43,
-      "avg_order_value": 7.64,
-      "todays_revenue_scale": -5.8,
-      "today_sales_scale": -13.79,
-      "items_sold_scale": -6.52,
-      "avg_order_value_scale": 9.3
-    }
+      "today_revenue": 77.75,
+      "today_sales": 13,
+      "items_sold": 18,
+      "avg_order_value": 5.98,
+      "todays_revenue_scale": -59.29,
+      "today_sales_scale": -48.0,
+      "items_sold_scale": -58.14,
+      "avg_order_value_scale": -21.73
+    },
+    "monthly_revenue": [
+      {
+        "month": 4,
+        "year": 2025,
+        "revenue": 4974.75,
+        "current_month": false,
+        "day": false
+      },
+      {
+        "month": 5,
+        "year": 2025,
+        "revenue": 4724.25,
+        "current_month": false,
+        "day": false
+      },
+      {
+        "month": 6,
+        "year": 2025,
+        "revenue": 4501.75,
+        "current_month": false,
+        "day": false
+      },
+      {
+        "month": 7,
+        "year": 2025,
+        "revenue": 4202.25,
+        "current_month": false,
+        "day": false
+      },
+      {
+        "month": 8,
+        "year": 2025,
+        "revenue": 4346.25,
+        "current_month": true,
+        "day": 25
+      },
+      {
+        "month": 9,
+        "year": 2025,
+        "revenue": 4688.5,
+        "current_month": false,
+        "day": false
+      },
+      {
+        "month": 10,
+        "year": 2025,
+        "revenue": 4794.0,
+        "current_month": false,
+        "day": false
+      },
+      {
+        "month": 11,
+        "year": 2025,
+        "revenue": 5748.25,
+        "current_month": false,
+        "day": false
+      },
+      {
+        "month": 12,
+        "year": 2025,
+        "revenue": 5879.0,
+        "current_month": false,
+        "day": false
+      },
+      {
+        "month": 1,
+        "year": 2026,
+        "revenue": 4607.25,
+        "current_month": false,
+        "day": false
+      },
+      {
+        "month": 2,
+        "year": 2026,
+        "revenue": 5087.25,
+        "current_month": false,
+        "day": false
+      },
+      {
+        "month": 3,
+        "year": 2026,
+        "revenue": 5109.0,
+        "current_month": false,
+        "day": false
+      },
+      {
+        "month": 4,
+        "year": 2026,
+        "revenue": 4886.0,
+        "current_month": false,
+        "day": false
+      },
+      {
+        "month": 5,
+        "year": 2026,
+        "revenue": 4909.75,
+        "current_month": false,
+        "day": false
+      },
+      {
+        "month": 6,
+        "year": 2026,
+        "revenue": 5089.25,
+        "current_month": false,
+        "day": false
+      },
+      {
+        "month": 7,
+        "year": 2026,
+        "revenue": 4865.5,
+        "current_month": false,
+        "day": false
+      }
+    ]
   },
   "uptown": {
     "annual_revenue": 36008.25,
     "best_sellers": {
       "name": [
         "Latte",
-        "Iced Latte",
-        "Mocha"
+        "Espresso",
+        "Iced Latte"
       ],
       "qty": [
-        22,
+        21,
         17,
-        16
+        17
       ],
       "scale": [
-        -8.33,
-        30.77,
-        -27.27
+        -8.7,
+        -29.17,
+        21.43
       ]
     },
     "snapshot_data": {
-      "today_revenue": 150.0,
-      "today_sales": 19,
-      "items_sold": 35,
-      "avg_order_value": 7.89,
-      "todays_revenue_scale": 67.6,
-      "today_sales_scale": 46.15,
-      "items_sold_scale": 59.09,
-      "avg_order_value_scale": 14.68
-    }
+      "today_revenue": 147.75,
+      "today_sales": 18,
+      "items_sold": 34,
+      "avg_order_value": 8.21,
+      "todays_revenue_scale": -1.5,
+      "today_sales_scale": -5.26,
+      "items_sold_scale": -2.86,
+      "avg_order_value_scale": 4.06
+    },
+    "monthly_revenue": [
+      {
+        "month": 4,
+        "year": 2025,
+        "revenue": 3669.5,
+        "current_month": false,
+        "day": false
+      },
+      {
+        "month": 5,
+        "year": 2025,
+        "revenue": 3725.5,
+        "current_month": false,
+        "day": false
+      },
+      {
+        "month": 6,
+        "year": 2025,
+        "revenue": 3854.5,
+        "current_month": false,
+        "day": false
+      },
+      {
+        "month": 7,
+        "year": 2025,
+        "revenue": 3644.0,
+        "current_month": false,
+        "day": false
+      },
+      {
+        "month": 8,
+        "year": 2025,
+        "revenue": 3797.25,
+        "current_month": true,
+        "day": 25
+      },
+      {
+        "month": 9,
+        "year": 2025,
+        "revenue": 4123.25,
+        "current_month": false,
+        "day": false
+      },
+      {
+        "month": 10,
+        "year": 2025,
+        "revenue": 3986.25,
+        "current_month": false,
+        "day": false
+      },
+      {
+        "month": 11,
+        "year": 2025,
+        "revenue": 4653.75,
+        "current_month": false,
+        "day": false
+      },
+      {
+        "month": 12,
+        "year": 2025,
+        "revenue": 4554.25,
+        "current_month": false,
+        "day": false
+      },
+      {
+        "month": 1,
+        "year": 2026,
+        "revenue": 3593.75,
+        "current_month": false,
+        "day": false
+      },
+      {
+        "month": 2,
+        "year": 2026,
+        "revenue": 4239.75,
+        "current_month": false,
+        "day": false
+      },
+      {
+        "month": 3,
+        "year": 2026,
+        "revenue": 4522.5,
+        "current_month": false,
+        "day": false
+      },
+      {
+        "month": 4,
+        "year": 2026,
+        "revenue": 4151.75,
+        "current_month": false,
+        "day": false
+      },
+      {
+        "month": 5,
+        "year": 2026,
+        "revenue": 4215.0,
+        "current_month": false,
+        "day": false
+      },
+      {
+        "month": 6,
+        "year": 2026,
+        "revenue": 4202.5,
+        "current_month": false,
+        "day": false
+      },
+      {
+        "month": 7,
+        "year": 2026,
+        "revenue": 4037.25,
+        "current_month": false,
+        "day": false
+      }
+    ]
   },
   "riverside": {
     "annual_revenue": 31447.25,
     "best_sellers": {
       "name": [
-        "Cold Brew",
         "Iced Latte",
+        "Cold Brew",
         "Flat White"
       ],
       "qty": [
-        20,
         19,
-        17
+        19,
+        18
       ],
       "scale": [
-        233.33,
         58.33,
-        13.33
+        171.43,
+        20.0
       ]
     },
     "snapshot_data": {
-      "today_revenue": 106.0,
-      "today_sales": 18,
-      "items_sold": 25,
-      "avg_order_value": 5.89,
-      "todays_revenue_scale": -27.4,
-      "today_sales_scale": -10.0,
-      "items_sold_scale": -26.47,
-      "avg_order_value_scale": -19.32
-    }
+      "today_revenue": 79.5,
+      "today_sales": 13,
+      "items_sold": 19,
+      "avg_order_value": 6.12,
+      "todays_revenue_scale": -25.0,
+      "today_sales_scale": -27.78,
+      "items_sold_scale": -24.0,
+      "avg_order_value_scale": 3.9
+    },
+    "monthly_revenue": [
+      {
+        "month": 4,
+        "year": 2025,
+        "revenue": 3058.75,
+        "current_month": false,
+        "day": false
+      },
+      {
+        "month": 5,
+        "year": 2025,
+        "revenue": 3125.75,
+        "current_month": false,
+        "day": false
+      },
+      {
+        "month": 6,
+        "year": 2025,
+        "revenue": 3436.0,
+        "current_month": false,
+        "day": false
+      },
+      {
+        "month": 7,
+        "year": 2025,
+        "revenue": 3042.75,
+        "current_month": false,
+        "day": false
+      },
+      {
+        "month": 8,
+        "year": 2025,
+        "revenue": 3027.5,
+        "current_month": true,
+        "day": 25
+      },
+      {
+        "month": 9,
+        "year": 2025,
+        "revenue": 3355.25,
+        "current_month": false,
+        "day": false
+      },
+      {
+        "month": 10,
+        "year": 2025,
+        "revenue": 3465.5,
+        "current_month": false,
+        "day": false
+      },
+      {
+        "month": 11,
+        "year": 2025,
+        "revenue": 4368.75,
+        "current_month": false,
+        "day": false
+      },
+      {
+        "month": 12,
+        "year": 2025,
+        "revenue": 4567.0,
+        "current_month": false,
+        "day": false
+      },
+      {
+        "month": 1,
+        "year": 2026,
+        "revenue": 3348.25,
+        "current_month": false,
+        "day": false
+      },
+      {
+        "month": 2,
+        "year": 2026,
+        "revenue": 3569.0,
+        "current_month": false,
+        "day": false
+      },
+      {
+        "month": 3,
+        "year": 2026,
+        "revenue": 3386.0,
+        "current_month": false,
+        "day": false
+      },
+      {
+        "month": 4,
+        "year": 2026,
+        "revenue": 3723.5,
+        "current_month": false,
+        "day": false
+      },
+      {
+        "month": 5,
+        "year": 2026,
+        "revenue": 3914.0,
+        "current_month": false,
+        "day": false
+      },
+      {
+        "month": 6,
+        "year": 2026,
+        "revenue": 3938.5,
+        "current_month": false,
+        "day": false
+      },
+      {
+        "month": 7,
+        "year": 2026,
+        "revenue": 3186.25,
+        "current_month": false,
+        "day": false
+      }
+    ]
   },
   "total_sales_records": 30014,
-  "generated_at": "2026-08-24T12:40:20.681540+00:00"
+  "generated_at": "2026-08-25T11:45:16.780202+00:00"
 }
