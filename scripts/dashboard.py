@@ -39,6 +39,31 @@ def todays_snapshot_calculator(sales_data, date):
     )
     return snapshot_data
 
+def monthly_revenue_calculator(sales_data, today):
+    """
+    Returns one entry per month that has sales data, each shaped for the
+    frontend's partial-month chart positioning:
+      { month, year, revenue, current_month, day }
+    'day' is False for every month except the current one (relative to
+    `today`, which is already offset -1 year elsewhere in this file —
+    left untouched here, this function just consumes it as-is).
+    """
+    monthly = sales_data.groupby(['year', 'month'])['total'].sum().reset_index()
+    current_year_month = today.strftime('%Y-%m')
+
+    result = []
+    for _, row in monthly.sort_values('month').iterrows():
+        year_str, month_str = row['month'].split('-')
+        is_current = row['month'] == current_year_month
+        result.append({
+            'month': int(month_str),
+            'year': int(year_str),
+            'revenue': float(row['total']),
+            'current_month': bool(is_current),
+            'day': int(today.day) if is_current else False,
+        })
+        
+    return result
 
 def sales_data_calculator(sales_data, today):
     result = {}
@@ -113,6 +138,7 @@ def sales_data_calculator(sales_data, today):
     )
 
     result['snapshot_data'] = todays_snapshot_data
+    result['monthly_revenue'] = monthly_revenue_calculator(sales_data, today)   # <-- ADD THIS LINE
     return result
 
 
