@@ -31,35 +31,35 @@
     "monthly_revenue": [
       {
         "month": 4,
-        "year": 2025,
+        "year": 2026,
         "revenue": 4974.75,
         "current_month": false,
         "day": false
       },
       {
         "month": 5,
-        "year": 2025,
+        "year": 2026,
         "revenue": 4724.25,
         "current_month": false,
         "day": false
       },
       {
         "month": 6,
-        "year": 2025,
+        "year": 2026,
         "revenue": 4501.75,
         "current_month": false,
         "day": false
       },
       {
         "month": 7,
-        "year": 2025,
+        "year": 2026,
         "revenue": 4202.25,
         "current_month": false,
         "day": false
       },
       {
         "month": 8,
-        "year": 2025,
+        "year": 2026,
         "revenue": 3461.75,
         "current_month": true,
         "day": 25
@@ -98,35 +98,35 @@
     "monthly_revenue": [
       {
         "month": 4,
-        "year": 2025,
+        "year": 2026,
         "revenue": 3669.5,
         "current_month": false,
         "day": false
       },
       {
         "month": 5,
-        "year": 2025,
+        "year": 2026,
         "revenue": 3725.5,
         "current_month": false,
         "day": false
       },
       {
         "month": 6,
-        "year": 2025,
+        "year": 2026,
         "revenue": 3854.5,
         "current_month": false,
         "day": false
       },
       {
         "month": 7,
-        "year": 2025,
+        "year": 2026,
         "revenue": 3644.0,
         "current_month": false,
         "day": false
       },
       {
         "month": 8,
-        "year": 2025,
+        "year": 2026,
         "revenue": 3029.75,
         "current_month": true,
         "day": 25
@@ -165,35 +165,35 @@
     "monthly_revenue": [
       {
         "month": 4,
-        "year": 2025,
+        "year": 2026,
         "revenue": 3058.75,
         "current_month": false,
         "day": false
       },
       {
         "month": 5,
-        "year": 2025,
+        "year": 2026,
         "revenue": 3125.75,
         "current_month": false,
         "day": false
       },
       {
         "month": 6,
-        "year": 2025,
+        "year": 2026,
         "revenue": 3436.0,
         "current_month": false,
         "day": false
       },
       {
         "month": 7,
-        "year": 2025,
+        "year": 2026,
         "revenue": 3042.75,
         "current_month": false,
         "day": false
       },
       {
         "month": 8,
-        "year": 2025,
+        "year": 2026,
         "revenue": 2543.5,
         "current_month": true,
         "day": 25
@@ -201,5 +201,5 @@
     ]
   },
   "total_sales_records": 30014,
-  "generated_at": "2026-08-25T12:28:39.448993+00:00"
+  "generated_at": "2026-08-25T12:40:25.344467+00:00"
 }
