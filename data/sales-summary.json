@@ -60,86 +60,9 @@
       {
         "month": 8,
         "year": 2025,
-        "revenue": 4346.25,
+        "revenue": 3461.75,
         "current_month": true,
         "day": 25
-      },
-      {
-        "month": 9,
-        "year": 2025,
-        "revenue": 4688.5,
-        "current_month": false,
-        "day": false
-      },
-      {
-        "month": 10,
-        "year": 2025,
-        "revenue": 4794.0,
-        "current_month": false,
-        "day": false
-      },
-      {
-        "month": 11,
-        "year": 2025,
-        "revenue": 5748.25,
-        "current_month": false,
-        "day": false
-      },
-      {
-        "month": 12,
-        "year": 2025,
-        "revenue": 5879.0,
-        "current_month": false,
-        "day": false
-      },
-      {
-        "month": 1,
-        "year": 2026,
-        "revenue": 4607.25,
-        "current_month": false,
-        "day": false
-      },
-      {
-        "month": 2,
-        "year": 2026,
-        "revenue": 5087.25,
-        "current_month": false,
-        "day": false
-      },
-      {
-        "month": 3,
-        "year": 2026,
-        "revenue": 5109.0,
-        "current_month": false,
-        "day": false
-      },
-      {
-        "month": 4,
-        "year": 2026,
-        "revenue": 4886.0,
-        "current_month": false,
-        "day": false
-      },
-      {
-        "month": 5,
-        "year": 2026,
-        "revenue": 4909.75,
-        "current_month": false,
-        "day": false
-      },
-      {
-        "month": 6,
-        "year": 2026,
-        "revenue": 5089.25,
-        "current_month": false,
-        "day": false
-      },
-      {
-        "month": 7,
-        "year": 2026,
-        "revenue": 4865.5,
-        "current_month": false,
-        "day": false
       }
     ]
   },
@@ -204,86 +127,9 @@
       {
         "month": 8,
         "year": 2025,
-        "revenue": 3797.25,
+        "revenue": 3029.75,
         "current_month": true,
         "day": 25
-      },
-      {
-        "month": 9,
-        "year": 2025,
-        "revenue": 4123.25,
-        "current_month": false,
-        "day": false
-      },
-      {
-        "month": 10,
-        "year": 2025,
-        "revenue": 3986.25,
-        "current_month": false,
-        "day": false
-      },
-      {
-        "month": 11,
-        "year": 2025,
-        "revenue": 4653.75,
-        "current_month": false,
-        "day": false
-      },
-      {
-        "month": 12,
-        "year": 2025,
-        "revenue": 4554.25,
-        "current_month": false,
-        "day": false
-      },
-      {
-        "month": 1,
-        "year": 2026,
-        "revenue": 3593.75,
-        "current_month": false,
-        "day": false
-      },
-      {
-        "month": 2,
-        "year": 2026,
-        "revenue": 4239.75,
-        "current_month": false,
-        "day": false
-      },
-      {
-        "month": 3,
-        "year": 2026,
-        "revenue": 4522.5,
-        "current_month": false,
-        "day": false
-      },
-      {
-        "month": 4,
-        "year": 2026,
-        "revenue": 4151.75,
-        "current_month": false,
-        "day": false
-      },
-      {
-        "month": 5,
-        "year": 2026,
-        "revenue": 4215.0,
-        "current_month": false,
-        "day": false
-      },
-      {
-        "month": 6,
-        "year": 2026,
-        "revenue": 4202.5,
-        "current_month": false,
-        "day": false
-      },
-      {
-        "month": 7,
-        "year": 2026,
-        "revenue": 4037.25,
-        "current_month": false,
-        "day": false
       }
     ]
   },
@@ -348,89 +194,12 @@
       {
         "month": 8,
         "year": 2025,
-        "revenue": 3027.5,
+        "revenue": 2543.5,
         "current_month": true,
         "day": 25
-      },
-      {
-        "month": 9,
-        "year": 2025,
-        "revenue": 3355.25,
-        "current_month": false,
-        "day": false
-      },
-      {
-        "month": 10,
-        "year": 2025,
-        "revenue": 3465.5,
-        "current_month": false,
-        "day": false
-      },
-      {
-        "month": 11,
-        "year": 2025,
-        "revenue": 4368.75,
-        "current_month": false,
-        "day": false
-      },
-      {
-        "month": 12,
-        "year": 2025,
-        "revenue": 4567.0,
-        "current_month": false,
-        "day": false
-      },
-      {
-        "month": 1,
-        "year": 2026,
-        "revenue": 3348.25,
-        "current_month": false,
-        "day": false
-      },
-      {
-        "month": 2,
-        "year": 2026,
-        "revenue": 3569.0,
-        "current_month": false,
-        "day": false
-      },
-      {
-        "month": 3,
-        "year": 2026,
-        "revenue": 3386.0,
-        "current_month": false,
-        "day": false
-      },
-      {
-        "month": 4,
-        "year": 2026,
-        "revenue": 3723.5,
-        "current_month": false,
-        "day": false
-      },
-      {
-        "month": 5,
-        "year": 2026,
-        "revenue": 3914.0,
-        "current_month": false,
-        "day": false
-      },
-      {
-        "month": 6,
-        "year": 2026,
-        "revenue": 3938.5,
-        "current_month": false,
-        "day": false
-      },
-      {
-        "month": 7,
-        "year": 2026,
-        "revenue": 3186.25,
-        "current_month": false,
-        "day": false
       }
     ]
   },
   "total_sales_records": 30014,
-  "generated_at": "2026-08-25T11:45:16.780202+00:00"
+  "generated_at": "2026-08-25T12:28:39.448993+00:00"
 }
