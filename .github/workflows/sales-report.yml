@@ -1,15 +1,12 @@
 name: Sales Report
-
 on:
   workflow_run:
     workflows: ["Sync Firestore Data"]
     types:
       - completed
   workflow_dispatch: {}
-
 permissions:
   contents: write
-
 jobs:
   run-report:
     runs-on: ubuntu-latest
@@ -25,10 +22,11 @@ jobs:
           python-version: '3.12'
       - run: pip install -r requirements.txt
       - run: python scripts/dashboard.py
+      - run: python scripts/staff.py
       - name: Commit updated summary
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
-          git add data/sales-summary.json
-          git diff --staged --quiet || git commit -m "Update sales summary [bot]"
+          git add data/sales-summary.json data/staff-summary.json
+          git diff --staged --quiet || git commit -m "Update sales and staff summary [bot]"
           git push
