@@ -1,0 +1,582 @@
+{
+  "employees": [
+    {
+      "employee_id": "EMP-001",
+      "name": "Harper Wilson",
+      "branch": "Downtown",
+      "role": "Branch Manager",
+      "employment_type": "Full-time",
+      "date_of_joining": "2024-11-27",
+      "termination_date": null,
+      "status": "active",
+      "performance": {
+        "avg_performance": 0.0,
+        "avg_hours_worked": 0.0,
+        "avg_shifts_worked": 0.0,
+        "presence_rate": 0.0,
+        "correct_order_ratio": 0.0,
+        "customer_success_rate": 0.0
+      }
+    },
+    {
+      "employee_id": "EMP-002",
+      "name": "Ella Thomas",
+      "branch": "Downtown",
+      "role": "Shift Lead",
+      "employment_type": "Full-time",
+      "date_of_joining": "2022-04-02",
+      "termination_date": null,
+      "status": "active",
+      "performance": {
+        "avg_performance": 0.0,
+        "avg_hours_worked": 0.0,
+        "avg_shifts_worked": 0.0,
+        "presence_rate": 0.0,
+        "correct_order_ratio": 0.0,
+        "customer_success_rate": 0.0
+      }
+    },
+    {
+      "employee_id": "EMP-003",
+      "name": "Layla Sanchez",
+      "branch": "Downtown",
+      "role": "Shift Lead",
+      "employment_type": "Full-time",
+      "date_of_joining": "2023-11-30",
+      "termination_date": null,
+      "status": "active",
+      "performance": {
+        "avg_performance": 0.0,
+        "avg_hours_worked": 0.0,
+        "avg_shifts_worked": 0.0,
+        "presence_rate": 0.0,
+        "correct_order_ratio": 0.0,
+        "customer_success_rate": 0.0
+      }
+    },
+    {
+      "employee_id": "EMP-004",
+      "name": "David Davis",
+      "branch": "Downtown",
+      "role": "Barista",
+      "employment_type": "Full-time",
+      "date_of_joining": "2021-01-21",
+      "termination_date": null,
+      "status": "active",
+      "performance": {
+        "avg_performance": 0.0,
+        "avg_hours_worked": 0.0,
+        "avg_shifts_worked": 0.0,
+        "presence_rate": 0.0,
+        "correct_order_ratio": 0.0,
+        "customer_success_rate": 0.0
+      }
+    },
+    {
+      "employee_id": "EMP-005",
+      "name": "Owen Williams",
+      "branch": "Downtown",
+      "role": "Barista",
+      "employment_type": "Part-time",
+      "date_of_joining": "2021-11-07",
+      "termination_date": null,
+      "status": "active",
+      "performance": {
+        "avg_performance": 0.0,
+        "avg_hours_worked": 0.0,
+        "avg_shifts_worked": 0.0,
+        "presence_rate": 0.0,
+        "correct_order_ratio": 0.0,
+        "customer_success_rate": 0.0
+      }
+    },
+    {
+      "employee_id": "EMP-006",
+      "name": "Abigail Thompson",
+      "branch": "Downtown",
+      "role": "Barista",
+      "employment_type": "Part-time",
+      "date_of_joining": "2021-04-11",
+      "termination_date": null,
+      "status": "active",
+      "performance": {
+        "avg_performance": 0.0,
+        "avg_hours_worked": 0.0,
+        "avg_shifts_worked": 0.0,
+        "presence_rate": 0.0,
+        "correct_order_ratio": 0.0,
+        "customer_success_rate": 0.0
+      }
+    },
+    {
+      "employee_id": "EMP-007",
+      "name": "Victoria Martin",
+      "branch": "Downtown",
+      "role": "Barista",
+      "employment_type": "Full-time",
+      "date_of_joining": "2023-07-08",
+      "termination_date": null,
+      "status": "active",
+      "performance": {
+        "avg_performance": 0.0,
+        "avg_hours_worked": 0.0,
+        "avg_shifts_worked": 0.0,
+        "presence_rate": 0.0,
+        "correct_order_ratio": 0.0,
+        "customer_success_rate": 0.0
+      }
+    },
+    {
+      "employee_id": "EMP-008",
+      "name": "Matthew Thompson",
+      "branch": "Downtown",
+      "role": "Barista",
+      "employment_type": "Part-time",
+      "date_of_joining": "2021-09-09",
+      "termination_date": null,
+      "status": "active",
+      "performance": {
+        "avg_performance": 0.0,
+        "avg_hours_worked": 0.0,
+        "avg_shifts_worked": 0.0,
+        "presence_rate": 0.0,
+        "correct_order_ratio": 0.0,
+        "customer_success_rate": 0.0
+      }
+    },
+    {
+      "employee_id": "EMP-009",
+      "name": "Liam Jones",
+      "branch": "Downtown",
+      "role": "Barista",
+      "employment_type": "Full-time",
+      "date_of_joining": "2021-07-15",
+      "termination_date": null,
+      "status": "active",
+      "performance": {
+        "avg_performance": 0.0,
+        "avg_hours_worked": 0.0,
+        "avg_shifts_worked": 0.0,
+        "presence_rate": 0.0,
+        "correct_order_ratio": 0.0,
+        "customer_success_rate": 0.0
+      }
+    },
+    {
+      "employee_id": "EMP-010",
+      "name": "Daniel Garcia",
+      "branch": "Downtown",
+      "role": "Barista",
+      "employment_type": "Part-time",
+      "date_of_joining": "2024-02-19",
+      "termination_date": "2025-09-20",
+      "status": "terminated",
+      "performance": {
+        "avg_performance": 0.0,
+        "avg_hours_worked": 0.0,
+        "avg_shifts_worked": 0.0,
+        "presence_rate": 0.0,
+        "correct_order_ratio": 0.0,
+        "customer_success_rate": 0.0
+      }
+    },
+    {
+      "employee_id": "EMP-011",
+      "name": "Mason Garcia",
+      "branch": "Downtown",
+      "role": "Barista",
+      "employment_type": "Full-time",
+      "date_of_joining": "2024-10-08",
+      "termination_date": null,
+      "status": "active",
+      "performance": {
+        "avg_performance": 0.0,
+        "avg_hours_worked": 0.0,
+        "avg_shifts_worked": 0.0,
+        "presence_rate": 0.0,
+        "correct_order_ratio": 0.0,
+        "customer_success_rate": 0.0
+      }
+    },
+    {
+      "employee_id": "EMP-012",
+      "name": "Elijah Williams",
+      "branch": "Downtown",
+      "role": "Barista",
+      "employment_type": "Full-time",
+      "date_of_joining": "2022-02-23",
+      "termination_date": null,
+      "status": "active",
+      "performance": {
+        "avg_performance": 0.0,
+        "avg_hours_worked": 0.0,
+        "avg_shifts_worked": 0.0,
+        "presence_rate": 0.0,
+        "correct_order_ratio": 0.0,
+        "customer_success_rate": 0.0
+      }
+    },
+    {
+      "employee_id": "EMP-013",
+      "name": "Mia Brown",
+      "branch": "Uptown",
+      "role": "Branch Manager",
+      "employment_type": "Full-time",
+      "date_of_joining": "2024-07-22",
+      "termination_date": null,
+      "status": "active",
+      "performance": {
+        "avg_performance": 0.0,
+        "avg_hours_worked": 0.0,
+        "avg_shifts_worked": 0.0,
+        "presence_rate": 0.0,
+        "correct_order_ratio": 0.0,
+        "customer_success_rate": 0.0
+      }
+    },
+    {
+      "employee_id": "EMP-014",
+      "name": "Chloe Miller",
+      "branch": "Uptown",
+      "role": "Shift Lead",
+      "employment_type": "Full-time",
+      "date_of_joining": "2023-04-30",
+      "termination_date": null,
+      "status": "active",
+      "performance": {
+        "avg_performance": 0.0,
+        "avg_hours_worked": 0.0,
+        "avg_shifts_worked": 0.0,
+        "presence_rate": 0.0,
+        "correct_order_ratio": 0.0,
+        "customer_success_rate": 0.0
+      }
+    },
+    {
+      "employee_id": "EMP-015",
+      "name": "Hannah Wilson",
+      "branch": "Uptown",
+      "role": "Shift Lead",
+      "employment_type": "Full-time",
+      "date_of_joining": "2023-01-19",
+      "termination_date": null,
+      "status": "active",
+      "performance": {
+        "avg_performance": 0.0,
+        "avg_hours_worked": 0.0,
+        "avg_shifts_worked": 0.0,
+        "presence_rate": 0.0,
+        "correct_order_ratio": 0.0,
+        "customer_success_rate": 0.0
+      }
+    },
+    {
+      "employee_id": "EMP-016",
+      "name": "Zoey Taylor",
+      "branch": "Uptown",
+      "role": "Barista",
+      "employment_type": "Full-time",
+      "date_of_joining": "2023-07-31",
+      "termination_date": null,
+      "status": "active",
+      "performance": {
+        "avg_performance": 0.0,
+        "avg_hours_worked": 0.0,
+        "avg_shifts_worked": 0.0,
+        "presence_rate": 0.0,
+        "correct_order_ratio": 0.0,
+        "customer_success_rate": 0.0
+      }
+    },
+    {
+      "employee_id": "EMP-017",
+      "name": "James Smith",
+      "branch": "Uptown",
+      "role": "Barista",
+      "employment_type": "Full-time",
+      "date_of_joining": "2021-12-09",
+      "termination_date": null,
+      "status": "active",
+      "performance": {
+        "avg_performance": 0.0,
+        "avg_hours_worked": 0.0,
+        "avg_shifts_worked": 0.0,
+        "presence_rate": 0.0,
+        "correct_order_ratio": 0.0,
+        "customer_success_rate": 0.0
+      }
+    },
+    {
+      "employee_id": "EMP-018",
+      "name": "Matthew Smith",
+      "branch": "Uptown",
+      "role": "Barista",
+      "employment_type": "Full-time",
+      "date_of_joining": "2024-03-03",
+      "termination_date": "2026-02-12",
+      "status": "terminated",
+      "performance": {
+        "avg_performance": 0.0,
+        "avg_hours_worked": 0.0,
+        "avg_shifts_worked": 0.0,
+        "presence_rate": 0.0,
+        "correct_order_ratio": 0.0,
+        "customer_success_rate": 0.0
+      }
+    },
+    {
+      "employee_id": "EMP-019",
+      "name": "Scarlett Moore",
+      "branch": "Uptown",
+      "role": "Barista",
+      "employment_type": "Full-time",
+      "date_of_joining": "2024-11-27",
+      "termination_date": null,
+      "status": "active",
+      "performance": {
+        "avg_performance": 0.0,
+        "avg_hours_worked": 0.0,
+        "avg_shifts_worked": 0.0,
+        "presence_rate": 0.0,
+        "correct_order_ratio": 0.0,
+        "customer_success_rate": 0.0
+      }
+    },
+    {
+      "employee_id": "EMP-020",
+      "name": "Grace Clark",
+      "branch": "Uptown",
+      "role": "Barista",
+      "employment_type": "Full-time",
+      "date_of_joining": "2023-04-12",
+      "termination_date": null,
+      "status": "active",
+      "performance": {
+        "avg_performance": 0.0,
+        "avg_hours_worked": 0.0,
+        "avg_shifts_worked": 0.0,
+        "presence_rate": 0.0,
+        "correct_order_ratio": 0.0,
+        "customer_success_rate": 0.0
+      }
+    },
+    {
+      "employee_id": "EMP-021",
+      "name": "Benjamin Davis",
+      "branch": "Uptown",
+      "role": "Barista",
+      "employment_type": "Full-time",
+      "date_of_joining": "2021-12-29",
+      "termination_date": null,
+      "status": "active",
+      "performance": {
+        "avg_performance": 0.0,
+        "avg_hours_worked": 0.0,
+        "avg_shifts_worked": 0.0,
+        "presence_rate": 0.0,
+        "correct_order_ratio": 0.0,
+        "customer_success_rate": 0.0
+      }
+    },
+    {
+      "employee_id": "EMP-022",
+      "name": "Logan Harris",
+      "branch": "Uptown",
+      "role": "Barista",
+      "employment_type": "Full-time",
+      "date_of_joining": "2023-10-27",
+      "termination_date": null,
+      "status": "active",
+      "performance": {
+        "avg_performance": 0.0,
+        "avg_hours_worked": 0.0,
+        "avg_shifts_worked": 0.0,
+        "presence_rate": 0.0,
+        "correct_order_ratio": 0.0,
+        "customer_success_rate": 0.0
+      }
+    },
+    {
+      "employee_id": "EMP-023",
+      "name": "David Lewis",
+      "branch": "Riverside",
+      "role": "Branch Manager",
+      "employment_type": "Full-time",
+      "date_of_joining": "2023-07-08",
+      "termination_date": null,
+      "status": "active",
+      "performance": {
+        "avg_performance": 0.0,
+        "avg_hours_worked": 0.0,
+        "avg_shifts_worked": 0.0,
+        "presence_rate": 0.0,
+        "correct_order_ratio": 0.0,
+        "customer_success_rate": 0.0
+      }
+    },
+    {
+      "employee_id": "EMP-024",
+      "name": "Harper White",
+      "branch": "Riverside",
+      "role": "Shift Lead",
+      "employment_type": "Full-time",
+      "date_of_joining": "2022-03-30",
+      "termination_date": null,
+      "status": "active",
+      "performance": {
+        "avg_performance": 0.0,
+        "avg_hours_worked": 0.0,
+        "avg_shifts_worked": 0.0,
+        "presence_rate": 0.0,
+        "correct_order_ratio": 0.0,
+        "customer_success_rate": 0.0
+      }
+    },
+    {
+      "employee_id": "EMP-025",
+      "name": "Matthew Taylor",
+      "branch": "Riverside",
+      "role": "Barista",
+      "employment_type": "Part-time",
+      "date_of_joining": "2024-04-08",
+      "termination_date": null,
+      "status": "active",
+      "performance": {
+        "avg_performance": 0.0,
+        "avg_hours_worked": 0.0,
+        "avg_shifts_worked": 0.0,
+        "presence_rate": 0.0,
+        "correct_order_ratio": 0.0,
+        "customer_success_rate": 0.0
+      }
+    },
+    {
+      "employee_id": "EMP-026",
+      "name": "Elijah Garcia",
+      "branch": "Riverside",
+      "role": "Barista",
+      "employment_type": "Part-time",
+      "date_of_joining": "2022-07-20",
+      "termination_date": null,
+      "status": "active",
+      "performance": {
+        "avg_performance": 0.0,
+        "avg_hours_worked": 0.0,
+        "avg_shifts_worked": 0.0,
+        "presence_rate": 0.0,
+        "correct_order_ratio": 0.0,
+        "customer_success_rate": 0.0
+      }
+    },
+    {
+      "employee_id": "EMP-027",
+      "name": "Layla Johnson",
+      "branch": "Riverside",
+      "role": "Barista",
+      "employment_type": "Full-time",
+      "date_of_joining": "2023-10-11",
+      "termination_date": null,
+      "status": "active",
+      "performance": {
+        "avg_performance": 0.0,
+        "avg_hours_worked": 0.0,
+        "avg_shifts_worked": 0.0,
+        "presence_rate": 0.0,
+        "correct_order_ratio": 0.0,
+        "customer_success_rate": 0.0
+      }
+    },
+    {
+      "employee_id": "EMP-028",
+      "name": "Ella Johnson",
+      "branch": "Riverside",
+      "role": "Barista",
+      "employment_type": "Full-time",
+      "date_of_joining": "2024-07-07",
+      "termination_date": null,
+      "status": "active",
+      "performance": {
+        "avg_performance": 0.0,
+        "avg_hours_worked": 0.0,
+        "avg_shifts_worked": 0.0,
+        "presence_rate": 0.0,
+        "correct_order_ratio": 0.0,
+        "customer_success_rate": 0.0
+      }
+    },
+    {
+      "employee_id": "EMP-029",
+      "name": "Jack Lee",
+      "branch": "Riverside",
+      "role": "Barista",
+      "employment_type": "Part-time",
+      "date_of_joining": "2022-12-25",
+      "termination_date": null,
+      "status": "active",
+      "performance": {
+        "avg_performance": 0.0,
+        "avg_hours_worked": 0.0,
+        "avg_shifts_worked": 0.0,
+        "presence_rate": 0.0,
+        "correct_order_ratio": 0.0,
+        "customer_success_rate": 0.0
+      }
+    },
+    {
+      "employee_id": "EMP-030",
+      "name": "Emily Jones",
+      "branch": "Riverside",
+      "role": "Barista",
+      "employment_type": "Part-time",
+      "date_of_joining": "2025-02-09",
+      "termination_date": null,
+      "status": "active",
+      "performance": {
+        "avg_performance": 0.0,
+        "avg_hours_worked": 0.0,
+        "avg_shifts_worked": 0.0,
+        "presence_rate": 0.0,
+        "correct_order_ratio": 0.0,
+        "customer_success_rate": 0.0
+      }
+    },
+    {
+      "employee_id": "EMP-031",
+      "name": "Mason Lewis",
+      "branch": "Downtown",
+      "role": "Barista",
+      "employment_type": "Full-time",
+      "date_of_joining": "2025-10-05",
+      "termination_date": null,
+      "status": "active",
+      "performance": {
+        "avg_performance": 0.0,
+        "avg_hours_worked": 0.0,
+        "avg_shifts_worked": 0.0,
+        "presence_rate": 0.0,
+        "correct_order_ratio": 0.0,
+        "customer_success_rate": 0.0
+      }
+    },
+    {
+      "employee_id": "EMP-032",
+      "name": "Matthew Jackson",
+      "branch": "Uptown",
+      "role": "Barista",
+      "employment_type": "Part-time",
+      "date_of_joining": "2026-03-03",
+      "termination_date": null,
+      "status": "active",
+      "performance": {
+        "avg_performance": 0.0,
+        "avg_hours_worked": 0.0,
+        "avg_shifts_worked": 0.0,
+        "presence_rate": 0.0,
+        "correct_order_ratio": 0.0,
+        "customer_success_rate": 0.0
+      }
+    }
+  ],
+  "total_employee_records": 32,
+  "generated_at": "2026-08-26T22:02:36.829595+00:00"
+}
