@@ -13,7 +13,7 @@ db = firestore.client()
 # Category prefix -> output filename
 CATEGORIES = {
     "SalesData": "sales.json",
-    "EmployeesData": "employees.json",
+    "EmployeData": "employees.json",
     "SupplyData": "supply.json",
 }
 OUTPUT_DIR = "data"
