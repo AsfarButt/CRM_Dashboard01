@@ -10,12 +10,12 @@
       "termination_date": null,
       "status": "active",
       "performance": {
-        "avg_performance": 0.0,
-        "avg_hours_worked": 0.0,
-        "avg_shifts_worked": 0.0,
-        "presence_rate": 0.0,
-        "correct_order_ratio": 0.0,
-        "customer_success_rate": 0.0
+        "avg_performance": 4.16,
+        "avg_hours_worked": 165.89,
+        "avg_shifts_worked": 25.5,
+        "presence_rate": 97.6,
+        "correct_order_ratio": 98.8,
+        "customer_success_rate": 99.93
       }
     },
     {
@@ -28,12 +28,12 @@
       "termination_date": null,
       "status": "active",
       "performance": {
-        "avg_performance": 0.0,
-        "avg_hours_worked": 0.0,
-        "avg_shifts_worked": 0.0,
-        "presence_rate": 0.0,
-        "correct_order_ratio": 0.0,
-        "customer_success_rate": 0.0
+        "avg_performance": 3.01,
+        "avg_hours_worked": 142.79,
+        "avg_shifts_worked": 22.0,
+        "presence_rate": 97.0,
+        "correct_order_ratio": 96.5,
+        "customer_success_rate": 99.86
       }
     },
     {
@@ -46,12 +46,12 @@
       "termination_date": null,
       "status": "active",
       "performance": {
-        "avg_performance": 0.0,
-        "avg_hours_worked": 0.0,
-        "avg_shifts_worked": 0.0,
-        "presence_rate": 0.0,
-        "correct_order_ratio": 0.0,
-        "customer_success_rate": 0.0
+        "avg_performance": 4.26,
+        "avg_hours_worked": 143.3,
+        "avg_shifts_worked": 22.0,
+        "presence_rate": 98.06,
+        "correct_order_ratio": 98.81,
+        "customer_success_rate": 99.94
       }
     },
     {
@@ -64,12 +64,12 @@
       "termination_date": null,
       "status": "active",
       "performance": {
-        "avg_performance": 0.0,
-        "avg_hours_worked": 0.0,
-        "avg_shifts_worked": 0.0,
-        "presence_rate": 0.0,
-        "correct_order_ratio": 0.0,
-        "customer_success_rate": 0.0
+        "avg_performance": 4.83,
+        "avg_hours_worked": 145.54,
+        "avg_shifts_worked": 22.44,
+        "presence_rate": 99.79,
+        "correct_order_ratio": 99.59,
+        "customer_success_rate": 99.98
       }
     },
     {
@@ -82,12 +82,12 @@
       "termination_date": null,
       "status": "active",
       "performance": {
-        "avg_performance": 0.0,
-        "avg_hours_worked": 0.0,
-        "avg_shifts_worked": 0.0,
-        "presence_rate": 0.0,
-        "correct_order_ratio": 0.0,
-        "customer_success_rate": 0.0
+        "avg_performance": 4.2,
+        "avg_hours_worked": 70.37,
+        "avg_shifts_worked": 10.81,
+        "presence_rate": 99.0,
+        "correct_order_ratio": 98.81,
+        "customer_success_rate": 99.91
       }
     },
     {
@@ -100,12 +100,12 @@
       "termination_date": null,
       "status": "active",
       "performance": {
-        "avg_performance": 0.0,
-        "avg_hours_worked": 0.0,
-        "avg_shifts_worked": 0.0,
-        "presence_rate": 0.0,
-        "correct_order_ratio": 0.0,
-        "customer_success_rate": 0.0
+        "avg_performance": 2.92,
+        "avg_hours_worked": 72.78,
+        "avg_shifts_worked": 11.19,
+        "presence_rate": 97.9,
+        "correct_order_ratio": 96.49,
+        "customer_success_rate": 99.88
       }
     },
     {
@@ -118,12 +118,12 @@
       "termination_date": null,
       "status": "active",
       "performance": {
-        "avg_performance": 0.0,
-        "avg_hours_worked": 0.0,
-        "avg_shifts_worked": 0.0,
-        "presence_rate": 0.0,
-        "correct_order_ratio": 0.0,
-        "customer_success_rate": 0.0
+        "avg_performance": 4.28,
+        "avg_hours_worked": 142.74,
+        "avg_shifts_worked": 22.0,
+        "presence_rate": 98.25,
+        "correct_order_ratio": 98.8,
+        "customer_success_rate": 99.94
       }
     },
     {
@@ -136,12 +136,12 @@
       "termination_date": null,
       "status": "active",
       "performance": {
-        "avg_performance": 0.0,
-        "avg_hours_worked": 0.0,
-        "avg_shifts_worked": 0.0,
-        "presence_rate": 0.0,
-        "correct_order_ratio": 0.0,
-        "customer_success_rate": 0.0
+        "avg_performance": 4.8,
+        "avg_hours_worked": 72.43,
+        "avg_shifts_worked": 11.19,
+        "presence_rate": 100.0,
+        "correct_order_ratio": 99.58,
+        "customer_success_rate": 99.98
       }
     },
     {
@@ -154,12 +154,12 @@
       "termination_date": null,
       "status": "active",
       "performance": {
-        "avg_performance": 0.0,
-        "avg_hours_worked": 0.0,
-        "avg_shifts_worked": 0.0,
-        "presence_rate": 0.0,
-        "correct_order_ratio": 0.0,
-        "customer_success_rate": 0.0
+        "avg_performance": 4.86,
+        "avg_hours_worked": 145.38,
+        "avg_shifts_worked": 22.19,
+        "presence_rate": 99.67,
+        "correct_order_ratio": 99.59,
+        "customer_success_rate": 99.97
       }
     },
     {
@@ -172,12 +172,12 @@
       "termination_date": "2025-09-20",
       "status": "terminated",
       "performance": {
-        "avg_performance": 0.0,
-        "avg_hours_worked": 0.0,
-        "avg_shifts_worked": 0.0,
-        "presence_rate": 0.0,
-        "correct_order_ratio": 0.0,
-        "customer_success_rate": 0.0
+        "avg_performance": 4.12,
+        "avg_hours_worked": 63.18,
+        "avg_shifts_worked": 9.67,
+        "presence_rate": 98.94,
+        "correct_order_ratio": 98.81,
+        "customer_success_rate": 99.93
       }
     },
     {
@@ -190,12 +190,12 @@
       "termination_date": null,
       "status": "active",
       "performance": {
-        "avg_performance": 0.0,
-        "avg_hours_worked": 0.0,
-        "avg_shifts_worked": 0.0,
-        "presence_rate": 0.0,
-        "correct_order_ratio": 0.0,
-        "customer_success_rate": 0.0
+        "avg_performance": 3.36,
+        "avg_hours_worked": 147.78,
+        "avg_shifts_worked": 22.69,
+        "presence_rate": 98.29,
+        "correct_order_ratio": 97.71,
+        "customer_success_rate": 99.89
       }
     },
     {
@@ -208,12 +208,12 @@
       "termination_date": null,
       "status": "active",
       "performance": {
-        "avg_performance": 0.0,
-        "avg_hours_worked": 0.0,
-        "avg_shifts_worked": 0.0,
-        "presence_rate": 0.0,
-        "correct_order_ratio": 0.0,
-        "customer_success_rate": 0.0
+        "avg_performance": 2.91,
+        "avg_hours_worked": 145.24,
+        "avg_shifts_worked": 22.38,
+        "presence_rate": 97.1,
+        "correct_order_ratio": 96.5,
+        "customer_success_rate": 99.89
       }
     },
     {
@@ -226,12 +226,12 @@
       "termination_date": null,
       "status": "active",
       "performance": {
-        "avg_performance": 0.0,
-        "avg_hours_worked": 0.0,
-        "avg_shifts_worked": 0.0,
-        "presence_rate": 0.0,
-        "correct_order_ratio": 0.0,
-        "customer_success_rate": 0.0
+        "avg_performance": 4.24,
+        "avg_hours_worked": 163.37,
+        "avg_shifts_worked": 25.19,
+        "presence_rate": 98.23,
+        "correct_order_ratio": 98.79,
+        "customer_success_rate": 99.95
       }
     },
     {
@@ -244,12 +244,12 @@
       "termination_date": null,
       "status": "active",
       "performance": {
-        "avg_performance": 0.0,
-        "avg_hours_worked": 0.0,
-        "avg_shifts_worked": 0.0,
-        "presence_rate": 0.0,
-        "correct_order_ratio": 0.0,
-        "customer_success_rate": 0.0
+        "avg_performance": 4.79,
+        "avg_hours_worked": 145.77,
+        "avg_shifts_worked": 22.38,
+        "presence_rate": 99.73,
+        "correct_order_ratio": 99.6,
+        "customer_success_rate": 99.97
       }
     },
     {
@@ -262,12 +262,12 @@
       "termination_date": null,
       "status": "active",
       "performance": {
-        "avg_performance": 0.0,
-        "avg_hours_worked": 0.0,
-        "avg_shifts_worked": 0.0,
-        "presence_rate": 0.0,
-        "correct_order_ratio": 0.0,
-        "customer_success_rate": 0.0
+        "avg_performance": 4.19,
+        "avg_hours_worked": 144.87,
+        "avg_shifts_worked": 22.25,
+        "presence_rate": 98.46,
+        "correct_order_ratio": 98.79,
+        "customer_success_rate": 99.92
       }
     },
     {
@@ -280,12 +280,12 @@
       "termination_date": null,
       "status": "active",
       "performance": {
-        "avg_performance": 0.0,
-        "avg_hours_worked": 0.0,
-        "avg_shifts_worked": 0.0,
-        "presence_rate": 0.0,
-        "correct_order_ratio": 0.0,
-        "customer_success_rate": 0.0
+        "avg_performance": 4.21,
+        "avg_hours_worked": 142.19,
+        "avg_shifts_worked": 21.94,
+        "presence_rate": 98.88,
+        "correct_order_ratio": 98.8,
+        "customer_success_rate": 99.97
       }
     },
     {
@@ -298,12 +298,12 @@
       "termination_date": null,
       "status": "active",
       "performance": {
-        "avg_performance": 0.0,
-        "avg_hours_worked": 0.0,
-        "avg_shifts_worked": 0.0,
-        "presence_rate": 0.0,
-        "correct_order_ratio": 0.0,
-        "customer_success_rate": 0.0
+        "avg_performance": 3.86,
+        "avg_hours_worked": 146.14,
+        "avg_shifts_worked": 22.38,
+        "presence_rate": 98.29,
+        "correct_order_ratio": 98.0,
+        "customer_success_rate": 99.93
       }
     },
     {
@@ -316,12 +316,12 @@
       "termination_date": "2026-02-12",
       "status": "terminated",
       "performance": {
-        "avg_performance": 0.0,
-        "avg_hours_worked": 0.0,
-        "avg_shifts_worked": 0.0,
-        "presence_rate": 0.0,
-        "correct_order_ratio": 0.0,
-        "customer_success_rate": 0.0
+        "avg_performance": 4.28,
+        "avg_hours_worked": 139.47,
+        "avg_shifts_worked": 21.36,
+        "presence_rate": 98.7,
+        "correct_order_ratio": 98.79,
+        "customer_success_rate": 99.95
       }
     },
     {
@@ -334,12 +334,12 @@
       "termination_date": null,
       "status": "active",
       "performance": {
-        "avg_performance": 0.0,
-        "avg_hours_worked": 0.0,
-        "avg_shifts_worked": 0.0,
-        "presence_rate": 0.0,
-        "correct_order_ratio": 0.0,
-        "customer_success_rate": 0.0
+        "avg_performance": 4.16,
+        "avg_hours_worked": 148.73,
+        "avg_shifts_worked": 22.81,
+        "presence_rate": 98.75,
+        "correct_order_ratio": 98.83,
+        "customer_success_rate": 99.94
       }
     },
     {
@@ -352,12 +352,12 @@
       "termination_date": null,
       "status": "active",
       "performance": {
-        "avg_performance": 0.0,
-        "avg_hours_worked": 0.0,
-        "avg_shifts_worked": 0.0,
-        "presence_rate": 0.0,
-        "correct_order_ratio": 0.0,
-        "customer_success_rate": 0.0
+        "avg_performance": 4.22,
+        "avg_hours_worked": 144.97,
+        "avg_shifts_worked": 22.31,
+        "presence_rate": 98.6,
+        "correct_order_ratio": 98.79,
+        "customer_success_rate": 99.93
       }
     },
     {
@@ -370,12 +370,12 @@
       "termination_date": null,
       "status": "active",
       "performance": {
-        "avg_performance": 0.0,
-        "avg_hours_worked": 0.0,
-        "avg_shifts_worked": 0.0,
-        "presence_rate": 0.0,
-        "correct_order_ratio": 0.0,
-        "customer_success_rate": 0.0
+        "avg_performance": 4.81,
+        "avg_hours_worked": 143.37,
+        "avg_shifts_worked": 22.0,
+        "presence_rate": 99.81,
+        "correct_order_ratio": 99.6,
+        "customer_success_rate": 99.98
       }
     },
     {
@@ -388,12 +388,12 @@
       "termination_date": null,
       "status": "active",
       "performance": {
-        "avg_performance": 0.0,
-        "avg_hours_worked": 0.0,
-        "avg_shifts_worked": 0.0,
-        "presence_rate": 0.0,
-        "correct_order_ratio": 0.0,
-        "customer_success_rate": 0.0
+        "avg_performance": 4.26,
+        "avg_hours_worked": 144.04,
+        "avg_shifts_worked": 22.12,
+        "presence_rate": 98.79,
+        "correct_order_ratio": 98.79,
+        "customer_success_rate": 99.95
       }
     },
     {
@@ -406,12 +406,12 @@
       "termination_date": null,
       "status": "active",
       "performance": {
-        "avg_performance": 0.0,
-        "avg_hours_worked": 0.0,
-        "avg_shifts_worked": 0.0,
-        "presence_rate": 0.0,
-        "correct_order_ratio": 0.0,
-        "customer_success_rate": 0.0
+        "avg_performance": 4.22,
+        "avg_hours_worked": 166.37,
+        "avg_shifts_worked": 25.56,
+        "presence_rate": 98.42,
+        "correct_order_ratio": 98.77,
+        "customer_success_rate": 99.91
       }
     },
     {
@@ -424,12 +424,12 @@
       "termination_date": null,
       "status": "active",
       "performance": {
-        "avg_performance": 0.0,
-        "avg_hours_worked": 0.0,
-        "avg_shifts_worked": 0.0,
-        "presence_rate": 0.0,
-        "correct_order_ratio": 0.0,
-        "customer_success_rate": 0.0
+        "avg_performance": 3.41,
+        "avg_hours_worked": 145.56,
+        "avg_shifts_worked": 22.31,
+        "presence_rate": 97.71,
+        "correct_order_ratio": 97.76,
+        "customer_success_rate": 99.91
       }
     },
     {
@@ -442,12 +442,12 @@
       "termination_date": null,
       "status": "active",
       "performance": {
-        "avg_performance": 0.0,
-        "avg_hours_worked": 0.0,
-        "avg_shifts_worked": 0.0,
-        "presence_rate": 0.0,
-        "correct_order_ratio": 0.0,
-        "customer_success_rate": 0.0
+        "avg_performance": 4.81,
+        "avg_hours_worked": 70.46,
+        "avg_shifts_worked": 10.81,
+        "presence_rate": 100.0,
+        "correct_order_ratio": 99.63,
+        "customer_success_rate": 99.97
       }
     },
     {
@@ -460,12 +460,12 @@
       "termination_date": null,
       "status": "active",
       "performance": {
-        "avg_performance": 0.0,
-        "avg_hours_worked": 0.0,
-        "avg_shifts_worked": 0.0,
-        "presence_rate": 0.0,
-        "correct_order_ratio": 0.0,
-        "customer_success_rate": 0.0
+        "avg_performance": 4.27,
+        "avg_hours_worked": 76.69,
+        "avg_shifts_worked": 11.75,
+        "presence_rate": 99.33,
+        "correct_order_ratio": 98.81,
+        "customer_success_rate": 99.94
       }
     },
     {
@@ -478,12 +478,12 @@
       "termination_date": null,
       "status": "active",
       "performance": {
-        "avg_performance": 0.0,
-        "avg_hours_worked": 0.0,
-        "avg_shifts_worked": 0.0,
-        "presence_rate": 0.0,
-        "correct_order_ratio": 0.0,
-        "customer_success_rate": 0.0
+        "avg_performance": 4.14,
+        "avg_hours_worked": 144.84,
+        "avg_shifts_worked": 22.25,
+        "presence_rate": 98.56,
+        "correct_order_ratio": 98.78,
+        "customer_success_rate": 99.92
       }
     },
     {
@@ -496,12 +496,12 @@
       "termination_date": null,
       "status": "active",
       "performance": {
-        "avg_performance": 0.0,
-        "avg_hours_worked": 0.0,
-        "avg_shifts_worked": 0.0,
-        "presence_rate": 0.0,
-        "correct_order_ratio": 0.0,
-        "customer_success_rate": 0.0
+        "avg_performance": 4.14,
+        "avg_hours_worked": 140.97,
+        "avg_shifts_worked": 21.75,
+        "presence_rate": 99.04,
+        "correct_order_ratio": 98.81,
+        "customer_success_rate": 99.95
       }
     },
     {
@@ -514,12 +514,12 @@
       "termination_date": null,
       "status": "active",
       "performance": {
-        "avg_performance": 0.0,
-        "avg_hours_worked": 0.0,
-        "avg_shifts_worked": 0.0,
-        "presence_rate": 0.0,
-        "correct_order_ratio": 0.0,
-        "customer_success_rate": 0.0
+        "avg_performance": 3.85,
+        "avg_hours_worked": 71.54,
+        "avg_shifts_worked": 11.0,
+        "presence_rate": 99.69,
+        "correct_order_ratio": 97.96,
+        "customer_success_rate": 99.96
       }
     },
     {
@@ -532,12 +532,12 @@
       "termination_date": null,
       "status": "active",
       "performance": {
-        "avg_performance": 0.0,
-        "avg_hours_worked": 0.0,
-        "avg_shifts_worked": 0.0,
-        "presence_rate": 0.0,
-        "correct_order_ratio": 0.0,
-        "customer_success_rate": 0.0
+        "avg_performance": 4.24,
+        "avg_hours_worked": 68.74,
+        "avg_shifts_worked": 10.56,
+        "presence_rate": 99.21,
+        "correct_order_ratio": 98.79,
+        "customer_success_rate": 99.94
       }
     },
     {
@@ -550,12 +550,12 @@
       "termination_date": null,
       "status": "active",
       "performance": {
-        "avg_performance": 0.0,
-        "avg_hours_worked": 0.0,
-        "avg_shifts_worked": 0.0,
-        "presence_rate": 0.0,
-        "correct_order_ratio": 0.0,
-        "customer_success_rate": 0.0
+        "avg_performance": 4.04,
+        "avg_hours_worked": 140.9,
+        "avg_shifts_worked": 21.5,
+        "presence_rate": 98.73,
+        "correct_order_ratio": 98.44,
+        "customer_success_rate": 99.93
       }
     },
     {
@@ -568,15 +568,15 @@
       "termination_date": null,
       "status": "active",
       "performance": {
-        "avg_performance": 0.0,
-        "avg_hours_worked": 0.0,
-        "avg_shifts_worked": 0.0,
-        "presence_rate": 0.0,
-        "correct_order_ratio": 0.0,
-        "customer_success_rate": 0.0
+        "avg_performance": 4.2,
+        "avg_hours_worked": 74.02,
+        "avg_shifts_worked": 11.4,
+        "presence_rate": 99.6,
+        "correct_order_ratio": 98.84,
+        "customer_success_rate": 99.95
       }
     }
   ],
   "total_employee_records": 32,
-  "generated_at": "2026-08-27T06:58:31.056613+00:00"
+  "generated_at": "2026-08-27T16:17:50.510927+00:00"
 }
