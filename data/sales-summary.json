@@ -8,25 +8,25 @@
         "Chai Latte"
       ],
       "qty": [
-        26,
-        23,
-        21
+        24,
+        22,
+        22
       ],
       "scale": [
-        30.0,
-        15.0,
-        50.0
+        9.09,
+        15.79,
+        57.14
       ]
     },
     "snapshot_data": {
-      "today_revenue": 91.5,
-      "today_sales": 14,
-      "items_sold": 21,
-      "avg_order_value": 6.54,
-      "todays_revenue_scale": -23.11,
-      "today_sales_scale": -36.36,
-      "items_sold_scale": -22.22,
-      "avg_order_value_scale": 20.89
+      "today_revenue": 138.0,
+      "today_sales": 20,
+      "items_sold": 33,
+      "avg_order_value": 6.9,
+      "todays_revenue_scale": 50.82,
+      "today_sales_scale": 42.86,
+      "items_sold_scale": 57.14,
+      "avg_order_value_scale": 5.5
     },
     "monthly_revenue": [
       {
@@ -60,9 +60,9 @@
       {
         "month": 8,
         "year": 2026,
-        "revenue": 3672.25,
+        "revenue": 3810.25,
         "current_month": true,
-        "day": 27
+        "day": 28
       }
     ]
   },
@@ -75,25 +75,25 @@
         "Espresso"
       ],
       "qty": [
-        24,
+        20,
         18,
         18
       ],
       "scale": [
-        14.29,
+        -13.04,
         28.57,
         -25.0
       ]
     },
     "snapshot_data": {
-      "today_revenue": 149.75,
-      "today_sales": 23,
-      "items_sold": 34,
-      "avg_order_value": 6.51,
-      "todays_revenue_scale": 24.53,
-      "today_sales_scale": 21.05,
-      "items_sold_scale": 13.33,
-      "avg_order_value_scale": 2.84
+      "today_revenue": 112.75,
+      "today_sales": 16,
+      "items_sold": 25,
+      "avg_order_value": 7.05,
+      "todays_revenue_scale": -24.71,
+      "today_sales_scale": -30.43,
+      "items_sold_scale": -26.47,
+      "avg_order_value_scale": 8.29
     },
     "monthly_revenue": [
       {
@@ -127,9 +127,9 @@
       {
         "month": 8,
         "year": 2026,
-        "revenue": 3299.75,
+        "revenue": 3412.5,
         "current_month": true,
-        "day": 27
+        "day": 28
       }
     ]
   },
@@ -137,30 +137,30 @@
     "annual_revenue": 31447.25,
     "best_sellers": {
       "name": [
-        "Cold Brew",
         "Espresso",
+        "Cappuccino",
         "Flat White"
       ],
       "qty": [
-        18,
-        16,
-        16
+        15,
+        15,
+        15
       ],
       "scale": [
-        125.0,
-        33.33,
-        14.29
+        7.14,
+        15.38,
+        15.38
       ]
     },
     "snapshot_data": {
-      "today_revenue": 59.25,
-      "today_sales": 12,
-      "items_sold": 15,
-      "avg_order_value": 4.94,
-      "todays_revenue_scale": 18.5,
-      "today_sales_scale": 50.0,
-      "items_sold_scale": 25.0,
-      "avg_order_value_scale": -20.96
+      "today_revenue": 99.75,
+      "today_sales": 13,
+      "items_sold": 22,
+      "avg_order_value": 7.67,
+      "todays_revenue_scale": 68.35,
+      "today_sales_scale": 8.33,
+      "items_sold_scale": 46.67,
+      "avg_order_value_scale": 55.26
     },
     "monthly_revenue": [
       {
@@ -194,12 +194,12 @@
       {
         "month": 8,
         "year": 2026,
-        "revenue": 2652.75,
+        "revenue": 2752.5,
         "current_month": true,
-        "day": 27
+        "day": 28
       }
     ]
   },
   "total_sales_records": 30014,
-  "generated_at": "2026-08-27T21:39:38.220905+00:00"
+  "generated_at": "2026-08-28T08:45:55.080378+00:00"
 }
