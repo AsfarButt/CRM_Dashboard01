@@ -872,10 +872,10 @@ export default function SalesAnalytics({ data }: { data: SalesAnalyticsSummary }
   // a fixed constant — so the chart/legend/table always match whatever
   // branches actually appear in this window's data.
   const branches = useMemo(() => {
-    const set = new Set<string>();
-    data.daily_revenue.forEach((d) => Object.keys(d.revenue).forEach((b) => set.add(b)));
-    return Array.from(set).sort();
-  }, [data.daily_revenue]);
+  const set = new Set<string>();
+  (data?.daily_revenue ?? []).forEach((d) => Object.keys(d.revenue).forEach((b) => set.add(b)));
+  return Array.from(set).sort();
+  }, [data?.daily_revenue]);
 
   return (
     <div

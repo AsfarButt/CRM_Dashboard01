@@ -3,109 +3,577 @@
   "L_total_revenue": 10228.25,
   "total_sales": 1555,
   "L_total_sales": 1526,
-  "total_supplycost": 710.8599999999999,
-  "L_total_supplycost": 1124.52,
-  "total_profit": 9953.14,
-  "L_total_profit": 9103.73,
+  "total_supplycost": 5814.51,
+  "L_total_supplycost": 6169.7300000000005,
+  "total_profit": 4849.49,
+  "L_total_profit": 4058.5199999999995,
   "revenue_scale": 4.26,
   "sales_scale": 1.9,
-  "supplycost_scale": -36.79,
-  "profit_scale": 9.33,
+  "supplycost_scale": -5.76,
+  "profit_scale": 19.49,
   "branch_revenue_details": {
     "Downtown_revenue": 4075.75,
-    "Downtown_supplycost": 501.4,
+    "Downtown_supplycost": 1849.91,
     "Riverside_revenue": 2935.75,
-    "Riverside_supplycost": 5.89,
+    "Riverside_supplycost": 1872.22,
     "Uptown_revenue": 3652.5,
-    "Uptown_supplycost": 203.57
+    "Uptown_supplycost": 2092.38
   },
+  "daily_revenue": [
+    {
+      "date": "2025-07-31",
+      "revenue": {
+        "Downtown": 93.25,
+        "Riverside": 112.5,
+        "Uptown": 133.5
+      }
+    },
+    {
+      "date": "2025-08-01",
+      "revenue": {
+        "Downtown": 159.5,
+        "Riverside": 65.0,
+        "Uptown": 124.75
+      }
+    },
+    {
+      "date": "2025-08-02",
+      "revenue": {
+        "Downtown": 192.5,
+        "Riverside": 142.75,
+        "Uptown": 126.75
+      }
+    },
+    {
+      "date": "2025-08-03",
+      "revenue": {
+        "Downtown": 150.0,
+        "Riverside": 75.5,
+        "Uptown": 165.75
+      }
+    },
+    {
+      "date": "2025-08-04",
+      "revenue": {
+        "Downtown": 164.0,
+        "Riverside": 101.5,
+        "Uptown": 62.5
+      }
+    },
+    {
+      "date": "2025-08-05",
+      "revenue": {
+        "Downtown": 118.0,
+        "Riverside": 87.25,
+        "Uptown": 111.5
+      }
+    },
+    {
+      "date": "2025-08-06",
+      "revenue": {
+        "Downtown": 139.5,
+        "Riverside": 133.25,
+        "Uptown": 70.25
+      }
+    },
+    {
+      "date": "2025-08-07",
+      "revenue": {
+        "Downtown": 116.75,
+        "Riverside": 85.75,
+        "Uptown": 119.0
+      }
+    },
+    {
+      "date": "2025-08-08",
+      "revenue": {
+        "Downtown": 135.75,
+        "Riverside": 84.75,
+        "Uptown": 107.0
+      }
+    },
+    {
+      "date": "2025-08-09",
+      "revenue": {
+        "Downtown": 149.0,
+        "Riverside": 159.25,
+        "Uptown": 185.25
+      }
+    },
+    {
+      "date": "2025-08-10",
+      "revenue": {
+        "Downtown": 161.0,
+        "Riverside": 119.5,
+        "Uptown": 153.75
+      }
+    },
+    {
+      "date": "2025-08-11",
+      "revenue": {
+        "Downtown": 168.5,
+        "Riverside": 74.25,
+        "Uptown": 85.25
+      }
+    },
+    {
+      "date": "2025-08-12",
+      "revenue": {
+        "Downtown": 113.25,
+        "Riverside": 119.0,
+        "Uptown": 75.25
+      }
+    },
+    {
+      "date": "2025-08-13",
+      "revenue": {
+        "Downtown": 98.75,
+        "Riverside": 47.5,
+        "Uptown": 180.75
+      }
+    },
+    {
+      "date": "2025-08-14",
+      "revenue": {
+        "Downtown": 101.75,
+        "Riverside": 91.5,
+        "Uptown": 145.5
+      }
+    },
+    {
+      "date": "2025-08-15",
+      "revenue": {
+        "Downtown": 88.25,
+        "Riverside": 58.75,
+        "Uptown": 153.25
+      }
+    },
+    {
+      "date": "2025-08-16",
+      "revenue": {
+        "Downtown": 135.75,
+        "Riverside": 131.0,
+        "Uptown": 160.0
+      }
+    },
+    {
+      "date": "2025-08-17",
+      "revenue": {
+        "Downtown": 154.75,
+        "Riverside": 135.5,
+        "Uptown": 107.25
+      }
+    },
+    {
+      "date": "2025-08-18",
+      "revenue": {
+        "Downtown": 103.5,
+        "Riverside": 101.5,
+        "Uptown": 128.75
+      }
+    },
+    {
+      "date": "2025-08-19",
+      "revenue": {
+        "Downtown": 150.25,
+        "Riverside": 72.75,
+        "Uptown": 86.25
+      }
+    },
+    {
+      "date": "2025-08-20",
+      "revenue": {
+        "Downtown": 131.25,
+        "Riverside": 77.75,
+        "Uptown": 117.75
+      }
+    },
+    {
+      "date": "2025-08-21",
+      "revenue": {
+        "Downtown": 113.0,
+        "Riverside": 133.75,
+        "Uptown": 78.0
+      }
+    },
+    {
+      "date": "2025-08-22",
+      "revenue": {
+        "Downtown": 145.25,
+        "Riverside": 114.25,
+        "Uptown": 98.0
+      }
+    },
+    {
+      "date": "2025-08-23",
+      "revenue": {
+        "Downtown": 202.75,
+        "Riverside": 146.0,
+        "Uptown": 89.5
+      }
+    },
+    {
+      "date": "2025-08-24",
+      "revenue": {
+        "Downtown": 191.0,
+        "Riverside": 106.0,
+        "Uptown": 150.0
+      }
+    },
+    {
+      "date": "2025-08-25",
+      "revenue": {
+        "Downtown": 77.75,
+        "Riverside": 79.5,
+        "Uptown": 147.75
+      }
+    },
+    {
+      "date": "2025-08-26",
+      "revenue": {
+        "Downtown": 119.0,
+        "Riverside": 50.0,
+        "Uptown": 120.25
+      }
+    },
+    {
+      "date": "2025-08-27",
+      "revenue": {
+        "Downtown": 91.5,
+        "Riverside": 59.25,
+        "Uptown": 149.75
+      }
+    },
+    {
+      "date": "2025-08-28",
+      "revenue": {
+        "Downtown": 138.0,
+        "Riverside": 99.75,
+        "Uptown": 112.75
+      }
+    },
+    {
+      "date": "2025-08-29",
+      "revenue": {
+        "Downtown": 172.25,
+        "Riverside": 70.75,
+        "Uptown": 106.5
+      }
+    }
+  ],
   "this_month_supply_order": [
     {
+      "material": "Almond Milk",
+      "cost": 681.35,
+      "quantity": 274.0,
+      "unit": "L",
+      "delivery_date": "2025-08-01",
+      "suppliers": [
+        {
+          "supplier_id": "SUP-003",
+          "supplier": "Fresh Valley Dairy",
+          "cost": 681.35,
+          "quantity": 274.0,
+          "unit": "L",
+          "delivery_date": "2025-08-01"
+        }
+      ]
+    },
+    {
       "material": "Butter",
-      "cost": 154.77,
-      "quantity": 21,
+      "cost": 560.67,
+      "quantity": 76.0,
       "unit": "kg",
-      "delivery_date": "2025-08-26T00:00:00"
+      "delivery_date": "2025-08-05",
+      "suppliers": [
+        {
+          "supplier_id": "SUP-005",
+          "supplier": "Golden Wheat Milling",
+          "cost": 560.67,
+          "quantity": 76.0,
+          "unit": "kg",
+          "delivery_date": "2025-08-05"
+        }
+      ]
     },
     {
       "material": "Caramel Syrup",
       "cost": 48.8,
-      "quantity": 5,
+      "quantity": 5.0,
       "unit": "L",
-      "delivery_date": "2025-08-11T00:00:00"
+      "delivery_date": "2025-08-11",
+      "suppliers": [
+        {
+          "supplier_id": "SUP-009",
+          "supplier": "Sweetline Flavors",
+          "cost": 48.8,
+          "quantity": 5.0,
+          "unit": "L",
+          "delivery_date": "2025-08-11"
+        }
+      ]
+    },
+    {
+      "material": "Chai Concentrate",
+      "cost": 64.15,
+      "quantity": 5.0,
+      "unit": "L",
+      "delivery_date": "2025-08-02",
+      "suppliers": [
+        {
+          "supplier_id": "SUP-009",
+          "supplier": "Sweetline Flavors",
+          "cost": 64.15,
+          "quantity": 5.0,
+          "unit": "L",
+          "delivery_date": "2025-08-02"
+        }
+      ]
     },
     {
       "material": "Coffee Beans (Arabica)",
-      "cost": 295.44,
-      "quantity": 24,
+      "cost": 2038.04,
+      "quantity": 158.0,
       "unit": "kg",
-      "delivery_date": "2025-08-25T00:00:00"
+      "delivery_date": "2025-08-05",
+      "suppliers": [
+        {
+          "supplier_id": "SUP-001",
+          "supplier": "Highland Coffee Roasters",
+          "cost": 2038.04,
+          "quantity": 158.0,
+          "unit": "kg",
+          "delivery_date": "2025-08-05"
+        }
+      ]
+    },
+    {
+      "material": "Coffee Beans (Robusta)",
+      "cost": 1060.8,
+      "quantity": 114.0,
+      "unit": "kg",
+      "delivery_date": "2025-08-03",
+      "suppliers": [
+        {
+          "supplier_id": "SUP-001",
+          "supplier": "Highland Coffee Roasters",
+          "cost": 1060.8,
+          "quantity": 114.0,
+          "unit": "kg",
+          "delivery_date": "2025-08-03"
+        }
+      ]
     },
     {
       "material": "Eggs",
-      "cost": 5.89,
-      "quantity": 19,
+      "cost": 9.92,
+      "quantity": 32.0,
       "unit": "count",
-      "delivery_date": "2025-08-07T00:00:00"
+      "delivery_date": "2025-08-07",
+      "suppliers": [
+        {
+          "supplier_id": "SUP-005",
+          "supplier": "Golden Wheat Milling",
+          "cost": 4.03,
+          "quantity": 13.0,
+          "unit": "count",
+          "delivery_date": "2025-08-25"
+        },
+        {
+          "supplier_id": "SUP-006",
+          "supplier": "Artisan Bakery Supply",
+          "cost": 5.89,
+          "quantity": 19.0,
+          "unit": "count",
+          "delivery_date": "2025-08-07"
+        }
+      ]
     },
     {
-      "material": "Paper Cups (16oz)",
-      "cost": 144.4,
-      "quantity": 1444,
-      "unit": "count",
-      "delivery_date": "2025-08-24T00:00:00"
+      "material": "Flour",
+      "cost": 152.68,
+      "quantity": 84.0,
+      "unit": "kg",
+      "delivery_date": "2025-08-03",
+      "suppliers": [
+        {
+          "supplier_id": "SUP-005",
+          "supplier": "Golden Wheat Milling",
+          "cost": 113.08,
+          "quantity": 62.0,
+          "unit": "kg",
+          "delivery_date": "2025-08-08"
+        },
+        {
+          "supplier_id": "SUP-006",
+          "supplier": "Artisan Bakery Supply",
+          "cost": 39.6,
+          "quantity": 22.0,
+          "unit": "kg",
+          "delivery_date": "2025-08-03"
+        }
+      ]
     },
     {
-      "material": "Vanilla Syrup",
-      "cost": 61.56,
-      "quantity": 6,
+      "material": "Lids",
+      "cost": 32.35,
+      "quantity": 647.0,
+      "unit": "count",
+      "delivery_date": "2025-08-24",
+      "suppliers": [
+        {
+          "supplier_id": "SUP-007",
+          "supplier": "EcoPack Solutions",
+          "cost": 32.35,
+          "quantity": 647.0,
+          "unit": "count",
+          "delivery_date": "2025-08-24"
+        }
+      ]
+    },
+    {
+      "material": "Napkins/Sleeves",
+      "cost": 48.03,
+      "quantity": 1601.0,
+      "unit": "count",
+      "delivery_date": "2025-08-05",
+      "suppliers": [
+        {
+          "supplier_id": "SUP-007",
+          "supplier": "EcoPack Solutions",
+          "cost": 33.0,
+          "quantity": 1100.0,
+          "unit": "count",
+          "delivery_date": "2025-08-28"
+        },
+        {
+          "supplier_id": "SUP-008",
+          "supplier": "Standard Supply Co.",
+          "cost": 15.03,
+          "quantity": 501.0,
+          "unit": "count",
+          "delivery_date": "2025-08-05"
+        }
+      ]
+    },
+    {
+      "material": "Oat Milk",
+      "cost": 517.99,
+      "quantity": 230.0,
       "unit": "L",
-      "delivery_date": "2025-08-24T00:00:00"
-    }
-  ],
-  "this_month_supply_order_by_supplier": [
-    {
-      "material": "Butter",
-      "supplier_id": "SUP-005",
-      "cost": 154.77,
-      "quantity": 21,
-      "supplier": "Unknown supplier"
+      "delivery_date": "2025-08-01",
+      "suppliers": [
+        {
+          "supplier_id": "SUP-003",
+          "supplier": "Fresh Valley Dairy",
+          "cost": 376.65,
+          "quantity": 168.0,
+          "unit": "L",
+          "delivery_date": "2025-08-01"
+        },
+        {
+          "supplier_id": "SUP-004",
+          "supplier": "Meadowbrook Farms",
+          "cost": 141.34,
+          "quantity": 62.0,
+          "unit": "L",
+          "delivery_date": "2025-08-20"
+        }
+      ]
     },
     {
-      "material": "Caramel Syrup",
-      "supplier_id": "SUP-009",
-      "cost": 48.8,
-      "quantity": 5,
-      "supplier": "Unknown supplier"
-    },
-    {
-      "material": "Coffee Beans (Arabica)",
-      "supplier_id": "SUP-001",
-      "cost": 295.44,
-      "quantity": 24,
-      "supplier": "Unknown supplier"
-    },
-    {
-      "material": "Eggs",
-      "supplier_id": "SUP-006",
-      "cost": 5.89,
-      "quantity": 19,
-      "supplier": "Unknown supplier"
+      "material": "Paper Cups (12oz)",
+      "cost": 56.88,
+      "quantity": 632.0,
+      "unit": "count",
+      "delivery_date": "2025-08-28",
+      "suppliers": [
+        {
+          "supplier_id": "SUP-007",
+          "supplier": "EcoPack Solutions",
+          "cost": 56.88,
+          "quantity": 632.0,
+          "unit": "count",
+          "delivery_date": "2025-08-28"
+        }
+      ]
     },
     {
       "material": "Paper Cups (16oz)",
-      "supplier_id": "SUP-008",
       "cost": 144.4,
-      "quantity": 1444,
-      "supplier": "Unknown supplier"
+      "quantity": 1444.0,
+      "unit": "count",
+      "delivery_date": "2025-08-24",
+      "suppliers": [
+        {
+          "supplier_id": "SUP-008",
+          "supplier": "Standard Supply Co.",
+          "cost": 144.4,
+          "quantity": 1444.0,
+          "unit": "count",
+          "delivery_date": "2025-08-24"
+        }
+      ]
+    },
+    {
+      "material": "Sugar",
+      "cost": 21.08,
+      "quantity": 17.0,
+      "unit": "kg",
+      "delivery_date": "2025-08-09",
+      "suppliers": [
+        {
+          "supplier_id": "SUP-005",
+          "supplier": "Golden Wheat Milling",
+          "cost": 21.08,
+          "quantity": 17.0,
+          "unit": "kg",
+          "delivery_date": "2025-08-09"
+        }
+      ]
     },
     {
       "material": "Vanilla Syrup",
-      "supplier_id": "SUP-010",
       "cost": 61.56,
-      "quantity": 6,
-      "supplier": "Unknown supplier"
+      "quantity": 6.0,
+      "unit": "L",
+      "delivery_date": "2025-08-24",
+      "suppliers": [
+        {
+          "supplier_id": "SUP-010",
+          "supplier": "Cascade Syrup Works",
+          "cost": 61.56,
+          "quantity": 6.0,
+          "unit": "L",
+          "delivery_date": "2025-08-24"
+        }
+      ]
+    },
+    {
+      "material": "Whole Milk",
+      "cost": 315.81,
+      "quantity": 246.0,
+      "unit": "L",
+      "delivery_date": "2025-08-02",
+      "suppliers": [
+        {
+          "supplier_id": "SUP-003",
+          "supplier": "Fresh Valley Dairy",
+          "cost": 276.65999999999997,
+          "quantity": 217.0,
+          "unit": "L",
+          "delivery_date": "2025-08-02"
+        },
+        {
+          "supplier_id": "SUP-004",
+          "supplier": "Meadowbrook Farms",
+          "cost": 39.15,
+          "quantity": 29.0,
+          "unit": "L",
+          "delivery_date": "2025-08-19"
+        }
+      ]
     }
   ],
-  "generated_at": "2026-08-30T13:47:47.039496+00:00"
+  "generated_at": "2026-08-30T19:21:01.065501+00:00"
 }

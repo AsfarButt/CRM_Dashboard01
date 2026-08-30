@@ -1,5 +1,3 @@
-export const dynamic = 'force-dynamic';
-
 import Analytics from "./analytics"
 import { getSalesAnalyticsSummary } from "../../lib/salesanalytics"
 
