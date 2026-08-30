@@ -1,0 +1,111 @@
+{
+  "total_revenue": 10664.0,
+  "L_total_revenue": 10228.25,
+  "total_sales": 1555,
+  "L_total_sales": 1526,
+  "total_supplycost": 710.8599999999999,
+  "L_total_supplycost": 1124.52,
+  "total_profit": 9953.14,
+  "L_total_profit": 9103.73,
+  "revenue_scale": 4.26,
+  "sales_scale": 1.9,
+  "supplycost_scale": -36.79,
+  "profit_scale": 9.33,
+  "branch_revenue_details": {
+    "Downtown_revenue": 4075.75,
+    "Downtown_supplycost": 501.4,
+    "Riverside_revenue": 2935.75,
+    "Riverside_supplycost": 5.89,
+    "Uptown_revenue": 3652.5,
+    "Uptown_supplycost": 203.57
+  },
+  "this_month_supply_order": [
+    {
+      "material": "Butter",
+      "cost": 154.77,
+      "quantity": 21,
+      "unit": "kg",
+      "delivery_date": "2025-08-26T00:00:00"
+    },
+    {
+      "material": "Caramel Syrup",
+      "cost": 48.8,
+      "quantity": 5,
+      "unit": "L",
+      "delivery_date": "2025-08-11T00:00:00"
+    },
+    {
+      "material": "Coffee Beans (Arabica)",
+      "cost": 295.44,
+      "quantity": 24,
+      "unit": "kg",
+      "delivery_date": "2025-08-25T00:00:00"
+    },
+    {
+      "material": "Eggs",
+      "cost": 5.89,
+      "quantity": 19,
+      "unit": "count",
+      "delivery_date": "2025-08-07T00:00:00"
+    },
+    {
+      "material": "Paper Cups (16oz)",
+      "cost": 144.4,
+      "quantity": 1444,
+      "unit": "count",
+      "delivery_date": "2025-08-24T00:00:00"
+    },
+    {
+      "material": "Vanilla Syrup",
+      "cost": 61.56,
+      "quantity": 6,
+      "unit": "L",
+      "delivery_date": "2025-08-24T00:00:00"
+    }
+  ],
+  "this_month_supply_order_by_supplier": [
+    {
+      "material": "Butter",
+      "supplier_id": "SUP-005",
+      "cost": 154.77,
+      "quantity": 21,
+      "supplier": "Unknown supplier"
+    },
+    {
+      "material": "Caramel Syrup",
+      "supplier_id": "SUP-009",
+      "cost": 48.8,
+      "quantity": 5,
+      "supplier": "Unknown supplier"
+    },
+    {
+      "material": "Coffee Beans (Arabica)",
+      "supplier_id": "SUP-001",
+      "cost": 295.44,
+      "quantity": 24,
+      "supplier": "Unknown supplier"
+    },
+    {
+      "material": "Eggs",
+      "supplier_id": "SUP-006",
+      "cost": 5.89,
+      "quantity": 19,
+      "supplier": "Unknown supplier"
+    },
+    {
+      "material": "Paper Cups (16oz)",
+      "supplier_id": "SUP-008",
+      "cost": 144.4,
+      "quantity": 1444,
+      "supplier": "Unknown supplier"
+    },
+    {
+      "material": "Vanilla Syrup",
+      "supplier_id": "SUP-010",
+      "cost": 61.56,
+      "quantity": 6,
+      "supplier": "Unknown supplier"
+    }
+  ],
+  "generated_at": "2026-08-30T13:47:47.039496+00:00"
+}
