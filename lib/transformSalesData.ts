@@ -137,6 +137,18 @@ function arr<T>(value: unknown): T[] {
   return Array.isArray(value) ? (value as T[]) : [];
 }
 
+function formatGeneratedAt(value: unknown): string {
+  const s = str(value);
+  if (!s) return "";
+  const d = new Date(s);
+  if (Number.isNaN(d.getTime())) return "";
+  return d.toLocaleDateString("en-GB", {
+    day: "2-digit",
+    month: "short",
+    year: "numeric",
+  });
+}
+
 function formatRevenueTag(value: unknown): string {
   const v = num(value);
   if (v >= 1_000_000) return `${(v / 1_000_000).toFixed(1)}M`;
@@ -225,10 +237,13 @@ export function toBranchData(summary: SalesSummary | undefined | null) {
   const s = summary ?? ({} as Partial<SalesSummary>);
   console.log('toBranchData received:', s);
   return {
-    Downtown: mapBranch(s.downtown, "Downtown"),
-    Uptown: mapBranch(s.uptown, "Uptown"),
-    Riverside: mapBranch(s.riverside, "Riverside"),
+    branches: {
+      Downtown: mapBranch(s.downtown, "Downtown"),
+      Uptown: mapBranch(s.uptown, "Uptown"),
+      Riverside: mapBranch(s.riverside, "Riverside"),
+    },
+    generatedAt: formatGeneratedAt(s.generated_at),
   };
 }
 
-export type TransformedBranchData = ReturnType<typeof toBranchData>;
+export type TransformedBranchData = ReturnType<typeof toBranchData>["branches"];

@@ -20,6 +20,7 @@
 
 "use client"
 import React, { useMemo, useRef, useState } from "react";
+import { useRouter } from "next/navigation";
 import Sidebar from "../../components/sidebar"
 import {
   Wallet,
@@ -28,9 +29,8 @@ import {
   PiggyBank,
   Package,
   Sparkles,
-  Bell,
-  Settings,
   ChevronDown,
+  Search,
 } from "lucide-react";
 
 import { COLORS, FONTS } from "../vars";
@@ -109,6 +109,17 @@ function formatUpdatedDate(iso: string) {
 
 function Header({ userName, generatedAt }: { userName: string; generatedAt: string }) {
   const updated = formatUpdatedDate(generatedAt);
+  const router = useRouter();
+  const [query, setQuery] = useState("");
+  const [isFocused, setIsFocused] = useState(false);
+
+  const handleSearch = () => {
+    const trimmed = query.trim();
+    if (trimmed) {
+      router.push(`/summary?search_query=${encodeURIComponent(trimmed)}`);
+    }
+  };
+
   return (
     <div className="mb-6 flex flex-wrap items-start justify-between gap-4">
       <div className="min-w-[220px] shrink-0">
@@ -116,37 +127,47 @@ function Header({ userName, generatedAt }: { userName: string; generatedAt: stri
         <p className="mt-1 whitespace-nowrap text-xs sm:text-sm" style={{ color: COLORS.textSecondary }}>
           Track revenue and orders across every branch.
         </p>
-        {updated && (
-          <p className="mt-1 whitespace-nowrap text-xs" style={{ color: COLORS.textTertiary }}>
-            Last updated on {updated}
-          </p>
-        )}
       </div>
 
-      <div className="flex flex-1 items-center justify-end gap-3">
-        <div
-          className="flex min-w-0 flex-1 items-center gap-2 truncate rounded-full px-4 py-2 text-sm sm:max-w-xs"
-          style={{ backgroundColor: COLORS.bgInput, border: `1px solid ${COLORS.border}`, color: COLORS.textSecondary }}
-        >
-          <Sparkles size={16} className="shrink-0" style={{ color: COLORS.accent }} />
-          <span className="truncate">Ask Grind AI anything</span>
+      <div className="flex flex-1 flex-col items-end gap-1.5">
+        <div className="flex w-full items-center justify-end gap-3">
+          <div
+            className="flex min-w-0 flex-1 items-center gap-2 rounded-full px-4 py-2 text-sm sm:max-w-xs"
+            style={{ backgroundColor: COLORS.bgInput, border: `1px solid ${COLORS.border}`, color: COLORS.textSecondary }}
+          >
+            <Sparkles size={16} className="shrink-0" style={{ color: COLORS.accent }} />
+            <input
+              type="text"
+              value={query}
+              onChange={(e) => setQuery(e.target.value)}
+              onFocus={() => setIsFocused(true)}
+              onBlur={() => setIsFocused(false)}
+              onKeyDown={(e) => {
+                if (e.key === "Enter") handleSearch();
+              }}
+              placeholder={isFocused ? "type something..." : "Ask Grind AI anything"}
+              className="min-w-0 flex-1 bg-transparent text-sm outline-none placeholder:text-current"
+              style={{ color: COLORS.textPrimary }}
+            />
+            <button
+              onClick={handleSearch}
+              className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full"
+              aria-label="Search"
+            >
+              <Search size={14} style={{ color: COLORS.accent }} />
+            </button>
+          </div>
+          <div
+            className="h-10 w-10 shrink-0 overflow-hidden rounded-full"
+            style={{ backgroundColor: COLORS.accentSoft }}
+          />
         </div>
-        <button
-          className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full"
-          style={{ border: `1px solid ${COLORS.border}` }}
-        >
-          <Bell size={18} color={COLORS.textSecondary} />
-        </button>
-        <button
-          className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full"
-          style={{ border: `1px solid ${COLORS.border}` }}
-        >
-          <Settings size={18} color={COLORS.textSecondary} />
-        </button>
-        <div
-          className="h-10 w-10 shrink-0 overflow-hidden rounded-full"
-          style={{ backgroundColor: COLORS.accentSoft }}
-        />
+
+        {updated && (
+          <span className="pr-1 text-xs" style={{ color: COLORS.textTertiary }}>
+            Last Updated: {updated}
+          </span>
+        )}
       </div>
     </div>
   );

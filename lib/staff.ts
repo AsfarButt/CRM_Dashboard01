@@ -31,6 +31,7 @@ export interface StaffSummary {
   generated_at: string;
 }
 
+
 // --- Data access ---
 // Same convention as lib/sales.ts: always resolved from the repo-root
 // /data folder via process.cwd(), regardless of where this file itself
