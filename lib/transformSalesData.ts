@@ -210,7 +210,7 @@ export function mapBranch(branch: BranchSummary | undefined | null, branchName: 
       year: num(m.year),
       revenue: num(m.revenue),
       current_month: Boolean(m.current_month),
-      day: m.day === false ? false : num(m.day),
+      day: m.day === false ? (false as const) : num(m.day),
     })),
   };
 }
