@@ -3,21 +3,21 @@
   "L_total_revenue": 10228.25,
   "total_sales": 1555,
   "L_total_sales": 1526,
-  "total_supplycost": 5814.51,
-  "L_total_supplycost": 6169.7300000000005,
-  "total_profit": 4849.49,
-  "L_total_profit": 4058.5199999999995,
+  "total_supplycost": 710.8599999999999,
+  "L_total_supplycost": 1124.52,
+  "total_profit": 9953.14,
+  "L_total_profit": 9103.73,
   "revenue_scale": 4.26,
   "sales_scale": 1.9,
-  "supplycost_scale": -5.76,
-  "profit_scale": 19.49,
+  "supplycost_scale": -36.79,
+  "profit_scale": 9.33,
   "branch_revenue_details": {
     "Downtown_revenue": 4075.75,
-    "Downtown_supplycost": 1849.91,
+    "Downtown_supplycost": 501.4,
     "Riverside_revenue": 2935.75,
-    "Riverside_supplycost": 1872.22,
+    "Riverside_supplycost": 5.89,
     "Uptown_revenue": 3652.5,
-    "Uptown_supplycost": 2092.38
+    "Uptown_supplycost": 203.57
   },
   "daily_revenue": [
     {
@@ -263,36 +263,19 @@
   ],
   "this_month_supply_order": [
     {
-      "material": "Almond Milk",
-      "cost": 681.35,
-      "quantity": 274.0,
-      "unit": "L",
-      "delivery_date": "2025-08-01",
-      "suppliers": [
-        {
-          "supplier_id": "SUP-003",
-          "supplier": "Fresh Valley Dairy",
-          "cost": 681.35,
-          "quantity": 274.0,
-          "unit": "L",
-          "delivery_date": "2025-08-01"
-        }
-      ]
-    },
-    {
       "material": "Butter",
-      "cost": 560.67,
-      "quantity": 76.0,
+      "cost": 154.77,
+      "quantity": 21.0,
       "unit": "kg",
-      "delivery_date": "2025-08-05",
+      "delivery_date": "2025-08-26",
       "suppliers": [
         {
           "supplier_id": "SUP-005",
-          "supplier": "Golden Wheat Milling",
-          "cost": 560.67,
-          "quantity": 76.0,
+          "supplier": "Unknown supplier",
+          "cost": 154.77,
+          "quantity": 21.0,
           "unit": "kg",
-          "delivery_date": "2025-08-05"
+          "delivery_date": "2025-08-26"
         }
       ]
     },
@@ -305,7 +288,7 @@
       "suppliers": [
         {
           "supplier_id": "SUP-009",
-          "supplier": "Sweetline Flavors",
+          "supplier": "Unknown supplier",
           "cost": 48.8,
           "quantity": 5.0,
           "unit": "L",
@@ -314,187 +297,36 @@
       ]
     },
     {
-      "material": "Chai Concentrate",
-      "cost": 64.15,
-      "quantity": 5.0,
-      "unit": "L",
-      "delivery_date": "2025-08-02",
-      "suppliers": [
-        {
-          "supplier_id": "SUP-009",
-          "supplier": "Sweetline Flavors",
-          "cost": 64.15,
-          "quantity": 5.0,
-          "unit": "L",
-          "delivery_date": "2025-08-02"
-        }
-      ]
-    },
-    {
       "material": "Coffee Beans (Arabica)",
-      "cost": 2038.04,
-      "quantity": 158.0,
+      "cost": 295.44,
+      "quantity": 24.0,
       "unit": "kg",
-      "delivery_date": "2025-08-05",
+      "delivery_date": "2025-08-25",
       "suppliers": [
         {
           "supplier_id": "SUP-001",
-          "supplier": "Highland Coffee Roasters",
-          "cost": 2038.04,
-          "quantity": 158.0,
+          "supplier": "Unknown supplier",
+          "cost": 295.44,
+          "quantity": 24.0,
           "unit": "kg",
-          "delivery_date": "2025-08-05"
-        }
-      ]
-    },
-    {
-      "material": "Coffee Beans (Robusta)",
-      "cost": 1060.8,
-      "quantity": 114.0,
-      "unit": "kg",
-      "delivery_date": "2025-08-03",
-      "suppliers": [
-        {
-          "supplier_id": "SUP-001",
-          "supplier": "Highland Coffee Roasters",
-          "cost": 1060.8,
-          "quantity": 114.0,
-          "unit": "kg",
-          "delivery_date": "2025-08-03"
+          "delivery_date": "2025-08-25"
         }
       ]
     },
     {
       "material": "Eggs",
-      "cost": 9.92,
-      "quantity": 32.0,
+      "cost": 5.89,
+      "quantity": 19.0,
       "unit": "count",
       "delivery_date": "2025-08-07",
       "suppliers": [
         {
-          "supplier_id": "SUP-005",
-          "supplier": "Golden Wheat Milling",
-          "cost": 4.03,
-          "quantity": 13.0,
-          "unit": "count",
-          "delivery_date": "2025-08-25"
-        },
-        {
           "supplier_id": "SUP-006",
-          "supplier": "Artisan Bakery Supply",
+          "supplier": "Unknown supplier",
           "cost": 5.89,
           "quantity": 19.0,
           "unit": "count",
           "delivery_date": "2025-08-07"
-        }
-      ]
-    },
-    {
-      "material": "Flour",
-      "cost": 152.68,
-      "quantity": 84.0,
-      "unit": "kg",
-      "delivery_date": "2025-08-03",
-      "suppliers": [
-        {
-          "supplier_id": "SUP-005",
-          "supplier": "Golden Wheat Milling",
-          "cost": 113.08,
-          "quantity": 62.0,
-          "unit": "kg",
-          "delivery_date": "2025-08-08"
-        },
-        {
-          "supplier_id": "SUP-006",
-          "supplier": "Artisan Bakery Supply",
-          "cost": 39.6,
-          "quantity": 22.0,
-          "unit": "kg",
-          "delivery_date": "2025-08-03"
-        }
-      ]
-    },
-    {
-      "material": "Lids",
-      "cost": 32.35,
-      "quantity": 647.0,
-      "unit": "count",
-      "delivery_date": "2025-08-24",
-      "suppliers": [
-        {
-          "supplier_id": "SUP-007",
-          "supplier": "EcoPack Solutions",
-          "cost": 32.35,
-          "quantity": 647.0,
-          "unit": "count",
-          "delivery_date": "2025-08-24"
-        }
-      ]
-    },
-    {
-      "material": "Napkins/Sleeves",
-      "cost": 48.03,
-      "quantity": 1601.0,
-      "unit": "count",
-      "delivery_date": "2025-08-05",
-      "suppliers": [
-        {
-          "supplier_id": "SUP-007",
-          "supplier": "EcoPack Solutions",
-          "cost": 33.0,
-          "quantity": 1100.0,
-          "unit": "count",
-          "delivery_date": "2025-08-28"
-        },
-        {
-          "supplier_id": "SUP-008",
-          "supplier": "Standard Supply Co.",
-          "cost": 15.03,
-          "quantity": 501.0,
-          "unit": "count",
-          "delivery_date": "2025-08-05"
-        }
-      ]
-    },
-    {
-      "material": "Oat Milk",
-      "cost": 517.99,
-      "quantity": 230.0,
-      "unit": "L",
-      "delivery_date": "2025-08-01",
-      "suppliers": [
-        {
-          "supplier_id": "SUP-003",
-          "supplier": "Fresh Valley Dairy",
-          "cost": 376.65,
-          "quantity": 168.0,
-          "unit": "L",
-          "delivery_date": "2025-08-01"
-        },
-        {
-          "supplier_id": "SUP-004",
-          "supplier": "Meadowbrook Farms",
-          "cost": 141.34,
-          "quantity": 62.0,
-          "unit": "L",
-          "delivery_date": "2025-08-20"
-        }
-      ]
-    },
-    {
-      "material": "Paper Cups (12oz)",
-      "cost": 56.88,
-      "quantity": 632.0,
-      "unit": "count",
-      "delivery_date": "2025-08-28",
-      "suppliers": [
-        {
-          "supplier_id": "SUP-007",
-          "supplier": "EcoPack Solutions",
-          "cost": 56.88,
-          "quantity": 632.0,
-          "unit": "count",
-          "delivery_date": "2025-08-28"
         }
       ]
     },
@@ -507,28 +339,11 @@
       "suppliers": [
         {
           "supplier_id": "SUP-008",
-          "supplier": "Standard Supply Co.",
+          "supplier": "Unknown supplier",
           "cost": 144.4,
           "quantity": 1444.0,
           "unit": "count",
           "delivery_date": "2025-08-24"
-        }
-      ]
-    },
-    {
-      "material": "Sugar",
-      "cost": 21.08,
-      "quantity": 17.0,
-      "unit": "kg",
-      "delivery_date": "2025-08-09",
-      "suppliers": [
-        {
-          "supplier_id": "SUP-005",
-          "supplier": "Golden Wheat Milling",
-          "cost": 21.08,
-          "quantity": 17.0,
-          "unit": "kg",
-          "delivery_date": "2025-08-09"
         }
       ]
     },
@@ -541,39 +356,14 @@
       "suppliers": [
         {
           "supplier_id": "SUP-010",
-          "supplier": "Cascade Syrup Works",
+          "supplier": "Unknown supplier",
           "cost": 61.56,
           "quantity": 6.0,
           "unit": "L",
           "delivery_date": "2025-08-24"
         }
       ]
-    },
-    {
-      "material": "Whole Milk",
-      "cost": 315.81,
-      "quantity": 246.0,
-      "unit": "L",
-      "delivery_date": "2025-08-02",
-      "suppliers": [
-        {
-          "supplier_id": "SUP-003",
-          "supplier": "Fresh Valley Dairy",
-          "cost": 276.65999999999997,
-          "quantity": 217.0,
-          "unit": "L",
-          "delivery_date": "2025-08-02"
-        },
-        {
-          "supplier_id": "SUP-004",
-          "supplier": "Meadowbrook Farms",
-          "cost": 39.15,
-          "quantity": 29.0,
-          "unit": "L",
-          "delivery_date": "2025-08-19"
-        }
-      ]
     }
   ],
-  "generated_at": "2026-08-30T19:21:01.065501+00:00"
+  "generated_at": "2026-08-30T20:27:55.611898+00:00"
 }
