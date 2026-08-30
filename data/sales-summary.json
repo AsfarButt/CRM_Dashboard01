@@ -3,30 +3,30 @@
     "annual_revenue": 43859.0,
     "best_sellers": {
       "name": [
+        "Flat White",
         "Mocha",
-        "Chai Latte",
-        "Cold Brew"
+        "Cappuccino"
       ],
       "qty": [
-        23,
-        23,
-        21
+        31,
+        21,
+        20
       ],
       "scale": [
-        27.78,
-        53.33,
-        0.0
+        40.91,
+        75.0,
+        53.85
       ]
     },
     "snapshot_data": {
-      "today_revenue": 168.25,
-      "today_sales": 25,
-      "items_sold": 39,
-      "avg_order_value": 6.73,
-      "todays_revenue_scale": -2.32,
-      "today_sales_scale": 13.64,
-      "items_sold_scale": 2.63,
-      "avg_order_value_scale": -14.05
+      "today_revenue": 77.75,
+      "today_sales": 13,
+      "items_sold": 18,
+      "avg_order_value": 5.98,
+      "todays_revenue_scale": -59.29,
+      "today_sales_scale": -48.0,
+      "items_sold_scale": -58.14,
+      "avg_order_value_scale": -21.73
     },
     "monthly_revenue": [
       {
@@ -60,9 +60,9 @@
       {
         "month": 8,
         "year": 2026,
-        "revenue": 4150.75,
+        "revenue": 3461.75,
         "current_month": true,
-        "day": 30
+        "day": 25
       }
     ]
   },
@@ -70,30 +70,30 @@
     "annual_revenue": 36008.25,
     "best_sellers": {
       "name": [
-        "Chai Latte",
-        "Americano",
-        "Latte"
+        "Latte",
+        "Espresso",
+        "Iced Latte"
       ],
       "qty": [
         21,
-        20,
-        20
+        17,
+        17
       ],
       "scale": [
-        50.0,
-        100.0,
-        0.0
+        -8.7,
+        -29.17,
+        21.43
       ]
     },
     "snapshot_data": {
-      "today_revenue": 107.0,
+      "today_revenue": 147.75,
       "today_sales": 18,
-      "items_sold": 25,
-      "avg_order_value": 5.94,
-      "todays_revenue_scale": 0.47,
-      "today_sales_scale": 12.5,
-      "items_sold_scale": 4.17,
-      "avg_order_value_scale": -10.81
+      "items_sold": 34,
+      "avg_order_value": 8.21,
+      "todays_revenue_scale": -1.5,
+      "today_sales_scale": -5.26,
+      "items_sold_scale": -2.86,
+      "avg_order_value_scale": 4.06
     },
     "monthly_revenue": [
       {
@@ -127,9 +127,9 @@
       {
         "month": 8,
         "year": 2026,
-        "revenue": 3626.0,
+        "revenue": 3029.75,
         "current_month": true,
-        "day": 30
+        "day": 25
       }
     ]
   },
@@ -137,30 +137,30 @@
     "annual_revenue": 31447.25,
     "best_sellers": {
       "name": [
-        "Americano",
-        "Latte",
-        "Hot Chocolate"
+        "Iced Latte",
+        "Cold Brew",
+        "Flat White"
       ],
       "qty": [
-        14,
-        14,
-        14
+        19,
+        19,
+        18
       ],
       "scale": [
-        133.33,
-        -6.67,
-        -6.67
+        58.33,
+        171.43,
+        20.0
       ]
     },
     "snapshot_data": {
-      "today_revenue": 128.0,
-      "today_sales": 19,
-      "items_sold": 30,
-      "avg_order_value": 6.74,
-      "todays_revenue_scale": 80.92,
-      "today_sales_scale": 72.73,
-      "items_sold_scale": 76.47,
-      "avg_order_value_scale": 4.82
+      "today_revenue": 79.5,
+      "today_sales": 13,
+      "items_sold": 19,
+      "avg_order_value": 6.12,
+      "todays_revenue_scale": -25.0,
+      "today_sales_scale": -27.78,
+      "items_sold_scale": -24.0,
+      "avg_order_value_scale": 3.9
     },
     "monthly_revenue": [
       {
@@ -194,12 +194,12 @@
       {
         "month": 8,
         "year": 2026,
-        "revenue": 2951.25,
+        "revenue": 2543.5,
         "current_month": true,
-        "day": 30
+        "day": 25
       }
     ]
   },
   "total_sales_records": 30014,
-  "generated_at": "2026-08-30T03:18:44.611527+00:00"
+  "generated_at": "2026-08-25T12:40:25.344467+00:00"
 }
