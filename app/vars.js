@@ -88,7 +88,6 @@ export const BRANCHES = ["Downtown", "Uptown", "Riverside"];
 export const NAV_ITEMS = [
   { key: "dashboard", label: "Dashboard", icon: "clock" },
   { key: "analytics", label: "Sales Analytics", icon: "bar-chart" },
-  { key: "summary", label: "LLM Summary", icon: "sparkles" },
   { key: "staff", label: "Staff", icon: "users" },
   { key: "readme", label: "README", icon: "file-text" },
 ];

@@ -188,6 +188,7 @@ function RevenueCard({ revenue, tag }: { revenue: number; tag: string }) {
 // "Grow smarter with data" promo card
 // ---------------------------------------------------------------------
 function InsightsPromoCard() {
+  const router = useRouter();
   return (
     <div
       className="relative overflow-hidden rounded-2xl p-6"
@@ -202,6 +203,7 @@ function InsightsPromoCard() {
         AI-driven insights across all 3 branches, tailored to your sales patterns.
       </p>
       <button
+        onClick={() => router.push("/analytics")}
         className="relative mt-5 rounded-full px-5 py-2.5 text-sm font-semibold text-white"
         style={{
           background: `linear-gradient(135deg, ${COLORS.gradientStart}, ${COLORS.gradientEnd})`,

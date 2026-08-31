@@ -28,7 +28,6 @@ const ICON_MAP: Record<string, React.ComponentType<any>> = {
 const ROUTES: Record<string, string> = {
   dashboard: "/home",
   analytics: "/analytics",
-  summary: "/summary",
   staff: "/staff",
   readme: "/readme",
 };

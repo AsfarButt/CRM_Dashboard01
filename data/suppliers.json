@@ -1,0 +1,92 @@
+[
+  {
+    "supplier_id": "SUP-001",
+    "name": "Highland Coffee Roasters",
+    "category": "Coffee Beans",
+    "region": "Local",
+    "supplier_since": "2021-01-15",
+    "lead_time_days": 3,
+    "status": "active"
+  },
+  {
+    "supplier_id": "SUP-002",
+    "name": "Bean Traders Co.",
+    "category": "Coffee Beans",
+    "region": "National",
+    "supplier_since": "2022-06-01",
+    "lead_time_days": 5,
+    "status": "active"
+  },
+  {
+    "supplier_id": "SUP-003",
+    "name": "Fresh Valley Dairy",
+    "category": "Dairy/Milk",
+    "region": "Local",
+    "supplier_since": "2021-01-20",
+    "lead_time_days": 1,
+    "status": "active"
+  },
+  {
+    "supplier_id": "SUP-004",
+    "name": "Meadowbrook Farms",
+    "category": "Dairy/Milk",
+    "region": "Local",
+    "supplier_since": "2023-02-10",
+    "lead_time_days": 2,
+    "status": "active"
+  },
+  {
+    "supplier_id": "SUP-005",
+    "name": "Golden Wheat Milling",
+    "category": "Bakery Ingredients",
+    "region": "Regional",
+    "supplier_since": "2021-03-05",
+    "lead_time_days": 4,
+    "status": "active"
+  },
+  {
+    "supplier_id": "SUP-006",
+    "name": "Artisan Bakery Supply",
+    "category": "Bakery Ingredients",
+    "region": "Regional",
+    "supplier_since": "2022-09-18",
+    "lead_time_days": 4,
+    "status": "active"
+  },
+  {
+    "supplier_id": "SUP-007",
+    "name": "EcoPack Solutions",
+    "category": "Packaging/Cups",
+    "region": "National",
+    "supplier_since": "2021-01-15",
+    "lead_time_days": 7,
+    "status": "active"
+  },
+  {
+    "supplier_id": "SUP-008",
+    "name": "Standard Supply Co.",
+    "category": "Packaging/Cups",
+    "region": "National",
+    "supplier_since": "2023-05-22",
+    "lead_time_days": 6,
+    "status": "active"
+  },
+  {
+    "supplier_id": "SUP-009",
+    "name": "Sweetline Flavors",
+    "category": "Syrups & Flavorings",
+    "region": "Regional",
+    "supplier_since": "2021-04-12",
+    "lead_time_days": 5,
+    "status": "active"
+  },
+  {
+    "supplier_id": "SUP-010",
+    "name": "Cascade Syrup Works",
+    "category": "Syrups & Flavorings",
+    "region": "Regional",
+    "supplier_since": "2022-11-30",
+    "lead_time_days": 6,
+    "status": "active"
+  }
+]

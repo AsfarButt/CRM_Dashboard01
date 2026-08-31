@@ -1,11 +1,10 @@
-import Sidebar from "../../components/sidebar"
+import Readme from "./readme"
 
 export default function Page(){
-    return(<div className="relative w-full h-full flex flex-row">
-        <Sidebar />
-        <div className="relative h-full w-fill bg-black text-white font-light">
-        <h1>YO, Wassip</h1>
-        <h3>README Page will be displayed here</h3>
+    return(    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
+          <main className="w-full h-full overflow-scroll">
+            <Readme />
+          </main>
         </div>
-    </div>)
+        )
 }
