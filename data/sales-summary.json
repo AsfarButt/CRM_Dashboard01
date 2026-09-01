@@ -10,23 +10,23 @@
       "qty": [
         26,
         23,
-        20
+        22
       ],
       "scale": [
-        30.0,
-        27.78,
-        25.0
+        23.81,
+        15.0,
+        37.5
       ]
     },
     "snapshot_data": {
-      "today_revenue": 195.5,
-      "today_sales": 26,
-      "items_sold": 45,
-      "avg_order_value": 7.52,
-      "todays_revenue_scale": 16.2,
-      "today_sales_scale": 4.0,
-      "items_sold_scale": 15.38,
-      "avg_order_value_scale": 11.74
+      "today_revenue": 127.75,
+      "today_sales": 20,
+      "items_sold": 31,
+      "avg_order_value": 6.39,
+      "todays_revenue_scale": -34.65,
+      "today_sales_scale": -23.08,
+      "items_sold_scale": -31.11,
+      "avg_order_value_scale": -15.03
     },
     "monthly_revenue": [
       {
@@ -61,8 +61,15 @@
         "month": 8,
         "year": 2026,
         "revenue": 4346.25,
+        "current_month": false,
+        "day": false
+      },
+      {
+        "month": 9,
+        "year": 2026,
+        "revenue": 127.75,
         "current_month": true,
-        "day": 31
+        "day": 1
       }
     ]
   },
@@ -75,25 +82,25 @@
         "Americano"
       ],
       "qty": [
-        23,
+        24,
         22,
         21
       ],
       "scale": [
-        4.55,
-        57.14,
+        14.29,
+        37.5,
         75.0
       ]
     },
     "snapshot_data": {
-      "today_revenue": 171.25,
-      "today_sales": 24,
+      "today_revenue": 164.75,
+      "today_sales": 21,
       "items_sold": 39,
-      "avg_order_value": 7.14,
-      "todays_revenue_scale": 60.05,
-      "today_sales_scale": 33.33,
-      "items_sold_scale": 56.0,
-      "avg_order_value_scale": 20.2
+      "avg_order_value": 7.85,
+      "todays_revenue_scale": -3.8,
+      "today_sales_scale": -12.5,
+      "items_sold_scale": 0.0,
+      "avg_order_value_scale": 9.94
     },
     "monthly_revenue": [
       {
@@ -128,8 +135,15 @@
         "month": 8,
         "year": 2026,
         "revenue": 3797.25,
+        "current_month": false,
+        "day": false
+      },
+      {
+        "month": 9,
+        "year": 2026,
+        "revenue": 164.75,
         "current_month": true,
-        "day": 31
+        "day": 1
       }
     ]
   },
@@ -137,30 +151,30 @@
     "annual_revenue": 31447.25,
     "best_sellers": {
       "name": [
+        "Iced Latte",
         "Latte",
-        "Espresso",
-        "Mocha"
+        "Cold Brew"
       ],
       "qty": [
         14,
-        13,
+        14,
         13
       ],
       "scale": [
-        7.69,
-        8.33,
-        30.0
+        -26.32,
+        40.0,
+        -31.58
       ]
     },
     "snapshot_data": {
-      "today_revenue": 76.25,
-      "today_sales": 12,
-      "items_sold": 18,
-      "avg_order_value": 6.35,
-      "todays_revenue_scale": -40.43,
-      "today_sales_scale": -36.84,
-      "items_sold_scale": -40.0,
-      "avg_order_value_scale": -5.79
+      "today_revenue": 80.5,
+      "today_sales": 11,
+      "items_sold": 19,
+      "avg_order_value": 7.32,
+      "todays_revenue_scale": 5.57,
+      "today_sales_scale": -8.33,
+      "items_sold_scale": 5.56,
+      "avg_order_value_scale": 15.28
     },
     "monthly_revenue": [
       {
@@ -195,11 +209,18 @@
         "month": 8,
         "year": 2026,
         "revenue": 3027.5,
+        "current_month": false,
+        "day": false
+      },
+      {
+        "month": 9,
+        "year": 2026,
+        "revenue": 80.5,
         "current_month": true,
-        "day": 31
+        "day": 1
       }
     ]
   },
   "total_sales_records": 30014,
-  "generated_at": "2026-08-31T22:20:59.248646+00:00"
+  "generated_at": "2026-09-01T03:18:09.359431+00:00"
 }
