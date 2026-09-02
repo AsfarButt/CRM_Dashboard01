@@ -13,7 +13,7 @@ export default async function Page() {
 
   return (
     <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="w-full h-full overflow-scroll">
+          <main className="w-full h-full overflow-hidden">
         {error || !data ? (
           <div className="flex h-full items-center justify-center p-8 text-center text-sm text-zinc-500 dark:text-zinc-400">
             Couldn't load sales analytics data{error ? `: ${error}` : "."}

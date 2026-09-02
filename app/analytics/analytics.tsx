@@ -114,10 +114,7 @@ function Header({ userName, generatedAt }: { userName: string; generatedAt: stri
   const [isFocused, setIsFocused] = useState(false);
 
   const handleSearch = () => {
-    const trimmed = query.trim();
-    if (trimmed) {
-      router.push(`/summary?search_query=${encodeURIComponent(trimmed)}`);
-    }
+    router.push("/llmsummary");
   };
 
   return (
@@ -879,12 +876,11 @@ export default function SalesAnalytics({ data }: { data: SalesAnalyticsSummary }
 
   return (
     <div
-      className="flex min-h-screen w-full flex-col md:flex-row"
-      style={{ backgroundColor: COLORS.bgApp, fontFamily: FONTS.family }}
-    >
-      <Sidebar />
-
-      <main className="min-w-0 flex-1 px-4 py-4 sm:px-6 sm:py-6 lg:px-8">
+          className="flex h-screen w-full flex-col overflow-hidden md:flex-row"
+          style={{ backgroundColor: COLORS.bgApp, fontFamily: FONTS.family }}
+        >
+          <Sidebar />
+          <main className="readme-scroll-area h-full min-w-0 flex-1 overflow-y-auto px-4 py-6 sm:px-6 sm:py-8 lg:px-10">
         <Header userName="Asfar" generatedAt={data.generated_at} />
 
         <KpiRow data={data} />
@@ -897,6 +893,29 @@ export default function SalesAnalytics({ data }: { data: SalesAnalyticsSummary }
 
         <SupplyOrdersTable rows={data.this_month_supply_order} />
       </main>
-    </div>
+      <style
+      dangerouslySetInnerHTML={{
+        __html: `
+          .readme-scroll-area {
+            scrollbar-width: thin;
+            scrollbar-color: ${COLORS.border} transparent;
+          }
+          .readme-scroll-area::-webkit-scrollbar {
+            width: 6px;
+          }
+          .readme-scroll-area::-webkit-scrollbar-track {
+            background: transparent;
+          }
+          .readme-scroll-area::-webkit-scrollbar-thumb {
+            background-color: ${COLORS.border};
+            border-radius: 9999px;
+          }
+          .readme-scroll-area::-webkit-scrollbar-thumb:hover {
+            background-color: ${COLORS.textTertiary};
+          }
+        `,
+      }}
+    />
+  </div>
   );
 }
