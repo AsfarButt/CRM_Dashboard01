@@ -3,30 +3,30 @@
     "annual_revenue": 43859.0,
     "best_sellers": {
       "name": [
+        "Hot Chocolate",
         "Mocha",
-        "Chai Latte",
-        "Hot Chocolate"
+        "Cold Brew"
       ],
       "qty": [
         26,
-        23,
-        22
+        24,
+        21
       ],
       "scale": [
-        23.81,
-        15.0,
-        37.5
+        52.94,
+        14.29,
+        23.53
       ]
     },
     "snapshot_data": {
-      "today_revenue": 127.75,
-      "today_sales": 20,
-      "items_sold": 31,
-      "avg_order_value": 6.39,
-      "todays_revenue_scale": -34.65,
-      "today_sales_scale": -23.08,
-      "items_sold_scale": -31.11,
-      "avg_order_value_scale": -15.03
+      "today_revenue": 101.25,
+      "today_sales": 15,
+      "items_sold": 24,
+      "avg_order_value": 6.75,
+      "todays_revenue_scale": -20.74,
+      "today_sales_scale": -25.0,
+      "items_sold_scale": -22.58,
+      "avg_order_value_scale": 5.63
     },
     "monthly_revenue": [
       {
@@ -67,9 +67,9 @@
       {
         "month": 9,
         "year": 2026,
-        "revenue": 127.75,
+        "revenue": 229.0,
         "current_month": true,
-        "day": 1
+        "day": 2
       }
     ]
   },
@@ -78,29 +78,29 @@
     "best_sellers": {
       "name": [
         "Latte",
-        "Chai Latte",
-        "Americano"
+        "Flat White",
+        "Cold Brew"
       ],
       "qty": [
-        24,
-        22,
-        21
+        26,
+        25,
+        22
       ],
       "scale": [
-        14.29,
-        37.5,
-        75.0
+        30.0,
+        150.0,
+        69.23
       ]
     },
     "snapshot_data": {
-      "today_revenue": 164.75,
-      "today_sales": 21,
-      "items_sold": 39,
-      "avg_order_value": 7.85,
-      "todays_revenue_scale": -3.8,
-      "today_sales_scale": -12.5,
-      "items_sold_scale": 0.0,
-      "avg_order_value_scale": 9.94
+      "today_revenue": 159.75,
+      "today_sales": 24,
+      "items_sold": 37,
+      "avg_order_value": 6.66,
+      "todays_revenue_scale": -3.03,
+      "today_sales_scale": 14.29,
+      "items_sold_scale": -5.13,
+      "avg_order_value_scale": -15.16
     },
     "monthly_revenue": [
       {
@@ -141,9 +141,9 @@
       {
         "month": 9,
         "year": 2026,
-        "revenue": 164.75,
+        "revenue": 324.5,
         "current_month": true,
-        "day": 1
+        "day": 2
       }
     ]
   },
@@ -151,30 +151,30 @@
     "annual_revenue": 31447.25,
     "best_sellers": {
       "name": [
-        "Iced Latte",
-        "Latte",
-        "Cold Brew"
+        "Mocha",
+        "Flat White",
+        "Iced Latte"
       ],
       "qty": [
-        14,
-        14,
-        13
+        17,
+        16,
+        15
       ],
       "scale": [
-        -26.32,
-        40.0,
-        -31.58
+        54.55,
+        -11.11,
+        -6.25
       ]
     },
     "snapshot_data": {
-      "today_revenue": 80.5,
-      "today_sales": 11,
-      "items_sold": 19,
-      "avg_order_value": 7.32,
-      "todays_revenue_scale": 5.57,
-      "today_sales_scale": -8.33,
-      "items_sold_scale": 5.56,
-      "avg_order_value_scale": 15.28
+      "today_revenue": 142.75,
+      "today_sales": 19,
+      "items_sold": 33,
+      "avg_order_value": 7.51,
+      "todays_revenue_scale": 77.33,
+      "today_sales_scale": 72.73,
+      "items_sold_scale": 73.68,
+      "avg_order_value_scale": 2.6
     },
     "monthly_revenue": [
       {
@@ -215,12 +215,12 @@
       {
         "month": 9,
         "year": 2026,
-        "revenue": 80.5,
+        "revenue": 223.25,
         "current_month": true,
-        "day": 1
+        "day": 2
       }
     ]
   },
   "total_sales_records": 30014,
-  "generated_at": "2026-09-01T20:27:35.326956+00:00"
+  "generated_at": "2026-09-02T02:36:06.349441+00:00"
 }
