@@ -24,6 +24,13 @@ import {
   TrendingDown,
   Search
 } from "lucide-react";
+import { Cookie } from "next/font/google";
+
+const birthstone = Cookie ({
+  variable: "--font-birthstone",
+  subsets: ["latin"],
+  weight: "400",
+});
 
 import {
   COLORS,
@@ -53,12 +60,17 @@ function Header({ userName, lastUpdated }: { userName: string; lastUpdated?: str
   };
 
   return (
-    <div className="mb-6 flex flex-wrap items-start justify-between gap-4">
+    <div className={`mb-6 flex flex-wrap items-start justify-between gap-4 ${birthstone.variable}`}>
       <div className="min-w-[180px] shrink-0">
-        <h1 className="whitespace-nowrap text-xl font-bold text-white sm:text-2xl">
+        <h1 className="whitespace-nowrap text-xl font-semibold text-white sm:text-2xl">
           Welcome,{" "}
-          <span className="font-normal" style={{ color: COLORS.accent }}>{userName}</span>
-        </h1>
+            <span
+            style={{ color: COLORS.accent }}
+              className={`${birthstone.className} text-[28px] tracking-wide sm:text-3xl md:text-3xl lg:text-4xl`}
+            >
+              Asfar
+            </span>
+          </h1>
         <p className="mt-1 whitespace-nowrap text-xs sm:text-sm" style={{ color: COLORS.textSecondary }}>
           Here&rsquo;s your coffee shop&rsquo;s performance overview
         </p>
