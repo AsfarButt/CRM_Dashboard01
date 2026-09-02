@@ -28,7 +28,6 @@ import {
 import {
   COLORS,
   FONTS,
-  RADIUS,
   BRANCHES,
   BEST_SELLER_TABS,
 } from "../vars";
@@ -50,10 +49,7 @@ function Header({ userName, lastUpdated }: { userName: string; lastUpdated?: str
   const [isFocused, setIsFocused] = useState(false);
 
   const handleSearch = () => {
-    const trimmed = query.trim();
-    if (trimmed) {
-      router.push(`/summary?search_query=${encodeURIComponent(trimmed)}`);
-    }
+    router.push("/llmsummary");
   };
 
   return (
@@ -89,6 +85,7 @@ function Header({ userName, lastUpdated }: { userName: string; lastUpdated?: str
               style={{ color: COLORS.textPrimary }}
             />
             <button
+              type="button"
               onClick={handleSearch}
               className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full"
               aria-label="Search"
@@ -113,7 +110,7 @@ function Header({ userName, lastUpdated }: { userName: string; lastUpdated?: str
 }
 
 // ---------------------------------------------------------------------
-// Branch selector -- the functional bit
+// Branch selector
 // ---------------------------------------------------------------------
 function BranchSelector({
   activeBranch,
@@ -172,10 +169,7 @@ function RevenueCard({ revenue, tag }: { revenue: number; tag: string }) {
       />
 
       <div className="relative flex flex-wrap items-end gap-2">
-        <span
-          className="font-bold text-white"
-          style={{ fontSize: "clamp(1.4rem, 2.4vw, 1.875rem)" }}
-        >
+        <span className="font-bold text-white" style={{ fontSize: "clamp(1.4rem, 2.4vw, 1.875rem)" }}>
           $ {formatMoney(revenue)}
         </span>
         <span className="mb-1 text-2xl">🫘</span>
@@ -189,6 +183,7 @@ function RevenueCard({ revenue, tag }: { revenue: number; tag: string }) {
 // ---------------------------------------------------------------------
 function InsightsPromoCard() {
   const router = useRouter();
+
   return (
     <div
       className="relative overflow-hidden rounded-2xl p-6"
@@ -205,9 +200,7 @@ function InsightsPromoCard() {
       <button
         onClick={() => router.push("/analytics")}
         className="relative mt-5 rounded-full px-5 py-2.5 text-sm font-semibold text-white"
-        style={{
-          background: `linear-gradient(135deg, ${COLORS.gradientStart}, ${COLORS.gradientEnd})`,
-        }}
+        style={{ background: `linear-gradient(135deg, ${COLORS.gradientStart}, ${COLORS.gradientEnd})` }}
       >
         View Insights
       </button>
@@ -221,13 +214,6 @@ function InsightsPromoCard() {
 function BestSellersCard({ items }: { items: TransformedBranchData["Downtown"]["bestSellers"] }) {
   const [tab, setTab] = useState<string>(BEST_SELLER_TABS[0]);
 
-  // FIX: `tab` state existed before but was never actually used to
-  // filter the list — the card always rendered the same array
-  // regardless of which tab was active, which is why "Top Rated"
-  // and "Slow Movers" looked empty/identical to "This Week". `items`
-  // is now an object keyed by tab label (see transformSalesData.ts),
-  // so pick the active tab's list here. Falls back to [] for safety
-  // if a tab key is ever missing.
   const activeItems = (items as Record<string, (typeof items)["This Week"]>)[tab] ?? [];
 
   return (
@@ -246,10 +232,11 @@ function BestSellersCard({ items }: { items: TransformedBranchData["Downtown"]["
             <button
               key={t}
               onClick={() => setTab(t)}
-              className="shrink-0 whitespace-nowrap rounded-full px-3.5 py-1.5 text-xs font-medium"
+              className="shrink-0 whitespace-nowrap rounded-full border px-3.5 py-1.5 text-xs font-medium hover:border-zinc-500"
               style={{
                 backgroundColor: isActive ? COLORS.accentSoft : COLORS.bgPill,
                 color: isActive ? COLORS.textPrimary : COLORS.textSecondary,
+                borderColor: "transparent",
               }}
             >
               {t}
@@ -354,10 +341,10 @@ function SnapshotCard({ snapshot }: { snapshot: TransformedBranchData["Downtown"
       <div className="mb-4 flex items-center justify-between">
         <h3 className="text-lg font-semibold text-white">Today&rsquo;s Snapshot</h3>
         <button
-          className="flex items-center gap-1 text-xs font-medium group hover:scale-102 transition-scale"
+          className="flex items-center gap-1 text-xs font-medium"
           style={{ color: COLORS.textSecondary }}
         >
-          See all <ArrowUpRight size={12} className="transition-transform group-hover:translate-x-0.5 group-hover:stroke-[2.5]" />
+          See all <ArrowUpRight size={12} />
         </button>
       </div>
       <div className="grid grid-cols-2 gap-3">
@@ -391,64 +378,89 @@ function SnapshotCard({ snapshot }: { snapshot: TransformedBranchData["Downtown"
 }
 
 // ---------------------------------------------------------------------
-// Revenue performance chart now lives in ./revenue-chart.tsx -- imported
-// at the top of this file and rendered with data + highlight as props.
-// ---------------------------------------------------------------------
-
-// ---------------------------------------------------------------------
 // Page
 // ---------------------------------------------------------------------
 
 export default function Home({ sales_data }: { sales_data: SalesSummary }) {
-  
+
   const [activeBranch, setActiveBranch] = useState<string>(BRANCHES[0]);
 
-  // Transform once per sales_data change, not on every render
   const branchData = useMemo(() => toBranchData(sales_data), [sales_data]);
   const data = branchData.branches[activeBranch as keyof typeof branchData.branches];
 
-  console.log('activeBranch:', activeBranch, 'branchData:', branchData);
-  console.log('activeBranch:', activeBranch);
-  console.log('data.totalAnnualRevenue:', data.totalAnnualRevenue);
-  console.log('data.snapshot:', JSON.stringify(data.snapshot));
-  console.log('branchData.Downtown:', JSON.stringify(branchData.branches.Downtown));
-
   return (
     <div
-      className="flex min-h-screen w-full flex-col md:flex-row"
+      className="flex h-screen w-full flex-col overflow-hidden md:flex-row"
       style={{ backgroundColor: COLORS.bgApp, fontFamily: FONTS.family }}
     >
       <Sidebar />
 
-      <main className="min-w-0 flex-1 px-4 py-4 sm:px-6 sm:py-6 lg:px-8">
-        <Header userName="Asfar" lastUpdated={branchData.generatedAt}/>
+      <main className="home-scroll-area h-full min-w-0 flex-1 overflow-y-auto px-4 py-4 sm:px-6 sm:py-6 lg:px-8">
+        <div className="home-fade-in" style={{ animationDelay: "0ms" }}>
+          <Header userName="Asfar" lastUpdated={branchData.generatedAt}/>
+        </div>
 
-        <BranchSelector activeBranch={activeBranch} onSelect={setActiveBranch} />
+        <div className="home-fade-in" style={{ animationDelay: "70ms" }}>
+          <BranchSelector activeBranch={activeBranch} onSelect={setActiveBranch} />
+        </div>
 
         <div
-          className="mb-6 grid gap-5"
-          style={{ gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))" }}
+          className="home-fade-in mb-6 grid gap-5"
+          style={{ animationDelay: "140ms", gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))" }}
         >
-          {/* Left column: revenue + promo */}
           <div className="flex min-w-0 flex-col gap-5">
             <RevenueCard revenue={data.totalAnnualRevenue} tag={data.totalAnnualRevenueTag} />
             <InsightsPromoCard />
           </div>
 
-          {/* Middle column: best sellers */}
           <div className="min-w-0">
             <BestSellersCard items={data.bestSellers} />
           </div>
 
-          {/* Right column: today's snapshot */}
           <div className="min-w-0">
             <SnapshotCard snapshot={data.snapshot} />
           </div>
         </div>
 
-        {/* Revenue performance chart */}
-        <RevenueChart data={data.monthlyRevenue} />
+        <div className="home-fade-in" style={{ animationDelay: "210ms" }}>
+          <RevenueChart data={data.monthlyRevenue} />
+        </div>
       </main>
+
+      <style
+        dangerouslySetInnerHTML={{
+          __html: `
+            @keyframes homeFadeInUp {
+              from { opacity: 0; transform: translateY(8px); }
+              to { opacity: 1; transform: translateY(0); }
+            }
+            .home-fade-in {
+              animation: homeFadeInUp 420ms ease both;
+            }
+            @media (prefers-reduced-motion: reduce) {
+              .home-fade-in { animation: none; }
+            }
+
+            .home-scroll-area {
+              scrollbar-width: thin;
+              scrollbar-color: ${COLORS.border} transparent;
+            }
+            .home-scroll-area::-webkit-scrollbar {
+              width: 6px;
+            }
+            .home-scroll-area::-webkit-scrollbar-track {
+              background: transparent;
+            }
+            .home-scroll-area::-webkit-scrollbar-thumb {
+              background-color: ${COLORS.border};
+              border-radius: 9999px;
+            }
+            .home-scroll-area::-webkit-scrollbar-thumb:hover {
+              background-color: ${COLORS.textTertiary};
+            }
+          `,
+        }}
+      />
     </div>
   );
 }
