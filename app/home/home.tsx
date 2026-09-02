@@ -94,9 +94,15 @@ function Header({ userName, lastUpdated }: { userName: string; lastUpdated?: str
             </button>
           </div>
           <div
-            className="h-10 w-10 shrink-0 overflow-hidden rounded-full"
-            style={{ backgroundColor: COLORS.accentSoft }}
+          className="h-10 w-10 shrink-0 overflow-hidden rounded-full border border-black"
+          style={{ backgroundColor: COLORS.accentSoft }}
+        >
+          <img
+            src="/profile.png"
+            alt="Profile"
+            className="h-full w-full object-cover scale-110"
           />
+        </div>
         </div>
 
         {lastUpdated && (
