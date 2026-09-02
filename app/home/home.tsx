@@ -400,7 +400,7 @@ export default function Home({ sales_data }: { sales_data: SalesSummary }) {
           style={{ backgroundColor: COLORS.bgApp, fontFamily: FONTS.family }}
         >
           <Sidebar />
-          <main className="readme-scroll-area h-full min-w-0 flex-1 overflow-y-auto px-4 py-6 sm:px-6 sm:py-8 lg:px-10">
+          <main className="readme-scroll-area h-full min-w-0 flex-1 overflow-y-auto px-4 py-6 sm:px-6 sm:py-8">
         <div className="home-fade-in" style={{ animationDelay: "0ms" }}>
           <Header userName="Asfar" lastUpdated={branchData.generatedAt}/>
         </div>
