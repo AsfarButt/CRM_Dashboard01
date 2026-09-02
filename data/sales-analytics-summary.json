@@ -271,7 +271,7 @@
       "suppliers": [
         {
           "supplier_id": "SUP-005",
-          "supplier": "Unknown supplier",
+          "supplier": "Golden Wheat Milling",
           "cost": 154.77,
           "quantity": 21.0,
           "unit": "kg",
@@ -288,7 +288,7 @@
       "suppliers": [
         {
           "supplier_id": "SUP-009",
-          "supplier": "Unknown supplier",
+          "supplier": "Sweetline Flavors",
           "cost": 48.8,
           "quantity": 5.0,
           "unit": "L",
@@ -305,7 +305,7 @@
       "suppliers": [
         {
           "supplier_id": "SUP-001",
-          "supplier": "Unknown supplier",
+          "supplier": "Highland Coffee Roasters",
           "cost": 295.44,
           "quantity": 24.0,
           "unit": "kg",
@@ -322,7 +322,7 @@
       "suppliers": [
         {
           "supplier_id": "SUP-006",
-          "supplier": "Unknown supplier",
+          "supplier": "Artisan Bakery Supply",
           "cost": 5.89,
           "quantity": 19.0,
           "unit": "count",
@@ -339,7 +339,7 @@
       "suppliers": [
         {
           "supplier_id": "SUP-007",
-          "supplier": "Unknown supplier",
+          "supplier": "EcoPack Solutions",
           "cost": 38.55,
           "quantity": 1285.0,
           "unit": "count",
@@ -356,7 +356,7 @@
       "suppliers": [
         {
           "supplier_id": "SUP-004",
-          "supplier": "Unknown supplier",
+          "supplier": "Meadowbrook Farms",
           "cost": 90.44,
           "quantity": 38.0,
           "unit": "L",
@@ -373,7 +373,7 @@
       "suppliers": [
         {
           "supplier_id": "SUP-008",
-          "supplier": "Unknown supplier",
+          "supplier": "Standard Supply Co.",
           "cost": 144.4,
           "quantity": 1444.0,
           "unit": "count",
@@ -390,7 +390,7 @@
       "suppliers": [
         {
           "supplier_id": "SUP-010",
-          "supplier": "Unknown supplier",
+          "supplier": "Cascade Syrup Works",
           "cost": 61.56,
           "quantity": 6.0,
           "unit": "L",
@@ -407,7 +407,7 @@
       "suppliers": [
         {
           "supplier_id": "SUP-003",
-          "supplier": "Unknown supplier",
+          "supplier": "Fresh Valley Dairy",
           "cost": 37.52,
           "quantity": 28.0,
           "unit": "L",
@@ -416,5 +416,5 @@
       ]
     }
   ],
-  "generated_at": "2026-09-02T02:36:07.153600+00:00"
+  "generated_at": "2026-09-02T10:30:15.230823+00:00"
 }
