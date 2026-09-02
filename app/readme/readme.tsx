@@ -405,8 +405,8 @@ export default function Readme() {
               chain. Since I did not have access to a real business&rsquo;s
               operational data, I constructed a synthetic dataset that
               mirrors what an actual multi-location retail operation
-              generates day to day — sales transactions, staff performance,
-              and supply orders — and built this dashboard to work against
+              generates day to day sales transactions, staff performance,
+              and supply orders and built this dashboard to work against
               it exactly as it would against production data. The intent
               was to demonstrate a complete, realistic data pipeline: from
               raw data, through processing, to a dashboard someone could
@@ -423,7 +423,7 @@ export default function Readme() {
               about how the system would behave with real, changing data.
               I wanted to avoid that shortcut. Everything shown here is
               generated once, written to a database, exported on a
-              schedule, processed, and only then rendered — the same
+              schedule, processed, and only then rendered. The same
               sequence a production system would follow, rather than
               numbers invented purely for the interface.
             </p>
@@ -446,7 +446,7 @@ export default function Readme() {
               I made a deliberate decision not to query the database
               directly on page load. A live query would mean pulling
               potentially thousands of records and processing them in real
-              time on every visit — measurably slower, and unnecessary for
+              time on every visit, measurably slower, and unnecessary for
               this use case. Instead, data is exported on a schedule into
               static JSON files, and the dashboard reads only from those.
               This trades a small amount of freshness for consistent,
@@ -529,7 +529,7 @@ export default function Readme() {
               This is a portfolio project, not a production system, and I
               want to be upfront about that. The data is synthetic,
               refreshed on a fixed daily schedule rather than in real time,
-              and there is no authentication layer — anyone with the link
+              and there is no authentication layer, anyone with the link
               can view it. None of that would be acceptable for an actual
               business, but reproducing those constraints was not the
               point here; demonstrating the architecture was.
@@ -545,14 +545,14 @@ export default function Readme() {
               dashboard, and the dashboard never does more work than
               rendering what it is handed. That keeps the system fast
               without sacrificing depth, and it is the same pattern I
-              would bring to a production dashboard — simply swapping the
+              would bring to a production dashboard, simply swapping the
               synthetic data source for a real one.
             </p>
           </Reveal>
 
           {/* 9. Data disclaimer */}
           <p className="text-[11px]" style={{ color: COLORS.textTertiary }}>
-            All data shown in this dashboard is synthetic — generated for
+            All data shown in this dashboard is synthetic, generated for
             demonstration purposes and not tied to any real company,
             customer, or individual.
           </p>
