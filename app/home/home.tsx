@@ -389,12 +389,12 @@ export default function Home({ sales_data }: { sales_data: SalesSummary }) {
   const data = branchData.branches[activeBranch as keyof typeof branchData.branches];
 
   return (
-    <div
-              className="flex h-screen w-full flex-col overflow-hidden md:flex-row"
-              style={{ backgroundColor: COLORS.bgApp, fontFamily: FONTS.family }}
-            >
-              <Sidebar />
-              <main className="readme-scroll-area h-full min-w-0 flex-1 overflow-y-auto px-4 py-6 sm:px-6 sm:py-8 lg:px-10">
+      <div
+          className="flex h-screen w-full flex-col overflow-hidden md:flex-row"
+          style={{ backgroundColor: COLORS.bgApp, fontFamily: FONTS.family }}
+        >
+          <Sidebar />
+          <main className="readme-scroll-area h-full min-w-0 flex-1 overflow-y-auto px-4 py-6 sm:px-6 sm:py-8 lg:px-10">
         <div className="home-fade-in" style={{ animationDelay: "0ms" }}>
           <Header userName="Asfar" lastUpdated={branchData.generatedAt}/>
         </div>
@@ -425,36 +425,24 @@ export default function Home({ sales_data }: { sales_data: SalesSummary }) {
           <RevenueChart data={data.monthlyRevenue} />
         </div>
       </main>
-
-      <style
+    <style
         dangerouslySetInnerHTML={{
           __html: `
-            @keyframes homeFadeInUp {
-              from { opacity: 0; transform: translateY(8px); }
-              to { opacity: 1; transform: translateY(0); }
-            }
-            .home-fade-in {
-              animation: homeFadeInUp 420ms ease both;
-            }
-            @media (prefers-reduced-motion: reduce) {
-              .home-fade-in { animation: none; }
-            }
-
-            .home-scroll-area {
+            .readme-scroll-area {
               scrollbar-width: thin;
               scrollbar-color: ${COLORS.border} transparent;
             }
-            .home-scroll-area::-webkit-scrollbar {
+            .readme-scroll-area::-webkit-scrollbar {
               width: 6px;
             }
-            .home-scroll-area::-webkit-scrollbar-track {
+            .readme-scroll-area::-webkit-scrollbar-track {
               background: transparent;
             }
-            .home-scroll-area::-webkit-scrollbar-thumb {
+            .readme-scroll-area::-webkit-scrollbar-thumb {
               background-color: ${COLORS.border};
               border-radius: 9999px;
             }
-            .home-scroll-area::-webkit-scrollbar-thumb:hover {
+            .readme-scroll-area::-webkit-scrollbar-thumb:hover {
               background-color: ${COLORS.textTertiary};
             }
           `,
