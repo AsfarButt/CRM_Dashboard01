@@ -1,92 +1,41 @@
 // =========================================================
 // readme.tsx
-// In-app README / Docs tab for the "Grind & Co." dashboard
-// Visual language matched to home.tsx: glow blobs behind
-// hero elements, pill-shaped stat tiles and tags, group-hover
-// micro-interactions, rounded-2xl cards on bgCard/bgCardAlt.
+// "Grind & Co." coffee shop admin dashboard — in-app README
+//
+// Same pattern as home.tsx: Tailwind for layout/spacing,
+// colors/fonts pulled from vars.js at runtime. No styled-jsx
+// anywhere in this file.
 // =========================================================
 
 "use client";
 
-import React, { useEffect, useRef, useState } from "react";
+import React, { useEffect, useRef, useState, type ReactNode } from "react";
 import Sidebar from "../../components/sidebar";
-import {
-  COLORS,
-  FONTS,
-  SPACING,
-} from "../vars";
-import {
-  Database,
-  Workflow,
-  FileJson,
-  Cpu,
-  MonitorSmartphone,
-  ArrowRight,
-  Clock,
-  Zap,
-  LayoutDashboard,
-  TrendingUp,
-  Users,
-  AlertTriangle,
-  Compass,
-  ChevronRight,
-} from "lucide-react";
+import { Database, Clock, FileJson, Settings, Monitor } from "lucide-react";
+import { COLORS, FONTS } from "../vars";
 
 // ---------------------------------------------------------------------
-// Static content for the diagrams — kept as data so the flow is easy
-// to reorder or extend without touching layout code.
+// Scroll-reveal hook — fires once, the first time an element crosses
+// into the viewport, then disconnects. Skips straight to visible if
+// the user has prefers-reduced-motion on.
 // ---------------------------------------------------------------------
 
-const WORKFLOW_NODES = [
-  { icon: Database, title: "Firestore", subtitle: "Source of truth" },
-  { icon: Workflow, title: "GitHub Actions", subtitle: "Scheduled job" },
-  { icon: FileJson, title: "Static JSON", subtitle: "Exported snapshot", highlight: true },
-  { icon: Cpu, title: "Processing files", subtitle: "Calculates + compresses" },
-  { icon: MonitorSmartphone, title: "Dashboard render", subtitle: "Numbers on screen" },
-];
-
-const SECTION_BREAKDOWN = [
-  {
-    icon: LayoutDashboard,
-    title: "Overview",
-    board: "Overview board",
-    copy: "The Overview section gives a top-level snapshot of the business — the numbers someone would want to see first. Behind it, a file on the server side reads the exported static data, pulls out the key totals and summary figures across sales and staff, and compresses that down into a small JSON built specifically for this view. That's what the page actually renders from.",
-  },
-  {
-    icon: TrendingUp,
-    title: "Sales Analytics",
-    board: "Sales Analytics board",
-    copy: "This section breaks down revenue and sales activity in more detail — trends over time, totals by category, whatever cuts matter for understanding how sales are actually moving. A dedicated file on the server side works through the static sales data up through the most recent file available, calculates the revenue streams and totals, and shrinks all of that down into a compact JSON made for this page specifically.",
-  },
-  {
-    icon: Users,
-    title: "Staff",
-    board: "Staff board",
-    copy: "The Staff section covers workforce data — performance, activity, whatever's relevant to how the team is doing. Same pattern as the other two: a server-side file reads through the exported staff data, runs the calculations needed for this view, and produces a smaller JSON that the page reads from directly.",
-  },
-];
-
-// ---------------------------------------------------------------------
-// Scroll reveal — fades/slides each section up once it enters the
-// viewport. One-shot (disconnects after firing), respects
-// prefers-reduced-motion via the CSS fallback below.
-// ---------------------------------------------------------------------
-
-function Reveal({
-  children,
-  className = "",
-  delay = 0,
-}: {
-  children: React.ReactNode;
-  className?: string;
-  delay?: number;
-}) {
-  const ref = useRef<HTMLDivElement>(null);
+function useRevealOnScroll<T extends HTMLElement>(threshold = 0.15) {
+  const ref = useRef<T | null>(null);
   const [visible, setVisible] = useState(false);
 
   useEffect(() => {
     const node = ref.current;
     if (!node) return;
+
+    const prefersReduced = window.matchMedia(
+      "(prefers-reduced-motion: reduce)"
+    ).matches;
+    if (prefersReduced) {
+      setVisible(true);
+      return;
+    }
+
     const observer = new IntersectionObserver(
       ([entry]) => {
         if (entry.isIntersecting) {
@@ -94,17 +43,43 @@ function Reveal({
           observer.disconnect();
         }
       },
-      { threshold: 0.18, rootMargin: "0px 0px -40px 0px" }
+      { threshold }
     );
     observer.observe(node);
     return () => observer.disconnect();
-  }, []);
+  }, [threshold]);
 
+  return { ref, visible };
+}
+
+function useHover() {
+  const [hovered, setHovered] = useState(false);
+  return {
+    hovered,
+    onMouseEnter: () => setHovered(true),
+    onMouseLeave: () => setHovered(false),
+  };
+}
+
+function Reveal({
+  children,
+  delayMs = 0,
+  className = "",
+}: {
+  children: ReactNode;
+  delayMs?: number;
+  className?: string;
+}) {
+  const { ref, visible } = useRevealOnScroll<HTMLDivElement>();
   return (
     <div
       ref={ref}
-      className={`reveal ${visible ? "reveal-visible" : ""} ${className}`}
-      style={{ transitionDelay: `${delay}ms` }}
+      className={className}
+      style={{
+        opacity: visible ? 1 : 0,
+        transform: visible ? "translateY(0)" : "translateY(14px)",
+        transition: `opacity 550ms ease ${delayMs}ms, transform 550ms ease ${delayMs}ms`,
+      }}
     >
       {children}
     </div>
@@ -112,132 +87,273 @@ function Reveal({
 }
 
 // ---------------------------------------------------------------------
-// Small building blocks
+// Flow arrow — a static connector between workflow steps.
 // ---------------------------------------------------------------------
 
-// Mirrors the small bordered pill used for the "tag" on home.tsx's
-// RevenueCard (e.g. the period selector next to "Total Annual Revenue").
-function Tag({ icon: Icon, label }: { icon: React.ElementType; label: string }) {
+function FlowArrow({ grow = true }: { grow?: boolean }) {
   return (
     <div
-      className="flex shrink-0 items-center gap-1.5 rounded-full px-3 py-1 text-xs"
-      style={{ border: `1px solid ${COLORS.border}`, color: COLORS.textSecondary }}
+      className={`relative mx-1 h-0.5 shrink-0 ${
+        grow ? "min-w-[20px] flex-1" : "w-4"
+      }`}
     >
-      <Icon size={12} style={{ color: COLORS.textAccent }} />
-      {label}
+      <span
+        className="absolute inset-0"
+        style={{ backgroundColor: COLORS.border }}
+      />
+      <span
+        className="absolute -top-[3px] right-[-1px] h-2 w-2 rotate-45"
+        style={{
+          borderTop: `2px solid ${COLORS.border}`,
+          borderRight: `2px solid ${COLORS.border}`,
+        }}
+      />
     </div>
   );
 }
 
-function Connector({ vertical = false }: { vertical?: boolean }) {
-  return (
-    <div
-      className={
-        vertical
-          ? "flex items-center justify-center py-1 md:hidden"
-          : "hidden items-center justify-center px-1 md:flex"
-      }
-      style={{ color: COLORS.textTertiary }}
-    >
-      <ArrowRight size={16} className={vertical ? "rotate-90" : ""} style={{ opacity: 0.6 }} />
-    </div>
-  );
-}
+// ---------------------------------------------------------------------
+// Main workflow diagram node
+// ---------------------------------------------------------------------
 
-function WorkflowNode({ node, index }: { node: (typeof WORKFLOW_NODES)[number]; index: number }) {
-  const Icon = node.icon;
+function WorkflowNode({
+  label,
+  detail,
+  Icon,
+  visible,
+  delayMs,
+}: {
+  label: string;
+  detail: string;
+  Icon: React.ComponentType<{ size?: number }>;
+  visible: boolean;
+  delayMs: number;
+}) {
+  const { hovered, onMouseEnter, onMouseLeave } = useHover();
+
   return (
     <div
-      className="wf-node flex flex-1 flex-col items-center gap-2 rounded-xl px-4 py-5 text-center transition-all duration-300"
+      onMouseEnter={onMouseEnter}
+      onMouseLeave={onMouseLeave}
+      className="relative flex min-w-[108px] flex-col items-center gap-2 rounded-xl px-3 py-3.5 text-center"
       style={{
-        backgroundColor: node.highlight ? COLORS.accentSoft : COLORS.bgCard,
-        border: `1px solid ${node.highlight ? COLORS.accent : COLORS.border}`,
-        transitionDelay: `${index * 60}ms`,
+        backgroundColor: COLORS.bgCardAlt,
+        border: `1px solid ${hovered ? COLORS.textTertiary : COLORS.border}`,
+        opacity: visible ? 1 : 0,
+        zIndex: hovered ? 30 : 0,
+        transform: visible ? "translateY(0)" : "translateY(10px)",
+        transition: `opacity 450ms ease ${delayMs}ms, border-color 200ms ease`,
       }}
     >
-      <div
-        className="wf-icon flex h-10 w-10 items-center justify-center rounded-full transition-colors duration-300"
-        style={{ backgroundColor: node.highlight ? "rgba(150,175,214,0.18)" : COLORS.bgPill }}
+      <span style={{ color: hovered ? COLORS.textPrimary : COLORS.textAccent }}>
+        <Icon size={20} />
+      </span>
+      <span
+        className="text-xs font-medium"
+        style={{ color: hovered ? COLORS.textPrimary : COLORS.textSecondary }}
       >
-        <Icon size={18} style={{ color: node.highlight ? COLORS.accent : COLORS.textAccent }} />
-      </div>
-      <div style={{ color: COLORS.textPrimary, fontSize: FONTS.sizeSm, fontWeight: FONTS.weightSemibold }}>
-        {node.title}
-      </div>
-      <div style={{ color: COLORS.textTertiary, fontSize: FONTS.sizeXs, lineHeight: 1.4 }}>
-        {node.subtitle}
+        {label}
+      </span>
+
+      <div
+        className="pointer-events-none absolute left-1/2 top-full z-20 mt-2 w-52 -translate-x-1/2 rounded-lg p-3 text-left text-[11px] leading-relaxed"
+        style={{
+          backgroundColor: COLORS.bgCardAlt,
+          border: `1px solid ${COLORS.border}`,
+          color: COLORS.textSecondary,
+          boxShadow: "0 10px 28px rgba(0, 0, 0, 0.35)",
+          opacity: hovered ? 1 : 0,
+          transform: hovered ? "translate(-50%, 0)" : "translate(-50%, -4px)",
+          transition: "opacity 160ms ease, transform 160ms ease",
+        }}
+      >
+        {detail}
       </div>
     </div>
   );
 }
 
-// Snapshot-tile style stat card (mirrors home.tsx's SnapshotTile:
-// icon chip + big bold value + small muted label).
-function StatTile({
-  icon: Icon,
-  value,
-  label,
-}: {
-  icon: React.ElementType;
-  value: string;
-  label: string;
-}) {
+const WORKFLOW_NODES = [
+  {
+    label: "Firestore",
+    Icon: Database,
+    detail:
+      "The main database, stored in Firestore, is updated every day with new files as streaming data comes in.",
+  },
+  {
+    label: "Scheduled export",
+    Icon: Clock,
+    detail:
+      "A GitHub workflow extracts that data and runs it through processing once a day.",
+  },
+  {
+    label: "Static JSON",
+    Icon: FileJson,
+    detail:
+      "The result is a set of static JSON files — compact yet precise summaries and insights built from the underlying data.",
+  },
+  {
+    label: "Processing layer",
+    Icon: Settings,
+    detail:
+      "A server-side file reads that JSON and calculates the specific totals and figures each dashboard section needs.",
+  },
+  {
+    label: "Dashboard render",
+    Icon: Monitor,
+    detail:
+      "The dashboard reads the processed output and renders it directly — no live database queries, no waiting.",
+  },
+];
+
+function WorkflowDiagram() {
+  const { ref, visible } = useRevealOnScroll<HTMLDivElement>(0.25);
+
   return (
     <div
-      className="stat-tile min-w-0 flex-1 rounded-xl p-4 transition-all duration-200"
-      style={{ backgroundColor: COLORS.bgCardAlt, border: `1px solid ${COLORS.border}` }}
+      ref={ref}
+      className="rounded-2xl p-6"
+      style={{ backgroundColor: COLORS.bgCard, border: `1px solid ${COLORS.border}` }}
     >
-      <div className="mb-3 flex items-center gap-2">
-        <div
-          className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full"
-          style={{ backgroundColor: COLORS.accentSoft }}
-        >
-          <Icon size={14} style={{ color: COLORS.accent }} />
-        </div>
-        <span className="truncate text-xs" style={{ color: COLORS.textSecondary }}>
-          {label}
-        </span>
-      </div>
-      <div className="font-bold text-white" style={{ fontSize: "clamp(1rem, 1.6vw, 1.25rem)" }}>
-        {value}
+      <div className="flex flex-wrap items-center gap-1">
+        {WORKFLOW_NODES.map((node, i) => (
+          <div className="flex flex-1 items-center" key={node.label}>
+            <WorkflowNode
+              label={node.label}
+              detail={node.detail}
+              Icon={node.Icon}
+              visible={visible}
+              delayMs={i * 110}
+            />
+            {i < WORKFLOW_NODES.length - 1 && <FlowArrow />}
+          </div>
+        ))}
       </div>
     </div>
   );
 }
 
-function MiniDiagram({ board }: { board: string }) {
+// ---------------------------------------------------------------------
+// Mini per-section flow
+// ---------------------------------------------------------------------
+
+function MiniFlow({ endLabel }: { endLabel: string }) {
+  const { ref, visible } = useRevealOnScroll<HTMLDivElement>(0.3);
   return (
-    <div className="group/mini mt-4 flex items-center gap-2">
-      <div
-        className="flex h-8 w-8 items-center justify-center rounded-lg transition-transform duration-200 group-hover/mini:-translate-y-0.5"
-        style={{ backgroundColor: COLORS.bgPill }}
-      >
-        <FileJson size={14} style={{ color: COLORS.textAccent }} />
-      </div>
-      <ChevronRight
-        size={13}
-        className="transition-transform duration-200 group-hover/mini:translate-x-0.5"
+    <div
+      ref={ref}
+      className="flex min-w-0 flex-wrap items-center gap-x-1 gap-y-1.5"
+      style={{
+        opacity: visible ? 1 : 0,
+        transform: visible ? "translateY(0)" : "translateY(6px)",
+        transition: "opacity 450ms ease, transform 450ms ease",
+      }}
+    >
+      <span
+        className="flex min-w-0 items-center gap-1 text-[11px]"
         style={{ color: COLORS.textTertiary }}
-      />
-      <div
-        className="flex h-8 w-8 items-center justify-center rounded-lg transition-transform duration-200 delay-75 group-hover/mini:-translate-y-0.5"
-        style={{ backgroundColor: COLORS.bgPill }}
       >
-        <Cpu size={14} style={{ color: COLORS.textAccent }} />
-      </div>
-      <ChevronRight
-        size={13}
-        className="transition-transform duration-200 group-hover/mini:translate-x-0.5"
+        <FileJson size={14} className="shrink-0" />
+        <span className="truncate">Static JSON</span>
+      </span>
+      <FlowArrow grow={false} />
+      <span
+        className="flex min-w-0 items-center gap-1 text-[11px]"
         style={{ color: COLORS.textTertiary }}
-      />
-      <div
-        className="rounded-full px-2.5 py-1 transition-transform duration-200 delay-150 group-hover/mini:-translate-y-0.5"
-        style={{ backgroundColor: COLORS.accentSoft, border: `1px solid ${COLORS.accent}` }}
       >
-        <span style={{ color: COLORS.accent, fontSize: FONTS.sizeXs, fontWeight: FONTS.weightMedium }}>
-          {board}
-        </span>
+        <Settings size={14} className="shrink-0" />
+        <span className="truncate">Processing file</span>
+      </span>
+      <FlowArrow grow={false} />
+      <span
+        className="flex min-w-0 items-center gap-1 text-[11px] font-medium"
+        style={{ color: COLORS.textPrimary }}
+      >
+        <Monitor size={14} className="shrink-0" />
+        <span className="truncate">{endLabel}</span>
+      </span>
+    </div>
+  );
+}
+
+// ---------------------------------------------------------------------
+// Per-section card — one-line first-person tagline plus feature pills.
+// ---------------------------------------------------------------------
+
+function FeaturePill({ label }: { label: string }) {
+  return (
+    <span
+      className="inline-flex items-center rounded-full px-3 py-1 text-[11px] font-medium"
+      style={{
+        backgroundColor: COLORS.bgPill,
+        border: `1px solid ${COLORS.border}`,
+        color: COLORS.textSecondary,
+      }}
+    >
+      {label}
+    </span>
+  );
+}
+
+function SectionCard({
+  title,
+  tagline,
+  features,
+  endLabel,
+  delayMs,
+}: {
+  title: string;
+  tagline: string;
+  features: string[];
+  endLabel: string;
+  delayMs: number;
+}) {
+  const { ref, visible } = useRevealOnScroll<HTMLDivElement>();
+
+  return (
+    <div
+      ref={ref}
+      className="flex h-full min-w-0 flex-col gap-4 rounded-2xl p-6"
+      style={{
+        backgroundColor: COLORS.bgCard,
+        border: `1px solid ${COLORS.border}`,
+        opacity: visible ? 1 : 0,
+        transform: visible ? "translateY(0)" : "translateY(14px)",
+        transition: `opacity 550ms ease ${delayMs}ms, transform 550ms ease ${delayMs}ms`,
+      }}
+    >
+      <div>
+        <h3 className="text-base font-semibold text-white">{title}</h3>
+        <p className="mt-1 text-sm" style={{ color: COLORS.textSecondary }}>
+          {tagline}
+        </p>
       </div>
+
+      <div className="flex flex-1 flex-wrap content-start gap-2">
+        {features.map((f) => (
+          <FeaturePill key={f} label={f} />
+        ))}
+      </div>
+
+      <MiniFlow endLabel={endLabel} />
+    </div>
+  );
+}
+
+// ---------------------------------------------------------------------
+// Simple label + description row, used in the Tech Stack and
+// Limitations sections below.
+// ---------------------------------------------------------------------
+
+function InfoRow({ label, detail }: { label: string; detail: string }) {
+  return (
+    <div className="flex flex-col gap-1 rounded-xl p-4" style={{ backgroundColor: COLORS.bgCardAlt }}>
+      <span className="text-xs font-medium" style={{ color: COLORS.textAccent }}>
+        {label}
+      </span>
+      <span className="text-sm leading-relaxed" style={{ color: COLORS.textSecondary }}>
+        {detail}
+      </span>
     </div>
   );
 }
@@ -246,259 +362,225 @@ function MiniDiagram({ board }: { board: string }) {
 // Page
 // ---------------------------------------------------------------------
 
+const DIAGRAM_MAX_WIDTH = "max-w-[640px]";
+
 export default function Readme() {
+  const [heroMounted, setHeroMounted] = useState(false);
+
+  useEffect(() => {
+    const id = requestAnimationFrame(() => setHeroMounted(true));
+    return () => cancelAnimationFrame(id);
+  }, []);
+
   return (
     <div
-      className="flex min-h-screen w-full flex-col md:flex-row"
+      className="flex h-screen w-full flex-col overflow-hidden md:flex-row"
       style={{ backgroundColor: COLORS.bgApp, fontFamily: FONTS.family }}
     >
       <Sidebar />
-      <main className="min-w-0 flex-1 px-4 py-6 sm:px-6 sm:py-8 lg:px-10">
-        <div className="mx-auto flex max-w-3xl flex-col" style={{ gap: SPACING.xl }}>
-
-          {/* Section 1 — Intro */}
-          <Reveal>
-            <section className="relative overflow-hidden rounded-2xl p-1">
-              <div
-                className="pointer-events-none absolute -left-10 -top-16 h-48 w-48 rounded-full blur-3xl"
-                style={{ backgroundColor: COLORS.accentGlow }}
-              />
-              <div className="relative">
-                <h1
-                  style={{
-                    color: COLORS.textPrimary,
-                    fontSize: FONTS.size2xl,
-                    fontWeight: FONTS.weightSemibold,
-                    marginBottom: SPACING.sm,
-                  }}
-                >
-                  About This Dashboard
-                </h1>
-                <p style={{ color: COLORS.textSecondary, fontSize: FONTS.sizeMd, lineHeight: 1.65, maxWidth: "62ch" }}>
-                  This is a business intelligence dashboard built to give a business owner or
-                  executive a direct, real view of their company's performance — sales, staff,
-                  and overall business health — without depending on filtered or delayed
-                  reports from managers. It's organized into three sections: Overview, Sales
-                  Analytics, and Staff. Each one pulls from real underlying data and is meant
-                  to be checked quickly, even from a phone, without digging through
-                  spreadsheets or waiting on someone else to compile it.
-                </p>
-              </div>
-            </section>
-          </Reveal>
-
-          {/* Section 2 — Workflow diagram */}
-          <Reveal delay={60}>
-            <section
-              className="relative overflow-hidden rounded-2xl p-5 sm:p-7"
-              style={{ backgroundColor: COLORS.bgCardAlt, border: `1px solid ${COLORS.border}` }}
+      <main className="readme-scroll-area h-full min-w-0 flex-1 overflow-y-auto px-4 py-6 sm:px-6 sm:py-8 lg:px-10">
+        <div className="flex w-full flex-col gap-12 pb-12">
+          {/* 1. Intro */}
+          <section
+            className="relative"
+            style={{
+              opacity: heroMounted ? 1 : 0,
+              transform: heroMounted ? "translateY(0)" : "translateY(10px)",
+              transition: "opacity 600ms ease, transform 600ms ease",
+            }}
+          >
+            <div
+              className="pointer-events-none absolute -left-8 -top-10 h-44 w-64 rounded-full blur-3xl"
+              style={{ backgroundColor: COLORS.accentGlow }}
+            />
+            <h1 className="relative text-2xl font-bold text-white sm:text-[28px]">
+              About this dashboard
+            </h1>
+            <p
+              className="relative mt-3 w-full text-sm leading-relaxed sm:text-base"
+              style={{ color: COLORS.textSecondary }}
             >
-              <div
-                className="pointer-events-none absolute -right-16 top-1/2 h-56 w-56 -translate-y-1/2 rounded-full blur-3xl"
-                style={{ backgroundColor: COLORS.accentGlow }}
-              />
-              <div className="relative mb-5 flex flex-wrap items-center justify-between gap-2">
-                <h2 style={{ color: COLORS.textPrimary, fontSize: FONTS.sizeLg, fontWeight: FONTS.weightSemibold }}>
-                  How data gets to the screen
-                </h2>
-                <Tag icon={Workflow} label="Runs automatically" />
-              </div>
+              This is a business intelligence dashboard I designed and built
+              around Grind &amp; Co., a fictional three-branch coffee shop
+              chain. Since I did not have access to a real business&rsquo;s
+              operational data, I constructed a synthetic dataset that
+              mirrors what an actual multi-location retail operation
+              generates day to day — sales transactions, staff performance,
+              and supply orders — and built this dashboard to work against
+              it exactly as it would against production data. The intent
+              was to demonstrate a complete, realistic data pipeline: from
+              raw data, through processing, to a dashboard someone could
+              genuinely use to run a business.
+            </p>
+          </section>
 
-              <div className="relative flex flex-col md:flex-row md:items-stretch">
-                {WORKFLOW_NODES.map((node, i) => (
-                  <div key={node.title} className="flex flex-col md:flex-row md:flex-1 md:items-stretch">
-                    <WorkflowNode node={node} index={i} />
-                    {i < WORKFLOW_NODES.length - 1 && (
-                      <>
-                        <Connector />
-                        <Connector vertical />
-                      </>
-                    )}
-                  </div>
-                ))}
-              </div>
-
-              <div className="relative mt-5 flex flex-wrap gap-3">
-                <StatTile icon={Clock} value="4× / day" label="Export cadence" />
-                <StatTile icon={Zap} value="< 1s" label="Average load" />
-              </div>
-            </section>
-          </Reveal>
-
-          {/* Section 3 — Why static */}
-          <Reveal delay={60}>
-            <section
-              className="relative flex flex-col gap-5 overflow-hidden rounded-2xl p-5 sm:flex-row sm:items-center sm:p-7"
-              style={{ backgroundColor: COLORS.bgCard, border: `1px solid ${COLORS.border}` }}
-            >
-              <div
-                className="pointer-events-none absolute bottom-0 left-0 h-40 w-40 rounded-full blur-3xl"
-                style={{ backgroundColor: COLORS.accentGlow }}
-              />
-              <div
-                className="stat-hero relative flex shrink-0 flex-col items-center justify-center rounded-xl px-5 py-4 transition-transform duration-300 sm:w-32"
-                style={{ backgroundColor: COLORS.accentSoft, border: `1px solid ${COLORS.accent}` }}
-              >
-                <span style={{ color: COLORS.accent, fontSize: FONTS.size2xl, fontWeight: FONTS.weightBold }}>
-                  &lt;1s
-                </span>
-                <span style={{ color: COLORS.textSecondary, fontSize: FONTS.sizeXs, textAlign: "center", marginTop: 2 }}>
-                  average load
-                </span>
-              </div>
-              <div className="relative">
-                <h2 style={{ color: COLORS.textPrimary, fontSize: FONTS.sizeLg, fontWeight: FONTS.weightSemibold, marginBottom: SPACING.sm }}>
-                  Why static, not live queries
-                </h2>
-                <p style={{ color: COLORS.textSecondary, fontSize: FONTS.sizeMd, lineHeight: 1.65 }}>
-                  The dashboard doesn't query the database directly when someone loads a
-                  page. Instead, data is exported on a schedule into static files, and the
-                  dashboard reads from those. The alternative — calling the database live on
-                  every page load — would mean pulling potentially thousands of records,
-                  then running processing on them in real time before anything could
-                  render. That adds real, noticeable delay, and it wasn't necessary here:
-                  this dashboard doesn't need up-to-the-minute data, it needs to be fast and
-                  reliable every time someone opens it. Static files made that possible. On
-                  a normal internet connection, the dashboard loads in under a second.
-                </p>
-              </div>
-            </section>
-          </Reveal>
-
-          {/* Section 4 — Per-section breakdown */}
-          <Reveal delay={80}>
-            <section>
-              <h2 style={{ color: COLORS.textPrimary, fontSize: FONTS.sizeLg, fontWeight: FONTS.weightSemibold, marginBottom: SPACING.md }}>
-                Section by section
-              </h2>
-              <div className="grid grid-cols-1 gap-4 md:grid-cols-3">
-                {SECTION_BREAKDOWN.map(({ icon: Icon, title, board, copy }, i) => (
-                  <div
-                    key={title}
-                    className="breakdown-card group flex flex-col rounded-2xl p-5 transition-all duration-300"
-                    style={{
-                      backgroundColor: COLORS.bgCard,
-                      border: `1px solid ${COLORS.border}`,
-                      transitionDelay: `${i * 40}ms`,
-                    }}
-                  >
-                    <div
-                      className="mb-3 flex h-9 w-9 items-center justify-center rounded-lg transition-colors duration-300"
-                      style={{ backgroundColor: COLORS.bgPill }}
-                    >
-                      <Icon size={16} style={{ color: COLORS.textAccent }} />
-                    </div>
-                    <h3 style={{ color: COLORS.textPrimary, fontSize: FONTS.sizeMd, fontWeight: FONTS.weightSemibold, marginBottom: SPACING.xs }}>
-                      {title}
-                    </h3>
-                    <p style={{ color: COLORS.textSecondary, fontSize: FONTS.sizeSm, lineHeight: 1.6 }}>
-                      {copy}
-                    </p>
-                    <MiniDiagram board={board} />
-                  </div>
-                ))}
-              </div>
-            </section>
-          </Reveal>
-
-          {/* Section 5 & 6 — Limitations + Roadmap */}
-          <Reveal delay={60}>
-            <section className="grid grid-cols-1 gap-4 sm:grid-cols-2">
-              <div
-                className="foot-card flex gap-3 rounded-xl p-4 transition-all duration-200"
-                style={{ backgroundColor: COLORS.bgCardAlt, border: `1px solid ${COLORS.borderSoft}` }}
-              >
-                <AlertTriangle size={16} style={{ color: COLORS.textTertiary, marginTop: 2, flexShrink: 0 }} />
-                <div>
-                  <div style={{ color: COLORS.textSecondary, fontSize: FONTS.sizeSm, fontWeight: FONTS.weightMedium, marginBottom: 2 }}>
-                    Known limitations
-                  </div>
-                  <p style={{ color: COLORS.textTertiary, fontSize: FONTS.sizeXs, lineHeight: 1.55 }}>
-                    The scheduled data export doesn't currently have retry logic — if a run
-                    fails partway through (for example, hitting a database read limit), it
-                    can silently not update the files instead of flagging the failure.
-                  </p>
-                </div>
-              </div>
-
-              <div
-                className="foot-card flex gap-3 rounded-xl p-4 transition-all duration-200"
-                style={{ backgroundColor: COLORS.bgCardAlt, border: `1px solid ${COLORS.borderSoft}` }}
-              >
-                <Compass size={16} style={{ color: COLORS.textTertiary, marginTop: 2, flexShrink: 0 }} />
-                <div>
-                  <div style={{ color: COLORS.textSecondary, fontSize: FONTS.sizeSm, fontWeight: FONTS.weightMedium, marginBottom: 2 }}>
-                    Roadmap
-                  </div>
-                  <p style={{ color: COLORS.textTertiary, fontSize: FONTS.sizeXs, lineHeight: 1.55 }}>
-                    An AI-powered summary and query feature — letting someone ask questions
-                    about the data directly and get a plain-English answer — is planned but
-                    not yet part of this version.
-                  </p>
-                </div>
-              </div>
-            </section>
-          </Reveal>
-
-          {/* Section 7 — Data disclaimer */}
-          <Reveal delay={40}>
-            <p className="pb-2 text-center" style={{ color: COLORS.textTertiary, fontSize: FONTS.sizeXs, opacity: 0.75 }}>
-              All data shown in this dashboard is synthetic — generated for demonstration
-              purposes and not tied to any real company, customer, or individual.
+          {/* 2. The problem this addresses */}
+          <Reveal className="w-full">
+            <h3 className="mb-2 text-base font-semibold text-white">Why I approached it this way</h3>
+            <p className="text-sm leading-relaxed" style={{ color: COLORS.textSecondary }}>
+              Most dashboard demos skip the hard part: they render mock
+              numbers directly in the frontend, which proves very little
+              about how the system would behave with real, changing data.
+              I wanted to avoid that shortcut. Everything shown here is
+              generated once, written to a database, exported on a
+              schedule, processed, and only then rendered — the same
+              sequence a production system would follow, rather than
+              numbers invented purely for the interface.
             </p>
           </Reveal>
+
+          {/* 3. Workflow diagram */}
+          <Reveal className="w-full">
+            <p className="mb-3 text-sm leading-relaxed" style={{ color: COLORS.textSecondary }}>
+              The data passes through five stages before it reaches the screen:
+            </p>
+            <div className={`mx-auto w-full ${DIAGRAM_MAX_WIDTH}`}>
+              <WorkflowDiagram />
+            </div>
+          </Reveal>
+
+          {/* 4. Why static, not live queries */}
+          <Reveal className="w-full">
+            <h3 className="mb-2 text-base font-semibold text-white">Static exports over live queries</h3>
+            <p className="text-sm leading-relaxed" style={{ color: COLORS.textSecondary }}>
+              I made a deliberate decision not to query the database
+              directly on page load. A live query would mean pulling
+              potentially thousands of records and processing them in real
+              time on every visit — measurably slower, and unnecessary for
+              this use case. Instead, data is exported on a schedule into
+              static JSON files, and the dashboard reads only from those.
+              This trades a small amount of freshness for consistent,
+              predictable performance: on a typical connection, the
+              dashboard loads in under a second, which mattered more here
+              than up-to-the-minute accuracy.
+            </p>
+          </Reveal>
+
+          {/* 5. Tech stack */}
+          <Reveal className="w-full">
+            <h3 className="mb-3 text-base font-semibold text-white">How it&rsquo;s built</h3>
+            <div className="grid gap-3 sm:grid-cols-2">
+              <InfoRow
+                label="Frontend"
+                detail="Next.js and React, styled entirely with Tailwind. No external UI kit — the filters, charts, and tables are all custom-built for this dashboard."
+              />
+              <InfoRow
+                label="Processing layer"
+                detail="A set of Python scripts read the exported JSON, calculate the derived figures each page needs (averages, rates, trends), and write a compact summary file per section."
+              />
+              <InfoRow
+                label="Rendering"
+                detail="Each page component receives its already-processed data as a prop and only handles filtering, formatting, and layout — no computation happens on the client."
+              />
+              <InfoRow
+                label="Source data"
+                detail="A synthetic dataset generated to resemble real coffee shop operations, refreshed daily to keep every branch's numbers moving realistically over time."
+              />
+            </div>
+          </Reveal>
+
+          {/* 6. Per-section breakdown */}
+          <div
+            className="grid w-full gap-4"
+            style={{ gridTemplateColumns: "repeat(auto-fit, minmax(260px, 1fr))" }}
+          >
+            <SectionCard
+              title="Overview"
+              tagline="A branch-level snapshot, switchable in a single click."
+              features={[
+                "Downtown · Uptown · Riverside",
+                "This Week / Top Rated / Slow Movers",
+                "Today vs. yesterday",
+                "Refreshes daily",
+              ]}
+              endLabel="Overview board"
+              delayMs={0}
+            />
+            <SectionCard
+              title="Sales Analytics"
+              tagline="Revenue, profit, and supply cost, compared across every branch."
+              features={[
+                "Revenue by branch, plotted",
+                "Profit vs. investment",
+                "30-day trend on every KPI",
+                "Supply orders → suppliers",
+              ]}
+              endLabel="Sales Analytics board"
+              delayMs={90}
+            />
+            <SectionCard
+              title="Staff"
+              tagline="A filterable record of every employee, across every branch."
+              features={[
+                "Filter by branch, role, experience",
+                "Click a row to expand it",
+                "Presence & order accuracy",
+                "Export to CSV",
+              ]}
+              endLabel="Staff board"
+              delayMs={180}
+            />
+          </div>
+
+          {/* 7. Limitations */}
+          <Reveal className="w-full">
+            <h3 className="mb-2 text-base font-semibold text-white">Where this stops short of production</h3>
+            <p className="text-sm leading-relaxed" style={{ color: COLORS.textSecondary }}>
+              This is a portfolio project, not a production system, and I
+              want to be upfront about that. The data is synthetic,
+              refreshed on a fixed daily schedule rather than in real time,
+              and there is no authentication layer — anyone with the link
+              can view it. None of that would be acceptable for an actual
+              business, but reproducing those constraints was not the
+              point here; demonstrating the architecture was.
+            </p>
+          </Reveal>
+
+          {/* 8. Final note */}
+          <Reveal className="w-full">
+            <h3 className="mb-2 text-base font-semibold text-white">Final note</h3>
+            <p className="text-sm leading-relaxed" style={{ color: COLORS.textSecondary }}>
+              The underlying principle throughout was separation of
+              concerns: the data pipeline runs independently of the
+              dashboard, and the dashboard never does more work than
+              rendering what it is handed. That keeps the system fast
+              without sacrificing depth, and it is the same pattern I
+              would bring to a production dashboard — simply swapping the
+              synthetic data source for a real one.
+            </p>
+          </Reveal>
+
+          {/* 9. Data disclaimer */}
+          <p className="text-[11px]" style={{ color: COLORS.textTertiary }}>
+            All data shown in this dashboard is synthetic — generated for
+            demonstration purposes and not tied to any real company,
+            customer, or individual.
+          </p>
         </div>
       </main>
-
-      <style>{`
-        .reveal {
-          opacity: 0;
-          transform: translateY(18px);
-          transition: opacity 0.6s ease-out, transform 0.6s ease-out;
-        }
-        .reveal-visible {
-          opacity: 1;
-          transform: translateY(0);
-        }
-
-        .wf-node:hover {
-          border-color: ${COLORS.accent} !important;
-          transform: translateY(-3px);
-        }
-        .wf-node:hover .wf-icon {
-          background-color: rgba(150,175,214,0.22) !important;
-        }
-
-        .stat-tile:hover {
-          border-color: ${COLORS.accent} !important;
-          transform: translateY(-2px);
-        }
-        .stat-hero:hover {
-          transform: scale(1.03);
-        }
-
-        .breakdown-card:hover {
-          border-color: ${COLORS.accent} !important;
-          transform: translateY(-3px);
-        }
-
-        .foot-card:hover {
-          border-color: ${COLORS.accent} !important;
-          transform: translateY(-2px);
-        }
-
-        @media (prefers-reduced-motion: reduce) {
-          .reveal {
-            opacity: 1;
-            transform: none;
-            transition: none;
-          }
-          .wf-node, .stat-tile, .stat-hero, .breakdown-card, .foot-card {
-            transition: none !important;
-            transform: none !important;
-          }
-        }
-      `}</style>
+      <style
+        dangerouslySetInnerHTML={{
+          __html: `
+            .readme-scroll-area {
+              scrollbar-width: thin;
+              scrollbar-color: ${COLORS.border} transparent;
+            }
+            .readme-scroll-area::-webkit-scrollbar {
+              width: 6px;
+            }
+            .readme-scroll-area::-webkit-scrollbar-track {
+              background: transparent;
+            }
+            .readme-scroll-area::-webkit-scrollbar-thumb {
+              background-color: ${COLORS.border};
+              border-radius: 9999px;
+            }
+            .readme-scroll-area::-webkit-scrollbar-thumb:hover {
+              background-color: ${COLORS.textTertiary};
+            }
+          `,
+        }}
+      />
     </div>
   );
 }
