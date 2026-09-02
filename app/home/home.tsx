@@ -26,8 +26,8 @@ import {
 } from "lucide-react";
 import { Cookie } from "next/font/google";
 
-const birthstone = Cookie ({
-  variable: "--font-birthstone",
+const cookie = Cookie ({
+  variable: "--font-cookie",
   subsets: ["latin"],
   weight: "400",
 });
@@ -60,13 +60,13 @@ function Header({ userName, lastUpdated }: { userName: string; lastUpdated?: str
   };
 
   return (
-    <div className={`mb-6 flex flex-wrap items-start justify-between gap-4 ${birthstone.variable}`}>
+    <div className={`mb-6 flex flex-wrap items-start justify-between gap-4 ${cookie.variable}`}>
       <div className="min-w-[180px] shrink-0">
         <h1 className="whitespace-nowrap text-xl font-semibold text-white sm:text-2xl">
           Welcome,{" "}
             <span
             style={{ color: COLORS.accent }}
-              className={`${birthstone.className} text-[28px] tracking-wide sm:text-3xl md:text-3xl lg:text-4xl`}
+              className={`${cookie.className} text-[28px] tracking-wide sm:text-3xl md:text-3xl lg:text-4xl`}
             >
               Asfar
             </span>
