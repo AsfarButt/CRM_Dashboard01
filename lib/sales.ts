@@ -22,7 +22,7 @@ interface SnapshotData {
 }
 
 interface BranchSummary {
-  annual_revenue: number;
+  annual_revenue: { year: number; revenue: number }[];
   best_sellers: BestSellers;
   snapshot_data: SnapshotData;
   monthly_revenue: {
