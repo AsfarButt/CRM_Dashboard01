@@ -3,7 +3,7 @@
     "annual_revenue": [
       {
         "year": 2025,
-        "revenue": 43859.0
+        "revenue": 23266.75
       }
     ],
     "best_sellers": {
@@ -82,7 +82,7 @@
     "annual_revenue": [
       {
         "year": 2025,
-        "revenue": 36008.25
+        "revenue": 19179.0
       }
     ],
     "best_sellers": {
@@ -161,7 +161,7 @@
     "annual_revenue": [
       {
         "year": 2025,
-        "revenue": 31447.25
+        "revenue": 16183.25
       }
     ],
     "best_sellers": {
@@ -237,5 +237,5 @@
     ]
   },
   "total_sales_records": 30014,
-  "generated_at": "2026-09-04T17:37:32.259748+00:00"
+  "generated_at": "2026-09-04T17:45:34.496397+00:00"
 }
