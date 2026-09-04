@@ -167,9 +167,13 @@ export function mapBranch(branch: BranchSummary | undefined | null, branchName: 
   const qtys = arr<number>(bestSellers.qty);
   const scales = arr<number>(bestSellers.scale);
 
+  const annualRevenueArr = arr<{ year: number; revenue: number }>(b.annual_revenue);
+  const latestAnnual = annualRevenueArr[annualRevenueArr.length - 1];
+  const latestAnnualRevenue = num(latestAnnual?.revenue);
+
   return {
-    totalAnnualRevenue: num(b.annual_revenue),
-    totalAnnualRevenueTag: formatRevenueTag(b.annual_revenue),
+  totalAnnualRevenue: latestAnnualRevenue,
+  totalAnnualRevenueTag: formatRevenueTag(latestAnnualRevenue),
 
     // Keyed by the exact BEST_SELLER_TABS labels from vars.js so
     // BestSellersCard can index straight off the active tab.
