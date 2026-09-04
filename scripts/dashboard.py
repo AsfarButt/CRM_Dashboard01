@@ -88,12 +88,18 @@ def monthly_revenue_calculator(sales_data, today):
 def sales_data_calculator(sales_data, today):
     result = {}
 
-    annual_revenue = sales_data.groupby('year')['total'].sum().reset_index()
-    last_year = str(pd.Timestamp.today().year - 1)
-    annual_row = annual_revenue[annual_revenue['year'] == last_year]
-    result['annual_revenue'] = (
-        float(annual_row['total'].iloc[0]) if not annual_row.empty else 0
-    )
+    annual_revenue_df = sales_data.groupby('year')['total'].sum().reset_index()
+
+    # Mirror monthly_revenue_calculator: never show years beyond the
+    # (shifted) "today" year, even if future-dated rows exist in the data.
+    current_year = str(today.year)
+    annual_revenue_df = annual_revenue_df[annual_revenue_df['year'] <= current_year]
+    annual_revenue_df = annual_revenue_df.sort_values('year')
+
+    result['annual_revenue'] = [
+        {'year': int(row['year']), 'revenue': float(row['total'])}
+        for _, row in annual_revenue_df.iterrows()
+    ]
 
     current_7_start = today - pd.Timedelta(days=6)
     previous_7_start = today - pd.Timedelta(days=13)
