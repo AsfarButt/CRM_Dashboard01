@@ -1,6 +1,11 @@
 {
   "downtown": {
-    "annual_revenue": 43859.0,
+    "annual_revenue": [
+      {
+        "year": 2025,
+        "revenue": 43859.0
+      }
+    ],
     "best_sellers": {
       "name": [
         "Hot Chocolate",
@@ -74,7 +79,12 @@
     ]
   },
   "uptown": {
-    "annual_revenue": 36008.25,
+    "annual_revenue": [
+      {
+        "year": 2025,
+        "revenue": 36008.25
+      }
+    ],
     "best_sellers": {
       "name": [
         "Cold Brew",
@@ -148,7 +158,12 @@
     ]
   },
   "riverside": {
-    "annual_revenue": 31447.25,
+    "annual_revenue": [
+      {
+        "year": 2025,
+        "revenue": 31447.25
+      }
+    ],
     "best_sellers": {
       "name": [
         "Hot Chocolate",
@@ -222,5 +237,5 @@
     ]
   },
   "total_sales_records": 30014,
-  "generated_at": "2026-09-04T15:40:26.196149+00:00"
+  "generated_at": "2026-09-04T17:37:32.259748+00:00"
 }
