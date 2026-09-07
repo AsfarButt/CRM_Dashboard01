@@ -3,35 +3,35 @@
     "annual_revenue": [
       {
         "year": 2025,
-        "revenue": 23648.5
+        "revenue": 23801.0
       }
     ],
     "best_sellers": {
       "name": [
+        "Americano",
         "Mocha",
-        "Hot Chocolate",
-        "Americano"
+        "Flat White"
       ],
       "qty": [
-        31,
-        29,
-        26
+        30,
+        27,
+        25
       ],
       "scale": [
-        34.78,
-        81.25,
-        36.84
+        76.47,
+        3.85,
+        66.67
       ]
     },
     "snapshot_data": {
-      "today_revenue": 186.25,
+      "today_revenue": 152.5,
       "today_sales": 26,
-      "items_sold": 42,
-      "avg_order_value": 7.16,
-      "todays_revenue_scale": -4.73,
-      "today_sales_scale": -13.33,
-      "items_sold_scale": -10.64,
-      "avg_order_value_scale": 9.82
+      "items_sold": 37,
+      "avg_order_value": 5.87,
+      "todays_revenue_scale": -18.12,
+      "today_sales_scale": 0.0,
+      "items_sold_scale": -11.9,
+      "avg_order_value_scale": -18.02
     },
     "monthly_revenue": [
       {
@@ -72,9 +72,9 @@
       {
         "month": 9,
         "year": 2026,
-        "revenue": 899.25,
+        "revenue": 1051.75,
         "current_month": true,
-        "day": 6
+        "day": 7
       }
     ]
   },
@@ -82,35 +82,35 @@
     "annual_revenue": [
       {
         "year": 2025,
-        "revenue": 19386.25
+        "revenue": 19565.0
       }
     ],
     "best_sellers": {
       "name": [
         "Cold Brew",
         "Espresso",
-        "Mocha"
+        "Flat White"
       ],
       "qty": [
-        24,
-        21,
+        26,
+        23,
         20
       ],
       "scale": [
-        60.0,
-        23.53,
-        53.85
+        100.0,
+        35.29,
+        11.11
       ]
     },
     "snapshot_data": {
-      "today_revenue": 158.25,
-      "today_sales": 28,
-      "items_sold": 38,
-      "avg_order_value": 5.65,
-      "todays_revenue_scale": 222.96,
-      "today_sales_scale": 154.55,
-      "items_sold_scale": 192.31,
-      "avg_order_value_scale": 26.97
+      "today_revenue": 178.75,
+      "today_sales": 27,
+      "items_sold": 43,
+      "avg_order_value": 6.62,
+      "todays_revenue_scale": 12.95,
+      "today_sales_scale": -3.57,
+      "items_sold_scale": 13.16,
+      "avg_order_value_scale": 17.17
     },
     "monthly_revenue": [
       {
@@ -151,9 +151,9 @@
       {
         "month": 9,
         "year": 2026,
-        "revenue": 695.5,
+        "revenue": 874.25,
         "current_month": true,
-        "day": 6
+        "day": 7
       }
     ]
   },
@@ -161,35 +161,35 @@
     "annual_revenue": [
       {
         "year": 2025,
-        "revenue": 16410.0
+        "revenue": 16540.0
       }
     ],
     "best_sellers": {
       "name": [
+        "Flat White",
         "Hot Chocolate",
-        "Espresso",
         "Mocha"
       ],
       "qty": [
-        22,
-        20,
-        19
+        23,
+        23,
+        20
       ],
       "scale": [
-        57.14,
-        66.67,
-        35.71
+        109.09,
+        91.67,
+        53.85
       ]
     },
     "snapshot_data": {
-      "today_revenue": 124.25,
-      "today_sales": 19,
-      "items_sold": 30,
-      "avg_order_value": 6.54,
-      "todays_revenue_scale": 21.22,
-      "today_sales_scale": 11.76,
-      "items_sold_scale": 25.0,
-      "avg_order_value_scale": 8.46
+      "today_revenue": 130.0,
+      "today_sales": 20,
+      "items_sold": 29,
+      "avg_order_value": 6.5,
+      "todays_revenue_scale": 4.63,
+      "today_sales_scale": 5.26,
+      "items_sold_scale": -3.33,
+      "avg_order_value_scale": -0.61
     },
     "monthly_revenue": [
       {
@@ -230,12 +230,12 @@
       {
         "month": 9,
         "year": 2026,
-        "revenue": 719.25,
+        "revenue": 849.25,
         "current_month": true,
-        "day": 6
+        "day": 7
       }
     ]
   },
   "total_sales_records": 30014,
-  "generated_at": "2026-09-06T19:55:21.252748+00:00"
+  "generated_at": "2026-09-07T02:35:39.223575+00:00"
 }
