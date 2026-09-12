@@ -3,35 +3,35 @@
     "annual_revenue": [
       {
         "year": 2025,
-        "revenue": 24354.5
+        "revenue": 24452.75
       }
     ],
     "best_sellers": {
       "name": [
         "Mocha",
         "Hot Chocolate",
-        "Chai Latte"
+        "Espresso"
       ],
       "qty": [
-        30,
+        31,
         28,
-        26
+        27
       ],
       "scale": [
-        15.38,
-        7.69,
-        13.04
+        40.91,
+        12.0,
+        58.82
       ]
     },
     "snapshot_data": {
-      "today_revenue": 142.75,
-      "today_sales": 22,
-      "items_sold": 33,
-      "avg_order_value": 6.49,
-      "todays_revenue_scale": -0.52,
-      "today_sales_scale": -8.33,
-      "items_sold_scale": -5.71,
-      "avg_order_value_scale": 8.53
+      "today_revenue": 98.25,
+      "today_sales": 17,
+      "items_sold": 24,
+      "avg_order_value": 5.78,
+      "todays_revenue_scale": -31.17,
+      "today_sales_scale": -22.73,
+      "items_sold_scale": -27.27,
+      "avg_order_value_scale": -10.94
     },
     "monthly_revenue": [
       {
@@ -72,9 +72,9 @@
       {
         "month": 9,
         "year": 2026,
-        "revenue": 1605.25,
+        "revenue": 1703.5,
         "current_month": true,
-        "day": 11
+        "day": 12
       }
     ]
   },
@@ -82,35 +82,35 @@
     "annual_revenue": [
       {
         "year": 2025,
-        "revenue": 20060.75
+        "revenue": 20164.75
       }
     ],
     "best_sellers": {
       "name": [
         "Cappuccino",
         "Espresso",
-        "Americano"
+        "Flat White"
       ],
       "qty": [
-        28,
-        24,
+        27,
+        26,
         22
       ],
       "scale": [
-        115.38,
-        50.0,
-        46.67
+        125.0,
+        52.94,
+        37.5
       ]
     },
     "snapshot_data": {
-      "today_revenue": 138.0,
-      "today_sales": 20,
-      "items_sold": 32,
-      "avg_order_value": 6.9,
-      "todays_revenue_scale": 3.37,
-      "today_sales_scale": 0.0,
-      "items_sold_scale": 6.67,
-      "avg_order_value_scale": 3.29
+      "today_revenue": 104.0,
+      "today_sales": 15,
+      "items_sold": 25,
+      "avg_order_value": 6.93,
+      "todays_revenue_scale": -24.64,
+      "today_sales_scale": -25.0,
+      "items_sold_scale": -21.88,
+      "avg_order_value_scale": 0.43
     },
     "monthly_revenue": [
       {
@@ -151,9 +151,9 @@
       {
         "month": 9,
         "year": 2026,
-        "revenue": 1370.0,
+        "revenue": 1474.0,
         "current_month": true,
-        "day": 11
+        "day": 12
       }
     ]
   },
@@ -161,35 +161,35 @@
     "annual_revenue": [
       {
         "year": 2025,
-        "revenue": 16966.5
+        "revenue": 17148.75
       }
     ],
     "best_sellers": {
       "name": [
         "Flat White",
-        "Hot Chocolate",
-        "Chai Latte"
+        "Mocha",
+        "Cold Brew"
       ],
       "qty": [
-        25,
-        22,
-        17
+        26,
+        21,
+        20
       ],
       "scale": [
-        31.58,
-        10.0,
-        30.77
+        36.84,
+        10.53,
+        17.65
       ]
     },
     "snapshot_data": {
-      "today_revenue": 107.0,
-      "today_sales": 16,
-      "items_sold": 25,
-      "avg_order_value": 6.69,
-      "todays_revenue_scale": 18.56,
-      "today_sales_scale": 14.29,
-      "items_sold_scale": 19.05,
-      "avg_order_value_scale": 3.72
+      "today_revenue": 182.25,
+      "today_sales": 26,
+      "items_sold": 43,
+      "avg_order_value": 7.01,
+      "todays_revenue_scale": 70.33,
+      "today_sales_scale": 62.5,
+      "items_sold_scale": 72.0,
+      "avg_order_value_scale": 4.78
     },
     "monthly_revenue": [
       {
@@ -230,12 +230,12 @@
       {
         "month": 9,
         "year": 2026,
-        "revenue": 1275.75,
+        "revenue": 1458.0,
         "current_month": true,
-        "day": 11
+        "day": 12
       }
     ]
   },
   "total_sales_records": 30014,
-  "generated_at": "2026-09-11T20:22:46.789875+00:00"
+  "generated_at": "2026-09-12T02:52:35.693385+00:00"
 }
