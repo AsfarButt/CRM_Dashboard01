@@ -3,7 +3,7 @@
     "annual_revenue": [
       {
         "year": 2025,
-        "revenue": 24640.75
+        "revenue": 24823.0
       }
     ],
     "best_sellers": {
@@ -13,25 +13,25 @@
         "Espresso"
       ],
       "qty": [
-        27,
-        26,
-        25
+        29,
+        24,
+        23
       ],
       "scale": [
-        50.0,
-        -10.34,
-        38.89
+        52.63,
+        -4.0,
+        27.78
       ]
     },
     "snapshot_data": {
-      "today_revenue": 188.0,
-      "today_sales": 26,
-      "items_sold": 43,
-      "avg_order_value": 7.23,
-      "todays_revenue_scale": 91.35,
-      "today_sales_scale": 52.94,
-      "items_sold_scale": 79.17,
-      "avg_order_value_scale": 25.09
+      "today_revenue": 182.25,
+      "today_sales": 24,
+      "items_sold": 41,
+      "avg_order_value": 7.59,
+      "todays_revenue_scale": -3.06,
+      "today_sales_scale": -7.69,
+      "items_sold_scale": -4.65,
+      "avg_order_value_scale": 4.98
     },
     "monthly_revenue": [
       {
@@ -72,9 +72,9 @@
       {
         "month": 9,
         "year": 2026,
-        "revenue": 1891.5,
+        "revenue": 2073.75,
         "current_month": true,
-        "day": 13
+        "day": 14
       }
     ]
   },
@@ -82,35 +82,35 @@
     "annual_revenue": [
       {
         "year": 2025,
-        "revenue": 20344.25
+        "revenue": 20543.0
       }
     ],
     "best_sellers": {
       "name": [
         "Cappuccino",
-        "Espresso",
-        "Flat White"
+        "Hot Chocolate",
+        "Espresso"
       ],
       "qty": [
-        26,
-        24,
+        29,
+        25,
         24
       ],
       "scale": [
-        73.33,
-        14.29,
-        26.32
+        61.11,
+        66.67,
+        4.35
       ]
     },
     "snapshot_data": {
-      "today_revenue": 179.5,
+      "today_revenue": 198.75,
       "today_sales": 30,
-      "items_sold": 42,
-      "avg_order_value": 5.98,
-      "todays_revenue_scale": 72.6,
-      "today_sales_scale": 100.0,
-      "items_sold_scale": 68.0,
-      "avg_order_value_scale": -13.71
+      "items_sold": 46,
+      "avg_order_value": 6.62,
+      "todays_revenue_scale": 10.72,
+      "today_sales_scale": 0.0,
+      "items_sold_scale": 9.52,
+      "avg_order_value_scale": 10.7
     },
     "monthly_revenue": [
       {
@@ -151,9 +151,9 @@
       {
         "month": 9,
         "year": 2026,
-        "revenue": 1653.5,
+        "revenue": 1852.25,
         "current_month": true,
-        "day": 13
+        "day": 14
       }
     ]
   },
@@ -161,7 +161,7 @@
     "annual_revenue": [
       {
         "year": 2025,
-        "revenue": 17260.75
+        "revenue": 17381.0
       }
     ],
     "best_sellers": {
@@ -171,25 +171,25 @@
         "Hot Chocolate"
       ],
       "qty": [
-        28,
-        21,
+        24,
+        22,
         20
       ],
       "scale": [
-        55.56,
-        10.53,
-        -9.09
+        4.35,
+        10.0,
+        -13.04
       ]
     },
     "snapshot_data": {
-      "today_revenue": 112.0,
-      "today_sales": 17,
-      "items_sold": 26,
-      "avg_order_value": 6.59,
-      "todays_revenue_scale": -38.55,
-      "today_sales_scale": -34.62,
-      "items_sold_scale": -39.53,
-      "avg_order_value_scale": -5.99
+      "today_revenue": 120.25,
+      "today_sales": 19,
+      "items_sold": 28,
+      "avg_order_value": 6.33,
+      "todays_revenue_scale": 7.37,
+      "today_sales_scale": 11.76,
+      "items_sold_scale": 7.69,
+      "avg_order_value_scale": -3.95
     },
     "monthly_revenue": [
       {
@@ -230,12 +230,12 @@
       {
         "month": 9,
         "year": 2026,
-        "revenue": 1570.0,
+        "revenue": 1690.25,
         "current_month": true,
-        "day": 13
+        "day": 14
       }
     ]
   },
   "total_sales_records": 30014,
-  "generated_at": "2026-09-13T20:13:03.117898+00:00"
+  "generated_at": "2026-09-14T03:05:39.496037+00:00"
 }

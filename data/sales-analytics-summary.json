@@ -1,33 +1,25 @@
 {
-  "total_revenue": 11077.0,
-  "L_total_revenue": 10538.25,
-  "total_sales": 1664,
-  "L_total_sales": 1563,
-  "total_supplycost": 822.6799999999998,
+  "total_revenue": 11217.75,
+  "L_total_revenue": 10606.0,
+  "total_sales": 1688,
+  "L_total_sales": 1567,
+  "total_supplycost": 897.56,
   "L_total_supplycost": 1238.33,
-  "total_profit": 10254.32,
-  "L_total_profit": 9299.92,
-  "revenue_scale": 5.11,
-  "sales_scale": 6.46,
-  "supplycost_scale": -33.57,
-  "profit_scale": 10.26,
+  "total_profit": 10320.19,
+  "L_total_profit": 9367.67,
+  "revenue_scale": 5.77,
+  "sales_scale": 7.72,
+  "supplycost_scale": -27.52,
+  "profit_scale": 10.17,
   "branch_revenue_details": {
-    "Downtown_revenue": 4183.25,
-    "Downtown_supplycost": 501.4,
-    "Riverside_revenue": 3190.25,
+    "Downtown_revenue": 4269.5,
+    "Downtown_supplycost": 576.28,
+    "Riverside_revenue": 3210.75,
     "Riverside_supplycost": 37.52,
-    "Uptown_revenue": 3703.5,
+    "Uptown_revenue": 3737.5,
     "Uptown_supplycost": 283.76
   },
   "daily_revenue": [
-    {
-      "date": "2025-08-14",
-      "revenue": {
-        "Downtown": 101.75,
-        "Riverside": 91.5,
-        "Uptown": 145.5
-      }
-    },
     {
       "date": "2025-08-15",
       "revenue": {
@@ -259,6 +251,14 @@
         "Riverside": 182.25,
         "Uptown": 104.0
       }
+    },
+    {
+      "date": "2025-09-13",
+      "revenue": {
+        "Downtown": 188.0,
+        "Riverside": 112.0,
+        "Uptown": 179.5
+      }
     }
   ],
   "this_month_supply_order": [
@@ -331,6 +331,23 @@
       ]
     },
     {
+      "material": "Paper Cups (12oz)",
+      "cost": 74.88,
+      "quantity": 832.0,
+      "unit": "count",
+      "delivery_date": "2025-09-13",
+      "suppliers": [
+        {
+          "supplier_id": "SUP-008",
+          "supplier": "Standard Supply Co.",
+          "cost": 74.88,
+          "quantity": 832.0,
+          "unit": "count",
+          "delivery_date": "2025-09-13"
+        }
+      ]
+    },
+    {
       "material": "Paper Cups (16oz)",
       "cost": 144.4,
       "quantity": 1444.0,
@@ -382,5 +399,5 @@
       ]
     }
   ],
-  "generated_at": "2026-09-13T20:13:04.161484+00:00"
+  "generated_at": "2026-09-14T03:05:40.309936+00:00"
 }
