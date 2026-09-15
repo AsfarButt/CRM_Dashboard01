@@ -3,35 +3,35 @@
     "annual_revenue": [
       {
         "year": 2025,
-        "revenue": 24823.0
+        "revenue": 24966.5
       }
     ],
     "best_sellers": {
       "name": [
         "Cold Brew",
-        "Hot Chocolate",
-        "Espresso"
+        "Espresso",
+        "Hot Chocolate"
       ],
       "qty": [
-        29,
+        28,
         24,
         23
       ],
       "scale": [
-        52.63,
-        -4.0,
-        27.78
+        75.0,
+        50.0,
+        -4.17
       ]
     },
     "snapshot_data": {
-      "today_revenue": 182.25,
-      "today_sales": 24,
-      "items_sold": 41,
-      "avg_order_value": 7.59,
-      "todays_revenue_scale": -3.06,
-      "today_sales_scale": -7.69,
-      "items_sold_scale": -4.65,
-      "avg_order_value_scale": 4.98
+      "today_revenue": 143.5,
+      "today_sales": 21,
+      "items_sold": 33,
+      "avg_order_value": 6.83,
+      "todays_revenue_scale": -21.26,
+      "today_sales_scale": -12.5,
+      "items_sold_scale": -19.51,
+      "avg_order_value_scale": -10.01
     },
     "monthly_revenue": [
       {
@@ -72,9 +72,9 @@
       {
         "month": 9,
         "year": 2026,
-        "revenue": 2073.75,
+        "revenue": 2217.25,
         "current_month": true,
-        "day": 14
+        "day": 15
       }
     ]
   },
@@ -82,35 +82,35 @@
     "annual_revenue": [
       {
         "year": 2025,
-        "revenue": 20543.0
+        "revenue": 20662.75
       }
     ],
     "best_sellers": {
       "name": [
         "Cappuccino",
         "Hot Chocolate",
-        "Espresso"
+        "Flat White"
       ],
       "qty": [
         29,
-        25,
-        24
+        26,
+        22
       ],
       "scale": [
-        61.11,
-        66.67,
-        4.35
+        38.1,
+        100.0,
+        22.22
       ]
     },
     "snapshot_data": {
-      "today_revenue": 198.75,
-      "today_sales": 30,
-      "items_sold": 46,
-      "avg_order_value": 6.62,
-      "todays_revenue_scale": 10.72,
-      "today_sales_scale": 0.0,
-      "items_sold_scale": 9.52,
-      "avg_order_value_scale": 10.7
+      "today_revenue": 119.75,
+      "today_sales": 20,
+      "items_sold": 28,
+      "avg_order_value": 5.99,
+      "todays_revenue_scale": -39.75,
+      "today_sales_scale": -33.33,
+      "items_sold_scale": -39.13,
+      "avg_order_value_scale": -9.52
     },
     "monthly_revenue": [
       {
@@ -151,9 +151,9 @@
       {
         "month": 9,
         "year": 2026,
-        "revenue": 1852.25,
+        "revenue": 1972.0,
         "current_month": true,
-        "day": 14
+        "day": 15
       }
     ]
   },
@@ -161,35 +161,35 @@
     "annual_revenue": [
       {
         "year": 2025,
-        "revenue": 17381.0
+        "revenue": 17449.5
       }
     ],
     "best_sellers": {
       "name": [
+        "Hot Chocolate",
         "Flat White",
-        "Mocha",
-        "Hot Chocolate"
+        "Cold Brew"
       ],
       "qty": [
-        24,
-        22,
+        23,
+        21,
         20
       ],
       "scale": [
-        4.35,
-        10.0,
-        -13.04
+        0.0,
+        -19.23,
+        33.33
       ]
     },
     "snapshot_data": {
-      "today_revenue": 120.25,
-      "today_sales": 19,
-      "items_sold": 28,
-      "avg_order_value": 6.33,
-      "todays_revenue_scale": 7.37,
-      "today_sales_scale": 11.76,
-      "items_sold_scale": 7.69,
-      "avg_order_value_scale": -3.95
+      "today_revenue": 68.5,
+      "today_sales": 11,
+      "items_sold": 17,
+      "avg_order_value": 6.23,
+      "todays_revenue_scale": -43.04,
+      "today_sales_scale": -42.11,
+      "items_sold_scale": -39.29,
+      "avg_order_value_scale": -1.58
     },
     "monthly_revenue": [
       {
@@ -230,12 +230,12 @@
       {
         "month": 9,
         "year": 2026,
-        "revenue": 1690.25,
+        "revenue": 1758.75,
         "current_month": true,
-        "day": 14
+        "day": 15
       }
     ]
   },
   "total_sales_records": 30014,
-  "generated_at": "2026-09-14T21:22:13.562898+00:00"
+  "generated_at": "2026-09-15T03:07:23.296226+00:00"
 }
