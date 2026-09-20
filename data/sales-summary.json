@@ -3,35 +3,35 @@
     "annual_revenue": [
       {
         "year": 2025,
-        "revenue": 25685.75
+        "revenue": 25895.75
       }
     ],
     "best_sellers": {
       "name": [
-        "Mocha",
         "Americano",
-        "Cold Brew"
+        "Mocha",
+        "Flat White"
       ],
       "qty": [
-        30,
-        28,
+        34,
+        34,
         26
       ],
       "scale": [
-        -3.23,
-        64.71,
-        36.84
+        100.0,
+        70.0,
+        52.94
       ]
     },
     "snapshot_data": {
-      "today_revenue": 162.0,
-      "today_sales": 26,
-      "items_sold": 38,
-      "avg_order_value": 6.23,
-      "todays_revenue_scale": -26.7,
-      "today_sales_scale": -16.13,
-      "items_sold_scale": -24.0,
-      "avg_order_value_scale": -12.62
+      "today_revenue": 210.0,
+      "today_sales": 32,
+      "items_sold": 49,
+      "avg_order_value": 6.56,
+      "todays_revenue_scale": 29.63,
+      "today_sales_scale": 23.08,
+      "items_sold_scale": 28.95,
+      "avg_order_value_scale": 5.3
     },
     "monthly_revenue": [
       {
@@ -72,9 +72,9 @@
       {
         "month": 9,
         "year": 2026,
-        "revenue": 2936.5,
+        "revenue": 3146.5,
         "current_month": true,
-        "day": 19
+        "day": 20
       }
     ]
   },
@@ -82,35 +82,35 @@
     "annual_revenue": [
       {
         "year": 2025,
-        "revenue": 21080.5
+        "revenue": 21235.25
       }
     ],
     "best_sellers": {
       "name": [
-        "Hot Chocolate",
         "Cappuccino",
-        "Cold Brew"
+        "Cold Brew",
+        "Iced Latte"
       ],
       "qty": [
         26,
-        25,
-        24
+        23,
+        19
       ],
       "scale": [
-        44.44,
-        -7.41,
-        60.0
+        0.0,
+        15.0,
+        5.56
       ]
     },
     "snapshot_data": {
-      "today_revenue": 86.5,
-      "today_sales": 16,
-      "items_sold": 20,
-      "avg_order_value": 5.41,
-      "todays_revenue_scale": 22.7,
-      "today_sales_scale": 23.08,
-      "items_sold_scale": 17.65,
-      "avg_order_value_scale": -0.18
+      "today_revenue": 154.75,
+      "today_sales": 21,
+      "items_sold": 35,
+      "avg_order_value": 7.37,
+      "todays_revenue_scale": 78.9,
+      "today_sales_scale": 31.25,
+      "items_sold_scale": 75.0,
+      "avg_order_value_scale": 36.23
     },
     "monthly_revenue": [
       {
@@ -151,9 +151,9 @@
       {
         "month": 9,
         "year": 2026,
-        "revenue": 2389.75,
+        "revenue": 2544.5,
         "current_month": true,
-        "day": 19
+        "day": 20
       }
     ]
   },
@@ -161,35 +161,35 @@
     "annual_revenue": [
       {
         "year": 2025,
-        "revenue": 17893.25
+        "revenue": 18033.25
       }
     ],
     "best_sellers": {
       "name": [
-        "Latte",
+        "Americano",
         "Hot Chocolate",
-        "Americano"
+        "Latte"
       ],
       "qty": [
-        19,
+        18,
         18,
         17
       ],
       "scale": [
-        18.75,
+        50.0,
         -10.0,
-        13.33
+        -5.56
       ]
     },
     "snapshot_data": {
-      "today_revenue": 101.5,
-      "today_sales": 16,
-      "items_sold": 24,
-      "avg_order_value": 6.34,
-      "todays_revenue_scale": -3.56,
-      "today_sales_scale": 14.29,
-      "items_sold_scale": -4.0,
-      "avg_order_value_scale": -15.69
+      "today_revenue": 140.0,
+      "today_sales": 20,
+      "items_sold": 33,
+      "avg_order_value": 7.0,
+      "todays_revenue_scale": 37.93,
+      "today_sales_scale": 25.0,
+      "items_sold_scale": 37.5,
+      "avg_order_value_scale": 10.41
     },
     "monthly_revenue": [
       {
@@ -230,12 +230,12 @@
       {
         "month": 9,
         "year": 2026,
-        "revenue": 2202.5,
+        "revenue": 2342.5,
         "current_month": true,
-        "day": 19
+        "day": 20
       }
     ]
   },
   "total_sales_records": 30014,
-  "generated_at": "2026-09-19T19:58:03.561186+00:00"
+  "generated_at": "2026-09-20T03:06:17.282004+00:00"
 }

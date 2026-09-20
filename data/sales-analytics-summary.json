@@ -1,33 +1,25 @@
 {
-  "total_revenue": 11514.0,
-  "L_total_revenue": 10686.5,
-  "total_sales": 1721,
-  "L_total_sales": 1571,
+  "total_revenue": 11537.25,
+  "L_total_revenue": 10565.5,
+  "total_sales": 1730,
+  "L_total_sales": 1558,
   "total_supplycost": 979.3199999999999,
-  "L_total_supplycost": 1015.6099999999999,
-  "total_profit": 10534.68,
-  "L_total_profit": 9670.89,
-  "revenue_scale": 7.74,
-  "sales_scale": 9.55,
-  "supplycost_scale": -3.57,
-  "profit_scale": 8.93,
+  "L_total_supplycost": 949.21,
+  "total_profit": 10557.93,
+  "L_total_profit": 9616.29,
+  "revenue_scale": 9.2,
+  "sales_scale": 11.04,
+  "supplycost_scale": 3.17,
+  "profit_scale": 9.79,
   "branch_revenue_details": {
-    "Downtown_revenue": 4520.0,
+    "Downtown_revenue": 4550.75,
     "Downtown_supplycost": 576.28,
-    "Riverside_revenue": 3242.25,
+    "Riverside_revenue": 3266.0,
     "Riverside_supplycost": 82.92,
-    "Uptown_revenue": 3751.75,
+    "Uptown_revenue": 3720.5,
     "Uptown_supplycost": 320.12
   },
   "daily_revenue": [
-    {
-      "date": "2025-08-20",
-      "revenue": {
-        "Downtown": 131.25,
-        "Riverside": 77.75,
-        "Uptown": 117.75
-      }
-    },
     {
       "date": "2025-08-21",
       "revenue": {
@@ -259,6 +251,14 @@
         "Riverside": 105.25,
         "Uptown": 70.5
       }
+    },
+    {
+      "date": "2025-09-19",
+      "revenue": {
+        "Downtown": 162.0,
+        "Riverside": 101.5,
+        "Uptown": 86.5
+      }
     }
   ],
   "this_month_supply_order": [
@@ -424,5 +424,5 @@
       ]
     }
   ],
-  "generated_at": "2026-09-19T19:58:04.442213+00:00"
+  "generated_at": "2026-09-20T03:06:18.292063+00:00"
 }
