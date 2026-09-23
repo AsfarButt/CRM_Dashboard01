@@ -1,33 +1,25 @@
 {
-  "total_revenue": 11853.0,
-  "L_total_revenue": 10600.75,
-  "total_sales": 1778,
-  "L_total_sales": 1561,
-  "total_supplycost": 985.3199999999999,
+  "total_revenue": 11753.25,
+  "L_total_revenue": 10629.0,
+  "total_sales": 1768,
+  "L_total_sales": 1560,
+  "total_supplycost": 1031.72,
   "L_total_supplycost": 949.21,
-  "total_profit": 10867.68,
-  "L_total_profit": 9651.54,
-  "revenue_scale": 11.81,
-  "sales_scale": 13.9,
-  "supplycost_scale": 3.8,
-  "profit_scale": 12.6,
+  "total_profit": 10721.53,
+  "L_total_profit": 9679.79,
+  "revenue_scale": 10.58,
+  "sales_scale": 13.33,
+  "supplycost_scale": 8.69,
+  "profit_scale": 10.76,
   "branch_revenue_details": {
-    "Downtown_revenue": 4636.75,
-    "Downtown_supplycost": 576.28,
-    "Riverside_revenue": 3284.5,
+    "Downtown_revenue": 4539.0,
+    "Downtown_supplycost": 622.68,
+    "Riverside_revenue": 3254.0,
     "Riverside_supplycost": 82.92,
-    "Uptown_revenue": 3931.75,
+    "Uptown_revenue": 3960.25,
     "Uptown_supplycost": 326.12
   },
   "daily_revenue": [
-    {
-      "date": "2025-08-23",
-      "revenue": {
-        "Downtown": 202.75,
-        "Riverside": 146.0,
-        "Uptown": 89.5
-      }
-    },
     {
       "date": "2025-08-24",
       "revenue": {
@@ -259,6 +251,14 @@
         "Riverside": 126.5,
         "Uptown": 232.5
       }
+    },
+    {
+      "date": "2025-09-22",
+      "revenue": {
+        "Downtown": 105.0,
+        "Riverside": 115.5,
+        "Uptown": 118.0
+      }
     }
   ],
   "this_month_supply_order": [
@@ -400,8 +400,8 @@
     },
     {
       "material": "Vanilla Syrup",
-      "cost": 97.92,
-      "quantity": 10.0,
+      "cost": 144.32,
+      "quantity": 15.0,
       "unit": "L",
       "delivery_date": "2025-08-24",
       "suppliers": [
@@ -416,8 +416,8 @@
         {
           "supplier_id": "SUP-010",
           "supplier": "Cascade Syrup Works",
-          "cost": 61.56,
-          "quantity": 6.0,
+          "cost": 107.96000000000001,
+          "quantity": 11.0,
           "unit": "L",
           "delivery_date": "2025-08-24"
         }
@@ -441,5 +441,5 @@
       ]
     }
   ],
-  "generated_at": "2026-09-22T20:48:39.410383+00:00"
+  "generated_at": "2026-09-23T03:03:11.652428+00:00"
 }
