@@ -1,33 +1,25 @@
 {
-  "total_revenue": 11791.75,
-  "L_total_revenue": 10825.5,
-  "total_sales": 1778,
-  "L_total_sales": 1584,
-  "total_supplycost": 530.3199999999999,
-  "L_total_supplycost": 754.3699999999999,
-  "total_profit": 11261.43,
-  "L_total_profit": 10071.130000000001,
-  "revenue_scale": 8.93,
-  "sales_scale": 12.25,
-  "supplycost_scale": -29.7,
-  "profit_scale": 11.82,
+  "total_revenue": 11899.0,
+  "L_total_revenue": 10701.25,
+  "total_sales": 1787,
+  "L_total_sales": 1566,
+  "total_supplycost": 375.54999999999995,
+  "L_total_supplycost": 1049.81,
+  "total_profit": 11523.45,
+  "L_total_profit": 9651.44,
+  "revenue_scale": 11.19,
+  "sales_scale": 14.11,
+  "supplycost_scale": -64.23,
+  "profit_scale": 19.4,
   "branch_revenue_details": {
-    "Downtown_revenue": 4631.25,
+    "Downtown_revenue": 4658.75,
     "Downtown_supplycost": 121.28,
-    "Riverside_revenue": 3232.5,
+    "Riverside_revenue": 3281.25,
     "Riverside_supplycost": 82.92,
-    "Uptown_revenue": 3928.0,
-    "Uptown_supplycost": 326.12
+    "Uptown_revenue": 3959.0,
+    "Uptown_supplycost": 171.35
   },
   "daily_revenue": [
-    {
-      "date": "2025-08-26",
-      "revenue": {
-        "Downtown": 119.0,
-        "Riverside": 50.0,
-        "Uptown": 120.25
-      }
-    },
     {
       "date": "2025-08-27",
       "revenue": {
@@ -259,26 +251,17 @@
         "Riverside": 77.25,
         "Uptown": 187.75
       }
+    },
+    {
+      "date": "2025-09-25",
+      "revenue": {
+        "Downtown": 146.5,
+        "Riverside": 98.75,
+        "Uptown": 151.25
+      }
     }
   ],
   "this_month_supply_order": [
-    {
-      "material": "Butter",
-      "cost": 154.77,
-      "quantity": 21.0,
-      "unit": "kg",
-      "delivery_date": "2025-08-26",
-      "suppliers": [
-        {
-          "supplier_id": "SUP-005",
-          "supplier": "Golden Wheat Milling",
-          "cost": 154.77,
-          "quantity": 21.0,
-          "unit": "kg",
-          "delivery_date": "2025-08-26"
-        }
-      ]
-    },
     {
       "material": "Eggs",
       "cost": 6.0,
@@ -407,5 +390,5 @@
       ]
     }
   ],
-  "generated_at": "2026-09-25T21:02:57.711999+00:00"
+  "generated_at": "2026-09-26T03:13:49.509595+00:00"
 }
