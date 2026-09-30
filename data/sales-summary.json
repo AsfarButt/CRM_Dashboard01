@@ -3,35 +3,35 @@
     "annual_revenue": [
       {
         "year": 2025,
-        "revenue": 27310.25
+        "revenue": 27437.75
       }
     ],
     "best_sellers": {
       "name": [
         "Americano",
-        "Iced Latte",
+        "Mocha",
         "Flat White"
       ],
       "qty": [
         33,
-        26,
-        25
+        25,
+        24
       ],
       "scale": [
-        6.45,
-        36.84,
-        19.05
+        3.12,
+        -19.35,
+        14.29
       ]
     },
     "snapshot_data": {
-      "today_revenue": 135.75,
-      "today_sales": 19,
+      "today_revenue": 127.5,
+      "today_sales": 18,
       "items_sold": 30,
-      "avg_order_value": 7.14,
-      "todays_revenue_scale": -22.65,
-      "today_sales_scale": -20.83,
-      "items_sold_scale": -25.0,
-      "avg_order_value_scale": -2.33
+      "avg_order_value": 7.08,
+      "todays_revenue_scale": -6.08,
+      "today_sales_scale": -5.26,
+      "items_sold_scale": 0.0,
+      "avg_order_value_scale": -0.84
     },
     "monthly_revenue": [
       {
@@ -72,9 +72,9 @@
       {
         "month": 9,
         "year": 2026,
-        "revenue": 4561.0,
+        "revenue": 4688.5,
         "current_month": true,
-        "day": 29
+        "day": 30
       }
     ]
   },
@@ -82,35 +82,35 @@
     "annual_revenue": [
       {
         "year": 2025,
-        "revenue": 22644.25
+        "revenue": 22814.0
       }
     ],
     "best_sellers": {
       "name": [
         "Latte",
-        "Cappuccino",
+        "Hot Chocolate",
         "Espresso"
       ],
       "qty": [
-        27,
-        25,
-        24
+        30,
+        26,
+        25
       ],
       "scale": [
-        107.69,
-        13.64,
-        50.0
+        100.0,
+        116.67,
+        66.67
       ]
     },
     "snapshot_data": {
-      "today_revenue": 154.0,
-      "today_sales": 22,
-      "items_sold": 38,
-      "avg_order_value": 7.0,
-      "todays_revenue_scale": -17.43,
-      "today_sales_scale": -21.43,
-      "items_sold_scale": -11.63,
-      "avg_order_value_scale": 5.11
+      "today_revenue": 169.75,
+      "today_sales": 26,
+      "items_sold": 40,
+      "avg_order_value": 6.53,
+      "todays_revenue_scale": 10.23,
+      "today_sales_scale": 18.18,
+      "items_sold_scale": 5.26,
+      "avg_order_value_scale": -6.71
     },
     "monthly_revenue": [
       {
@@ -151,9 +151,9 @@
       {
         "month": 9,
         "year": 2026,
-        "revenue": 3953.5,
+        "revenue": 4123.25,
         "current_month": true,
-        "day": 29
+        "day": 30
       }
     ]
   },
@@ -161,35 +161,35 @@
     "annual_revenue": [
       {
         "year": 2025,
-        "revenue": 18939.25
+        "revenue": 19046.0
       }
     ],
     "best_sellers": {
       "name": [
-        "Americano",
+        "Hot Chocolate",
         "Mocha",
-        "Hot Chocolate"
+        "Americano"
       ],
       "qty": [
-        20,
-        16,
-        14
+        17,
+        17,
+        16
       ],
       "scale": [
-        11.11,
+        41.67,
         0.0,
-        0.0
+        -20.0
       ]
     },
     "snapshot_data": {
-      "today_revenue": 66.5,
-      "today_sales": 11,
-      "items_sold": 15,
-      "avg_order_value": 6.05,
-      "todays_revenue_scale": -42.67,
-      "today_sales_scale": -47.62,
-      "items_sold_scale": -46.43,
-      "avg_order_value_scale": 9.6
+      "today_revenue": 106.75,
+      "today_sales": 14,
+      "items_sold": 24,
+      "avg_order_value": 7.62,
+      "todays_revenue_scale": 60.53,
+      "today_sales_scale": 27.27,
+      "items_sold_scale": 60.0,
+      "avg_order_value_scale": 25.95
     },
     "monthly_revenue": [
       {
@@ -230,12 +230,12 @@
       {
         "month": 9,
         "year": 2026,
-        "revenue": 3248.5,
+        "revenue": 3355.25,
         "current_month": true,
-        "day": 29
+        "day": 30
       }
     ]
   },
   "total_sales_records": 30014,
-  "generated_at": "2026-09-29T21:47:33.280313+00:00"
+  "generated_at": "2026-09-30T03:44:25.973057+00:00"
 }

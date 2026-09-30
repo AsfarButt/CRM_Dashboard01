@@ -1,33 +1,25 @@
 {
-  "total_revenue": 12253.0,
-  "L_total_revenue": 10636.0,
-  "total_sales": 1844,
-  "L_total_sales": 1556,
-  "total_supplycost": 554.03,
-  "L_total_supplycost": 839.26,
-  "total_profit": 11698.97,
-  "L_total_profit": 9796.74,
-  "revenue_scale": 15.2,
-  "sales_scale": 18.51,
-  "supplycost_scale": -33.99,
-  "profit_scale": 19.42,
+  "total_revenue": 12206.0,
+  "L_total_revenue": 10664.0,
+  "total_sales": 1834,
+  "L_total_sales": 1555,
+  "total_supplycost": 426.06999999999994,
+  "L_total_supplycost": 710.8599999999999,
+  "total_profit": 11779.93,
+  "L_total_profit": 9953.14,
+  "revenue_scale": 14.46,
+  "sales_scale": 17.94,
+  "supplycost_scale": -40.06,
+  "profit_scale": 18.35,
   "branch_revenue_details": {
-    "Downtown_revenue": 4789.0,
+    "Downtown_revenue": 4756.5,
     "Downtown_supplycost": 299.76,
-    "Riverside_revenue": 3386.25,
-    "Riverside_supplycost": 82.92,
-    "Uptown_revenue": 4077.75,
-    "Uptown_supplycost": 171.35
+    "Riverside_revenue": 3324.75,
+    "Riverside_supplycost": 45.4,
+    "Uptown_revenue": 4124.75,
+    "Uptown_supplycost": 80.91
   },
   "daily_revenue": [
-    {
-      "date": "2025-08-30",
-      "revenue": {
-        "Downtown": 168.25,
-        "Riverside": 128.0,
-        "Uptown": 107.0
-      }
-    },
     {
       "date": "2025-08-31",
       "revenue": {
@@ -259,6 +251,14 @@
         "Riverside": 116.0,
         "Uptown": 186.5
       }
+    },
+    {
+      "date": "2025-09-29",
+      "revenue": {
+        "Downtown": 135.75,
+        "Riverside": 66.5,
+        "Uptown": 154.0
+      }
     }
   ],
   "this_month_supply_order": [
@@ -331,23 +331,6 @@
       ]
     },
     {
-      "material": "Oat Milk",
-      "cost": 90.44,
-      "quantity": 38.0,
-      "unit": "L",
-      "delivery_date": "2025-08-30",
-      "suppliers": [
-        {
-          "supplier_id": "SUP-004",
-          "supplier": "Meadowbrook Farms",
-          "cost": 90.44,
-          "quantity": 38.0,
-          "unit": "L",
-          "delivery_date": "2025-08-30"
-        }
-      ]
-    },
-    {
       "material": "Paper Cups (12oz)",
       "cost": 74.88,
       "quantity": 832.0,
@@ -388,24 +371,7 @@
           "delivery_date": "2025-09-22"
         }
       ]
-    },
-    {
-      "material": "Whole Milk",
-      "cost": 37.52,
-      "quantity": 28.0,
-      "unit": "L",
-      "delivery_date": "2025-08-30",
-      "suppliers": [
-        {
-          "supplier_id": "SUP-003",
-          "supplier": "Fresh Valley Dairy",
-          "cost": 37.52,
-          "quantity": 28.0,
-          "unit": "L",
-          "delivery_date": "2025-08-30"
-        }
-      ]
     }
   ],
-  "generated_at": "2026-09-29T21:47:34.019051+00:00"
+  "generated_at": "2026-09-30T03:44:26.771579+00:00"
 }
