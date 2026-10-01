@@ -3,35 +3,35 @@
     "annual_revenue": [
       {
         "year": 2025,
-        "revenue": 27437.75
+        "revenue": 27616.25
       }
     ],
     "best_sellers": {
       "name": [
         "Americano",
         "Mocha",
-        "Flat White"
+        "Chai Latte"
       ],
       "qty": [
-        33,
-        25,
-        24
+        28,
+        27,
+        25
       ],
       "scale": [
-        3.12,
-        -19.35,
-        14.29
+        -22.22,
+        -6.9,
+        47.06
       ]
     },
     "snapshot_data": {
-      "today_revenue": 127.5,
-      "today_sales": 18,
-      "items_sold": 30,
-      "avg_order_value": 7.08,
-      "todays_revenue_scale": -6.08,
-      "today_sales_scale": -5.26,
-      "items_sold_scale": 0.0,
-      "avg_order_value_scale": -0.84
+      "today_revenue": 178.5,
+      "today_sales": 28,
+      "items_sold": 43,
+      "avg_order_value": 6.38,
+      "todays_revenue_scale": 40.0,
+      "today_sales_scale": 55.56,
+      "items_sold_scale": 43.33,
+      "avg_order_value_scale": -9.89
     },
     "monthly_revenue": [
       {
@@ -73,8 +73,15 @@
         "month": 9,
         "year": 2026,
         "revenue": 4688.5,
+        "current_month": false,
+        "day": false
+      },
+      {
+        "month": 10,
+        "year": 2026,
+        "revenue": 178.5,
         "current_month": true,
-        "day": 30
+        "day": 1
       }
     ]
   },
@@ -82,35 +89,35 @@
     "annual_revenue": [
       {
         "year": 2025,
-        "revenue": 22814.0
+        "revenue": 22910.5
       }
     ],
     "best_sellers": {
       "name": [
-        "Latte",
-        "Hot Chocolate",
-        "Espresso"
+        "Espresso",
+        "Iced Latte",
+        "Latte"
       ],
       "qty": [
-        30,
         26,
-        25
+        25,
+        24
       ],
       "scale": [
         100.0,
-        116.67,
-        66.67
+        13.64,
+        20.0
       ]
     },
     "snapshot_data": {
-      "today_revenue": 169.75,
-      "today_sales": 26,
-      "items_sold": 40,
-      "avg_order_value": 6.53,
-      "todays_revenue_scale": 10.23,
-      "today_sales_scale": 18.18,
-      "items_sold_scale": 5.26,
-      "avg_order_value_scale": -6.71
+      "today_revenue": 96.5,
+      "today_sales": 14,
+      "items_sold": 22,
+      "avg_order_value": 6.89,
+      "todays_revenue_scale": -43.15,
+      "today_sales_scale": -46.15,
+      "items_sold_scale": -45.0,
+      "avg_order_value_scale": 5.51
     },
     "monthly_revenue": [
       {
@@ -152,8 +159,15 @@
         "month": 9,
         "year": 2026,
         "revenue": 4123.25,
+        "current_month": false,
+        "day": false
+      },
+      {
+        "month": 10,
+        "year": 2026,
+        "revenue": 96.5,
         "current_month": true,
-        "day": 30
+        "day": 1
       }
     ]
   },
@@ -161,35 +175,35 @@
     "annual_revenue": [
       {
         "year": 2025,
-        "revenue": 19046.0
+        "revenue": 19157.5
       }
     ],
     "best_sellers": {
       "name": [
         "Hot Chocolate",
-        "Mocha",
-        "Americano"
+        "Cappuccino",
+        "Mocha"
       ],
       "qty": [
         17,
         17,
-        16
+        17
       ],
       "scale": [
-        41.67,
-        0.0,
-        -20.0
+        54.55,
+        21.43,
+        0.0
       ]
     },
     "snapshot_data": {
-      "today_revenue": 106.75,
-      "today_sales": 14,
-      "items_sold": 24,
-      "avg_order_value": 7.62,
-      "todays_revenue_scale": 60.53,
-      "today_sales_scale": 27.27,
-      "items_sold_scale": 60.0,
-      "avg_order_value_scale": 25.95
+      "today_revenue": 111.5,
+      "today_sales": 15,
+      "items_sold": 25,
+      "avg_order_value": 7.43,
+      "todays_revenue_scale": 4.45,
+      "today_sales_scale": 7.14,
+      "items_sold_scale": 4.17,
+      "avg_order_value_scale": -2.49
     },
     "monthly_revenue": [
       {
@@ -231,11 +245,18 @@
         "month": 9,
         "year": 2026,
         "revenue": 3355.25,
+        "current_month": false,
+        "day": false
+      },
+      {
+        "month": 10,
+        "year": 2026,
+        "revenue": 111.5,
         "current_month": true,
-        "day": 30
+        "day": 1
       }
     ]
   },
   "total_sales_records": 30014,
-  "generated_at": "2026-09-30T21:48:53.592558+00:00"
+  "generated_at": "2026-10-01T03:49:57.762611+00:00"
 }
