@@ -1,33 +1,25 @@
 {
-  "total_revenue": 11744.25,
-  "L_total_revenue": 10745.25,
-  "total_sales": 1776,
-  "L_total_sales": 1566,
-  "total_supplycost": 1083.19,
+  "total_revenue": 11815.25,
+  "L_total_revenue": 10804.0,
+  "total_sales": 1775,
+  "L_total_sales": 1580,
+  "total_supplycost": 1373.6799999999998,
   "L_total_supplycost": 877.3699999999999,
-  "total_profit": 10661.06,
-  "L_total_profit": 9867.880000000001,
-  "revenue_scale": 9.3,
-  "sales_scale": 13.41,
-  "supplycost_scale": 23.46,
-  "profit_scale": 8.04,
+  "total_profit": 10441.57,
+  "L_total_profit": 9926.630000000001,
+  "revenue_scale": 9.36,
+  "sales_scale": 12.34,
+  "supplycost_scale": 56.57,
+  "profit_scale": 5.19,
   "branch_revenue_details": {
-    "Downtown_revenue": 4618.25,
-    "Downtown_supplycost": 758.74,
-    "Riverside_revenue": 3220.0,
+    "Downtown_revenue": 4674.0,
+    "Downtown_supplycost": 1049.23,
+    "Riverside_revenue": 3168.75,
     "Riverside_supplycost": 45.4,
-    "Uptown_revenue": 3906.0,
+    "Uptown_revenue": 3972.5,
     "Uptown_supplycost": 279.05
   },
   "daily_revenue": [
-    {
-      "date": "2025-09-04",
-      "revenue": {
-        "Downtown": 126.25,
-        "Riverside": 159.25,
-        "Uptown": 49.25
-      }
-    },
     {
       "date": "2025-09-05",
       "revenue": {
@@ -251,6 +243,14 @@
         "Riverside": 86.5,
         "Uptown": 125.25
       }
+    },
+    {
+      "date": "2025-10-03",
+      "revenue": {
+        "Downtown": 182.0,
+        "Riverside": 108.0,
+        "Uptown": 115.75
+      }
     }
   ],
   "this_month_supply_order": [
@@ -273,16 +273,16 @@
     },
     {
       "material": "Coffee Beans (Arabica)",
-      "cost": 312.26,
-      "quantity": 26.0,
+      "cost": 602.75,
+      "quantity": 49.0,
       "unit": "kg",
       "delivery_date": "2025-09-30",
       "suppliers": [
         {
           "supplier_id": "SUP-002",
           "supplier": "Bean Traders Co.",
-          "cost": 312.26,
-          "quantity": 26.0,
+          "cost": 602.75,
+          "quantity": 49.0,
           "unit": "kg",
           "delivery_date": "2025-09-30"
         }
@@ -407,5 +407,5 @@
       ]
     }
   ],
-  "generated_at": "2026-10-03T20:33:05.050986+00:00"
+  "generated_at": "2026-10-04T04:02:25.618171+00:00"
 }
