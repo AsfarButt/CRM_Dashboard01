@@ -3,35 +3,35 @@
     "annual_revenue": [
       {
         "year": 2025,
-        "revenue": 28126.0
+        "revenue": 28356.5
       }
     ],
     "best_sellers": {
       "name": [
-        "Chai Latte",
         "Latte",
-        "Mocha"
+        "Mocha",
+        "Chai Latte"
       ],
       "qty": [
-        27,
-        25,
-        24
+        29,
+        28,
+        27
       ],
       "scale": [
-        68.75,
-        66.67,
-        0.0
+        70.59,
+        3.7,
+        58.82
       ]
     },
     "snapshot_data": {
-      "today_revenue": 185.25,
-      "today_sales": 28,
-      "items_sold": 44,
-      "avg_order_value": 6.62,
-      "todays_revenue_scale": 1.79,
-      "today_sales_scale": 16.67,
-      "items_sold_scale": 2.33,
-      "avg_order_value_scale": -12.66
+      "today_revenue": 230.5,
+      "today_sales": 31,
+      "items_sold": 53,
+      "avg_order_value": 7.44,
+      "todays_revenue_scale": 24.43,
+      "today_sales_scale": 10.71,
+      "items_sold_scale": 20.45,
+      "avg_order_value_scale": 12.39
     },
     "monthly_revenue": [
       {
@@ -79,9 +79,9 @@
       {
         "month": 10,
         "year": 2026,
-        "revenue": 688.25,
+        "revenue": 918.75,
         "current_month": true,
-        "day": 4
+        "day": 5
       }
     ]
   },
@@ -89,35 +89,35 @@
     "annual_revenue": [
       {
         "year": 2025,
-        "revenue": 23329.5
+        "revenue": 23489.5
       }
     ],
     "best_sellers": {
       "name": [
         "Espresso",
-        "Hot Chocolate",
-        "Chai Latte"
+        "Chai Latte",
+        "Flat White"
       ],
       "qty": [
-        23,
-        23,
-        22
+        25,
+        25,
+        21
       ],
       "scale": [
-        27.78,
-        21.05,
-        100.0
+        47.06,
+        150.0,
+        16.67
       ]
     },
     "snapshot_data": {
-      "today_revenue": 178.0,
-      "today_sales": 25,
-      "items_sold": 41,
-      "avg_order_value": 7.12,
-      "todays_revenue_scale": 53.78,
-      "today_sales_scale": 25.0,
-      "items_sold_scale": 46.43,
-      "avg_order_value_scale": 22.97
+      "today_revenue": 160.0,
+      "today_sales": 24,
+      "items_sold": 38,
+      "avg_order_value": 6.67,
+      "todays_revenue_scale": -10.11,
+      "today_sales_scale": -4.0,
+      "items_sold_scale": -7.32,
+      "avg_order_value_scale": -6.32
     },
     "monthly_revenue": [
       {
@@ -165,9 +165,9 @@
       {
         "month": 10,
         "year": 2026,
-        "revenue": 515.5,
+        "revenue": 675.5,
         "current_month": true,
-        "day": 4
+        "day": 5
       }
     ]
   },
@@ -175,35 +175,35 @@
     "annual_revenue": [
       {
         "year": 2025,
-        "revenue": 19454.0
+        "revenue": 19550.25
       }
     ],
     "best_sellers": {
       "name": [
-        "Americano",
+        "Mocha",
         "Chai Latte",
-        "Mocha"
+        "Flat White"
       ],
       "qty": [
         16,
-        16,
-        16
+        15,
+        15
       ],
       "scale": [
-        -23.81,
-        -11.11,
-        6.67
+        6.67,
+        7.14,
+        -6.25
       ]
     },
     "snapshot_data": {
-      "today_revenue": 102.0,
-      "today_sales": 18,
+      "today_revenue": 96.25,
+      "today_sales": 16,
       "items_sold": 24,
-      "avg_order_value": 5.67,
-      "todays_revenue_scale": -5.56,
-      "today_sales_scale": 38.46,
-      "items_sold_scale": -7.69,
-      "avg_order_value_scale": -31.77
+      "avg_order_value": 6.02,
+      "todays_revenue_scale": -5.64,
+      "today_sales_scale": -11.11,
+      "items_sold_scale": 0.0,
+      "avg_order_value_scale": 6.17
     },
     "monthly_revenue": [
       {
@@ -251,12 +251,12 @@
       {
         "month": 10,
         "year": 2026,
-        "revenue": 408.0,
+        "revenue": 504.25,
         "current_month": true,
-        "day": 4
+        "day": 5
       }
     ]
   },
   "total_sales_records": 30014,
-  "generated_at": "2026-10-04T20:48:55.104936+00:00"
+  "generated_at": "2026-10-05T03:47:04.415674+00:00"
 }
