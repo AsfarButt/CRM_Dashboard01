@@ -3,35 +3,35 @@
     "annual_revenue": [
       {
         "year": 2025,
-        "revenue": 29565.25
+        "revenue": 29701.75
       }
     ],
     "best_sellers": {
       "name": [
+        "Espresso",
         "Americano",
-        "Iced Latte",
-        "Espresso"
+        "Cappuccino"
       ],
       "qty": [
-        29,
-        26,
-        26
+        34,
+        25,
+        24
       ],
       "scale": [
-        38.1,
-        85.71,
-        4.0
+        41.67,
+        25.0,
+        14.29
       ]
     },
     "snapshot_data": {
-      "today_revenue": 142.5,
-      "today_sales": 20,
-      "items_sold": 35,
-      "avg_order_value": 7.12,
-      "todays_revenue_scale": -24.5,
-      "today_sales_scale": -28.57,
-      "items_sold_scale": -20.45,
-      "avg_order_value_scale": 5.64
+      "today_revenue": 136.5,
+      "today_sales": 22,
+      "items_sold": 33,
+      "avg_order_value": 6.2,
+      "todays_revenue_scale": -4.21,
+      "today_sales_scale": 10.0,
+      "items_sold_scale": -5.71,
+      "avg_order_value_scale": -12.92
     },
     "monthly_revenue": [
       {
@@ -79,9 +79,9 @@
       {
         "month": 10,
         "year": 2026,
-        "revenue": 2127.5,
+        "revenue": 2264.0,
         "current_month": true,
-        "day": 13
+        "day": 14
       }
     ]
   },
@@ -89,35 +89,35 @@
     "annual_revenue": [
       {
         "year": 2025,
-        "revenue": 24575.0
+        "revenue": 24716.25
       }
     ],
     "best_sellers": {
       "name": [
+        "Iced Latte",
         "Hot Chocolate",
-        "Espresso",
-        "Mocha"
+        "Cold Brew"
       ],
       "qty": [
         23,
-        21,
-        20
+        22,
+        21
       ],
       "scale": [
-        21.05,
-        0.0,
-        0.0
+        109.09,
+        37.5,
+        110.0
       ]
     },
     "snapshot_data": {
-      "today_revenue": 86.25,
-      "today_sales": 13,
-      "items_sold": 19,
-      "avg_order_value": 6.63,
-      "todays_revenue_scale": -54.43,
-      "today_sales_scale": -48.0,
-      "items_sold_scale": -56.82,
-      "avg_order_value_scale": -12.42
+      "today_revenue": 141.25,
+      "today_sales": 19,
+      "items_sold": 33,
+      "avg_order_value": 7.43,
+      "todays_revenue_scale": 63.77,
+      "today_sales_scale": 46.15,
+      "items_sold_scale": 73.68,
+      "avg_order_value_scale": 12.07
     },
     "monthly_revenue": [
       {
@@ -165,9 +165,9 @@
       {
         "month": 10,
         "year": 2026,
-        "revenue": 1761.0,
+        "revenue": 1902.25,
         "current_month": true,
-        "day": 13
+        "day": 14
       }
     ]
   },
@@ -175,35 +175,35 @@
     "annual_revenue": [
       {
         "year": 2025,
-        "revenue": 20449.75
+        "revenue": 20568.0
       }
     ],
     "best_sellers": {
       "name": [
-        "Latte",
+        "Americano",
         "Chai Latte",
-        "Hot Chocolate"
+        "Mocha"
       ],
       "qty": [
         18,
-        17,
+        18,
         17
       ],
       "scale": [
-        80.0,
-        30.77,
-        13.33
+        50.0,
+        38.46,
+        41.67
       ]
     },
     "snapshot_data": {
-      "today_revenue": 144.75,
-      "today_sales": 18,
-      "items_sold": 35,
-      "avg_order_value": 8.04,
-      "todays_revenue_scale": 23.98,
-      "today_sales_scale": 0.0,
-      "items_sold_scale": 25.0,
-      "avg_order_value_scale": 23.88
+      "today_revenue": 118.25,
+      "today_sales": 16,
+      "items_sold": 29,
+      "avg_order_value": 7.39,
+      "todays_revenue_scale": -18.31,
+      "today_sales_scale": -11.11,
+      "items_sold_scale": -17.14,
+      "avg_order_value_scale": -8.08
     },
     "monthly_revenue": [
       {
@@ -251,12 +251,12 @@
       {
         "month": 10,
         "year": 2026,
-        "revenue": 1403.75,
+        "revenue": 1522.0,
         "current_month": true,
-        "day": 13
+        "day": 14
       }
     ]
   },
   "total_sales_records": 30014,
-  "generated_at": "2026-10-13T22:14:35.698072+00:00"
+  "generated_at": "2026-10-14T03:19:13.833464+00:00"
 }
