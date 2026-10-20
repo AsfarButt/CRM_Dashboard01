@@ -1,33 +1,25 @@
 {
-  "total_revenue": 11855.5,
-  "L_total_revenue": 11514.0,
-  "total_sales": 1770,
-  "L_total_sales": 1721,
-  "total_supplycost": 1330.6399999999999,
+  "total_revenue": 11829.5,
+  "L_total_revenue": 11537.25,
+  "total_sales": 1768,
+  "L_total_sales": 1730,
+  "total_supplycost": 1324.6399999999999,
   "L_total_supplycost": 979.3199999999999,
-  "total_profit": 10524.86,
-  "L_total_profit": 10534.68,
-  "revenue_scale": 2.97,
-  "sales_scale": 2.85,
-  "supplycost_scale": 35.87,
-  "profit_scale": -0.09,
+  "total_profit": 10504.86,
+  "L_total_profit": 10557.93,
+  "revenue_scale": 2.53,
+  "sales_scale": 2.2,
+  "supplycost_scale": 35.26,
+  "profit_scale": -0.5,
   "branch_revenue_details": {
-    "Downtown_revenue": 4588.0,
+    "Downtown_revenue": 4562.25,
     "Downtown_supplycost": 974.3499999999999,
-    "Riverside_revenue": 3118.75,
+    "Riverside_revenue": 3133.25,
     "Riverside_supplycost": 113.6,
-    "Uptown_revenue": 4148.75,
-    "Uptown_supplycost": 242.69
+    "Uptown_revenue": 4134.0,
+    "Uptown_supplycost": 236.69
   },
   "daily_revenue": [
-    {
-      "date": "2025-09-20",
-      "revenue": {
-        "Downtown": 210.0,
-        "Riverside": 140.0,
-        "Uptown": 154.75
-      }
-    },
     {
       "date": "2025-09-21",
       "revenue": {
@@ -251,6 +243,14 @@
         "Riverside": 110.0,
         "Uptown": 163.5
       }
+    },
+    {
+      "date": "2025-10-19",
+      "revenue": {
+        "Downtown": 184.25,
+        "Riverside": 154.5,
+        "Uptown": 140.0
+      }
     }
   ],
   "this_month_supply_order": [
@@ -302,23 +302,6 @@
           "quantity": 17.0,
           "unit": "kg",
           "delivery_date": "2025-09-30"
-        }
-      ]
-    },
-    {
-      "material": "Eggs",
-      "cost": 6.0,
-      "quantity": 20.0,
-      "unit": "count",
-      "delivery_date": "2025-09-20",
-      "suppliers": [
-        {
-          "supplier_id": "SUP-006",
-          "supplier": "Artisan Bakery Supply",
-          "cost": 6.0,
-          "quantity": 20.0,
-          "unit": "count",
-          "delivery_date": "2025-09-20"
         }
       ]
     },
@@ -382,5 +365,5 @@
       ]
     }
   ],
-  "generated_at": "2026-10-19T18:25:50.407401+00:00"
+  "generated_at": "2026-10-20T03:10:23.689083+00:00"
 }
