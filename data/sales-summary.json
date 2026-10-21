@@ -3,35 +3,35 @@
     "annual_revenue": [
       {
         "year": 2025,
-        "revenue": 30594.5
+        "revenue": 30766.0
       }
     ],
     "best_sellers": {
       "name": [
-        "Espresso",
         "Flat White",
-        "Cappuccino"
+        "Cappuccino",
+        "Mocha"
       ],
       "qty": [
-        30,
-        29,
-        28
+        31,
+        27,
+        26
       ],
       "scale": [
-        15.38,
-        45.0,
-        27.27
+        106.67,
+        12.5,
+        62.5
       ]
     },
     "snapshot_data": {
-      "today_revenue": 136.5,
-      "today_sales": 22,
-      "items_sold": 33,
-      "avg_order_value": 6.2,
-      "todays_revenue_scale": -25.92,
-      "today_sales_scale": -18.52,
-      "items_sold_scale": -21.43,
-      "avg_order_value_scale": -9.09
+      "today_revenue": 171.5,
+      "today_sales": 25,
+      "items_sold": 41,
+      "avg_order_value": 6.86,
+      "todays_revenue_scale": 25.64,
+      "today_sales_scale": 13.64,
+      "items_sold_scale": 24.24,
+      "avg_order_value_scale": 10.65
     },
     "monthly_revenue": [
       {
@@ -79,9 +79,9 @@
       {
         "month": 10,
         "year": 2026,
-        "revenue": 3156.75,
+        "revenue": 3328.25,
         "current_month": true,
-        "day": 20
+        "day": 21
       }
     ]
   },
@@ -89,35 +89,35 @@
     "annual_revenue": [
       {
         "year": 2025,
-        "revenue": 25446.0
+        "revenue": 25543.0
       }
     ],
     "best_sellers": {
       "name": [
         "Hot Chocolate",
-        "Cold Brew",
-        "Latte"
+        "Latte",
+        "Cold Brew"
       ],
       "qty": [
         24,
         21,
-        21
+        20
       ],
       "scale": [
-        4.35,
-        23.53,
-        40.0
+        9.09,
+        40.0,
+        -4.76
       ]
     },
     "snapshot_data": {
-      "today_revenue": 76.75,
-      "today_sales": 11,
-      "items_sold": 17,
-      "avg_order_value": 6.98,
-      "todays_revenue_scale": -45.18,
-      "today_sales_scale": -50.0,
-      "items_sold_scale": -46.88,
-      "avg_order_value_scale": 9.75
+      "today_revenue": 97.0,
+      "today_sales": 15,
+      "items_sold": 22,
+      "avg_order_value": 6.47,
+      "todays_revenue_scale": 26.38,
+      "today_sales_scale": 36.36,
+      "items_sold_scale": 29.41,
+      "avg_order_value_scale": -7.31
     },
     "monthly_revenue": [
       {
@@ -165,9 +165,9 @@
       {
         "month": 10,
         "year": 2026,
-        "revenue": 2632.0,
+        "revenue": 2729.0,
         "current_month": true,
-        "day": 20
+        "day": 21
       }
     ]
   },
@@ -175,35 +175,35 @@
     "annual_revenue": [
       {
         "year": 2025,
-        "revenue": 21275.75
+        "revenue": 21391.0
       }
     ],
     "best_sellers": {
       "name": [
         "Americano",
         "Cappuccino",
-        "Flat White"
+        "Iced Latte"
       ],
       "qty": [
-        24,
-        19,
+        23,
+        18,
         18
       ],
       "scale": [
-        50.0,
-        35.71,
-        5.88
+        27.78,
+        5.88,
+        20.0
       ]
     },
     "snapshot_data": {
-      "today_revenue": 109.25,
-      "today_sales": 18,
-      "items_sold": 25,
-      "avg_order_value": 6.07,
-      "todays_revenue_scale": -29.29,
-      "today_sales_scale": -18.18,
-      "items_sold_scale": -30.56,
-      "avg_order_value_scale": -13.53
+      "today_revenue": 115.25,
+      "today_sales": 17,
+      "items_sold": 28,
+      "avg_order_value": 6.78,
+      "todays_revenue_scale": 5.49,
+      "today_sales_scale": -5.56,
+      "items_sold_scale": 12.0,
+      "avg_order_value_scale": 11.7
     },
     "monthly_revenue": [
       {
@@ -251,12 +251,12 @@
       {
         "month": 10,
         "year": 2026,
-        "revenue": 2229.75,
+        "revenue": 2345.0,
         "current_month": true,
-        "day": 20
+        "day": 21
       }
     ]
   },
   "total_sales_records": 30014,
-  "generated_at": "2026-10-20T21:12:07.255920+00:00"
+  "generated_at": "2026-10-21T03:04:48.197583+00:00"
 }
