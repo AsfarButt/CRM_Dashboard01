@@ -3,7 +3,7 @@
     "annual_revenue": [
       {
         "year": 2025,
-        "revenue": 30766.0
+        "revenue": 30897.25
       }
     ],
     "best_sellers": {
@@ -14,24 +14,24 @@
       ],
       "qty": [
         31,
-        27,
-        26
+        28,
+        27
       ],
       "scale": [
-        106.67,
-        12.5,
-        62.5
+        82.35,
+        21.74,
+        80.0
       ]
     },
     "snapshot_data": {
-      "today_revenue": 171.5,
-      "today_sales": 25,
-      "items_sold": 41,
-      "avg_order_value": 6.86,
-      "todays_revenue_scale": 25.64,
-      "today_sales_scale": 13.64,
-      "items_sold_scale": 24.24,
-      "avg_order_value_scale": 10.65
+      "today_revenue": 131.25,
+      "today_sales": 19,
+      "items_sold": 29,
+      "avg_order_value": 6.91,
+      "todays_revenue_scale": -23.47,
+      "today_sales_scale": -24.0,
+      "items_sold_scale": -29.27,
+      "avg_order_value_scale": 0.73
     },
     "monthly_revenue": [
       {
@@ -79,9 +79,9 @@
       {
         "month": 10,
         "year": 2026,
-        "revenue": 3328.25,
+        "revenue": 3459.5,
         "current_month": true,
-        "day": 21
+        "day": 22
       }
     ]
   },
@@ -89,35 +89,35 @@
     "annual_revenue": [
       {
         "year": 2025,
-        "revenue": 25543.0
+        "revenue": 25713.5
       }
     ],
     "best_sellers": {
       "name": [
         "Hot Chocolate",
         "Latte",
-        "Cold Brew"
+        "Iced Latte"
       ],
       "qty": [
         24,
-        21,
-        20
+        22,
+        21
       ],
       "scale": [
-        9.09,
-        40.0,
-        -4.76
+        14.29,
+        46.67,
+        5.0
       ]
     },
     "snapshot_data": {
-      "today_revenue": 97.0,
-      "today_sales": 15,
-      "items_sold": 22,
-      "avg_order_value": 6.47,
-      "todays_revenue_scale": 26.38,
-      "today_sales_scale": 36.36,
-      "items_sold_scale": 29.41,
-      "avg_order_value_scale": -7.31
+      "today_revenue": 170.5,
+      "today_sales": 25,
+      "items_sold": 39,
+      "avg_order_value": 6.82,
+      "todays_revenue_scale": 75.77,
+      "today_sales_scale": 66.67,
+      "items_sold_scale": 77.27,
+      "avg_order_value_scale": 5.41
     },
     "monthly_revenue": [
       {
@@ -165,9 +165,9 @@
       {
         "month": 10,
         "year": 2026,
-        "revenue": 2729.0,
+        "revenue": 2899.5,
         "current_month": true,
-        "day": 21
+        "day": 22
       }
     ]
   },
@@ -175,7 +175,7 @@
     "annual_revenue": [
       {
         "year": 2025,
-        "revenue": 21391.0
+        "revenue": 21474.0
       }
     ],
     "best_sellers": {
@@ -185,25 +185,25 @@
         "Iced Latte"
       ],
       "qty": [
-        23,
-        18,
-        18
+        17,
+        17,
+        16
       ],
       "scale": [
-        27.78,
-        5.88,
-        20.0
+        -26.09,
+        6.25,
+        23.08
       ]
     },
     "snapshot_data": {
-      "today_revenue": 115.25,
-      "today_sales": 17,
-      "items_sold": 28,
-      "avg_order_value": 6.78,
-      "todays_revenue_scale": 5.49,
-      "today_sales_scale": -5.56,
-      "items_sold_scale": 12.0,
-      "avg_order_value_scale": 11.7
+      "today_revenue": 83.0,
+      "today_sales": 13,
+      "items_sold": 19,
+      "avg_order_value": 6.38,
+      "todays_revenue_scale": -27.98,
+      "today_sales_scale": -23.53,
+      "items_sold_scale": -32.14,
+      "avg_order_value_scale": -5.9
     },
     "monthly_revenue": [
       {
@@ -251,12 +251,12 @@
       {
         "month": 10,
         "year": 2026,
-        "revenue": 2345.0,
+        "revenue": 2428.0,
         "current_month": true,
-        "day": 21
+        "day": 22
       }
     ]
   },
   "total_sales_records": 30014,
-  "generated_at": "2026-10-21T21:11:30.843303+00:00"
+  "generated_at": "2026-10-22T03:04:01.928414+00:00"
 }

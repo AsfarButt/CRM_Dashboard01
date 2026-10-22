@@ -1,33 +1,25 @@
 {
-  "total_revenue": 11658.75,
-  "L_total_revenue": 11717.25,
-  "total_sales": 1746,
-  "L_total_sales": 1754,
-  "total_supplycost": 1324.6399999999999,
+  "total_revenue": 11704.0,
+  "L_total_revenue": 11853.0,
+  "total_sales": 1751,
+  "L_total_sales": 1778,
+  "total_supplycost": 1278.24,
   "L_total_supplycost": 985.3199999999999,
-  "total_profit": 10334.11,
-  "L_total_profit": 10731.93,
-  "revenue_scale": -0.5,
-  "sales_scale": -0.46,
-  "supplycost_scale": 34.44,
-  "profit_scale": -3.71,
+  "total_profit": 10425.76,
+  "L_total_profit": 10867.68,
+  "revenue_scale": -1.26,
+  "sales_scale": -1.52,
+  "supplycost_scale": 29.73,
+  "profit_scale": -4.07,
   "branch_revenue_details": {
-    "Downtown_revenue": 4564.5,
-    "Downtown_supplycost": 974.3499999999999,
-    "Riverside_revenue": 3116.0,
+    "Downtown_revenue": 4631.0,
+    "Downtown_supplycost": 927.95,
+    "Riverside_revenue": 3115.75,
     "Riverside_supplycost": 113.6,
-    "Uptown_revenue": 3978.25,
+    "Uptown_revenue": 3957.25,
     "Uptown_supplycost": 236.69
   },
   "daily_revenue": [
-    {
-      "date": "2025-09-22",
-      "revenue": {
-        "Downtown": 105.0,
-        "Riverside": 115.5,
-        "Uptown": 118.0
-      }
-    },
     {
       "date": "2025-09-23",
       "revenue": {
@@ -251,6 +243,14 @@
         "Riverside": 109.25,
         "Uptown": 76.75
       }
+    },
+    {
+      "date": "2025-10-21",
+      "revenue": {
+        "Downtown": 171.5,
+        "Riverside": 115.25,
+        "Uptown": 97.0
+      }
     }
   ],
   "this_month_supply_order": [
@@ -349,21 +349,21 @@
     },
     {
       "material": "Vanilla Syrup",
-      "cost": 131.28,
-      "quantity": 13.0,
+      "cost": 84.88,
+      "quantity": 8.0,
       "unit": "L",
-      "delivery_date": "2025-09-22",
+      "delivery_date": "2025-10-02",
       "suppliers": [
         {
           "supplier_id": "SUP-010",
           "supplier": "Cascade Syrup Works",
-          "cost": 131.28,
-          "quantity": 13.0,
+          "cost": 84.88,
+          "quantity": 8.0,
           "unit": "L",
-          "delivery_date": "2025-09-22"
+          "delivery_date": "2025-10-02"
         }
       ]
     }
   ],
-  "generated_at": "2026-10-21T21:11:31.853538+00:00"
+  "generated_at": "2026-10-22T03:04:02.901111+00:00"
 }
