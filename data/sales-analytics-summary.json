@@ -1,33 +1,25 @@
 {
-  "total_revenue": 11708.75,
-  "L_total_revenue": 11899.0,
-  "total_sales": 1761,
-  "L_total_sales": 1787,
-  "total_supplycost": 1719.2599999999998,
+  "total_revenue": 11678.25,
+  "L_total_revenue": 11973.25,
+  "total_sales": 1759,
+  "L_total_sales": 1796,
+  "total_supplycost": 1540.7800000000002,
   "L_total_supplycost": 375.54999999999995,
-  "total_profit": 9989.49,
-  "L_total_profit": 11523.45,
-  "revenue_scale": -1.6,
-  "sales_scale": -1.45,
-  "supplycost_scale": 357.8,
-  "profit_scale": -13.31,
+  "total_profit": 10137.47,
+  "L_total_profit": 11597.7,
+  "revenue_scale": -2.46,
+  "sales_scale": -2.06,
+  "supplycost_scale": 310.27,
+  "profit_scale": -12.59,
   "branch_revenue_details": {
-    "Downtown_revenue": 4562.5,
-    "Downtown_supplycost": 927.95,
-    "Riverside_revenue": 3187.5,
+    "Downtown_revenue": 4540.5,
+    "Downtown_supplycost": 749.47,
+    "Riverside_revenue": 3193.25,
     "Riverside_supplycost": 155.92,
-    "Uptown_revenue": 3958.75,
+    "Uptown_revenue": 3944.5,
     "Uptown_supplycost": 635.39
   },
   "daily_revenue": [
-    {
-      "date": "2025-09-27",
-      "revenue": {
-        "Downtown": 197.5,
-        "Riverside": 143.75,
-        "Uptown": 160.5
-      }
-    },
     {
       "date": "2025-09-28",
       "revenue": {
@@ -251,26 +243,17 @@
         "Riverside": 77.75,
         "Uptown": 144.75
       }
+    },
+    {
+      "date": "2025-10-26",
+      "revenue": {
+        "Downtown": 175.5,
+        "Riverside": 149.5,
+        "Uptown": 146.25
+      }
     }
   ],
   "this_month_supply_order": [
-    {
-      "material": "Butter",
-      "cost": 178.48,
-      "quantity": 23.0,
-      "unit": "kg",
-      "delivery_date": "2025-09-27",
-      "suppliers": [
-        {
-          "supplier_id": "SUP-005",
-          "supplier": "Golden Wheat Milling",
-          "cost": 178.48,
-          "quantity": 23.0,
-          "unit": "kg",
-          "delivery_date": "2025-09-27"
-        }
-      ]
-    },
     {
       "material": "Coffee Beans (Arabica)",
       "cost": 1001.45,
@@ -390,5 +373,5 @@
       ]
     }
   ],
-  "generated_at": "2026-10-26T22:14:12.732340+00:00"
+  "generated_at": "2026-10-27T03:28:43.520612+00:00"
 }
