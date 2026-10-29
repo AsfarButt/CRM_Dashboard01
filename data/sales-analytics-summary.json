@@ -1,33 +1,25 @@
 {
-  "total_revenue": 11539.0,
-  "L_total_revenue": 12124.5,
-  "total_sales": 1737,
-  "L_total_sales": 1820,
-  "total_supplycost": 1540.7800000000002,
+  "total_revenue": 11552.0,
+  "L_total_revenue": 12253.0,
+  "total_sales": 1742,
+  "L_total_sales": 1844,
+  "total_supplycost": 1600.77,
   "L_total_supplycost": 554.03,
-  "total_profit": 9998.22,
-  "L_total_profit": 11570.47,
-  "revenue_scale": -4.83,
-  "sales_scale": -4.56,
-  "supplycost_scale": 178.1,
-  "profit_scale": -13.59,
+  "total_profit": 9951.23,
+  "L_total_profit": 11698.97,
+  "revenue_scale": -5.72,
+  "sales_scale": -5.53,
+  "supplycost_scale": 188.93,
+  "profit_scale": -14.94,
   "branch_revenue_details": {
-    "Downtown_revenue": 4509.25,
-    "Downtown_supplycost": 749.47,
-    "Riverside_revenue": 3202.75,
+    "Downtown_revenue": 4495.25,
+    "Downtown_supplycost": 809.46,
+    "Riverside_revenue": 3244.5,
     "Riverside_supplycost": 155.92,
-    "Uptown_revenue": 3827.0,
+    "Uptown_revenue": 3812.25,
     "Uptown_supplycost": 635.39
   },
   "daily_revenue": [
-    {
-      "date": "2025-09-29",
-      "revenue": {
-        "Downtown": 135.75,
-        "Riverside": 66.5,
-        "Uptown": 154.0
-      }
-    },
     {
       "date": "2025-09-30",
       "revenue": {
@@ -251,6 +243,14 @@
         "Riverside": 125.5,
         "Uptown": 69.0
       }
+    },
+    {
+      "date": "2025-10-28",
+      "revenue": {
+        "Downtown": 121.75,
+        "Riverside": 108.25,
+        "Uptown": 139.25
+      }
     }
   ],
   "this_month_supply_order": [
@@ -293,6 +293,23 @@
           "quantity": 17.0,
           "unit": "kg",
           "delivery_date": "2025-09-30"
+        }
+      ]
+    },
+    {
+      "material": "Eggs",
+      "cost": 8.19,
+      "quantity": 21.0,
+      "unit": "count",
+      "delivery_date": "2025-10-28",
+      "suppliers": [
+        {
+          "supplier_id": "SUP-005",
+          "supplier": "Golden Wheat Milling",
+          "cost": 8.19,
+          "quantity": 21.0,
+          "unit": "count",
+          "delivery_date": "2025-10-28"
         }
       ]
     },
@@ -357,11 +374,19 @@
     },
     {
       "material": "Vanilla Syrup",
-      "cost": 84.88,
-      "quantity": 8.0,
+      "cost": 136.68,
+      "quantity": 13.0,
       "unit": "L",
       "delivery_date": "2025-10-02",
       "suppliers": [
+        {
+          "supplier_id": "SUP-009",
+          "supplier": "Sweetline Flavors",
+          "cost": 51.8,
+          "quantity": 5.0,
+          "unit": "L",
+          "delivery_date": "2025-10-28"
+        },
         {
           "supplier_id": "SUP-010",
           "supplier": "Cascade Syrup Works",
@@ -373,5 +398,5 @@
       ]
     }
   ],
-  "generated_at": "2026-10-28T18:18:23.532694+00:00"
+  "generated_at": "2026-10-29T04:05:49.236869+00:00"
 }
