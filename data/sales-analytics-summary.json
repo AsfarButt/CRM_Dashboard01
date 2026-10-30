@@ -1,33 +1,25 @@
 {
-  "total_revenue": 11552.0,
-  "L_total_revenue": 12253.0,
-  "total_sales": 1742,
-  "L_total_sales": 1844,
-  "total_supplycost": 1600.77,
-  "L_total_supplycost": 554.03,
-  "total_profit": 9951.23,
-  "L_total_profit": 11698.97,
-  "revenue_scale": -5.72,
-  "sales_scale": -5.53,
-  "supplycost_scale": 188.93,
-  "profit_scale": -14.94,
+  "total_revenue": 11528.5,
+  "L_total_revenue": 12206.0,
+  "total_sales": 1741,
+  "L_total_sales": 1834,
+  "total_supplycost": 989.9800000000001,
+  "L_total_supplycost": 426.06999999999994,
+  "total_profit": 10538.52,
+  "L_total_profit": 11779.93,
+  "revenue_scale": -5.55,
+  "sales_scale": -5.07,
+  "supplycost_scale": 132.35,
+  "profit_scale": -10.54,
   "branch_revenue_details": {
-    "Downtown_revenue": 4495.25,
-    "Downtown_supplycost": 809.46,
-    "Riverside_revenue": 3244.5,
+    "Downtown_revenue": 4552.25,
+    "Downtown_supplycost": 350.48,
+    "Riverside_revenue": 3219.75,
     "Riverside_supplycost": 155.92,
-    "Uptown_revenue": 3812.25,
-    "Uptown_supplycost": 635.39
+    "Uptown_revenue": 3756.5,
+    "Uptown_supplycost": 483.58
   },
   "daily_revenue": [
-    {
-      "date": "2025-09-30",
-      "revenue": {
-        "Downtown": 127.5,
-        "Riverside": 106.75,
-        "Uptown": 169.75
-      }
-    },
     {
       "date": "2025-10-01",
       "revenue": {
@@ -251,15 +243,23 @@
         "Riverside": 108.25,
         "Uptown": 139.25
       }
+    },
+    {
+      "date": "2025-10-29",
+      "revenue": {
+        "Downtown": 184.5,
+        "Riverside": 82.0,
+        "Uptown": 114.0
+      }
     }
   ],
   "this_month_supply_order": [
     {
       "material": "Coffee Beans (Arabica)",
-      "cost": 1001.45,
-      "quantity": 79.0,
+      "cost": 689.19,
+      "quantity": 53.0,
       "unit": "kg",
-      "delivery_date": "2025-09-30",
+      "delivery_date": "2025-10-03",
       "suppliers": [
         {
           "supplier_id": "SUP-001",
@@ -272,27 +272,10 @@
         {
           "supplier_id": "SUP-002",
           "supplier": "Bean Traders Co.",
-          "cost": 602.75,
-          "quantity": 49.0,
+          "cost": 290.49,
+          "quantity": 23.0,
           "unit": "kg",
-          "delivery_date": "2025-09-30"
-        }
-      ]
-    },
-    {
-      "material": "Coffee Beans (Robusta)",
-      "cost": 151.81,
-      "quantity": 17.0,
-      "unit": "kg",
-      "delivery_date": "2025-09-30",
-      "suppliers": [
-        {
-          "supplier_id": "SUP-001",
-          "supplier": "Highland Coffee Roasters",
-          "cost": 151.81,
-          "quantity": 17.0,
-          "unit": "kg",
-          "delivery_date": "2025-09-30"
+          "delivery_date": "2025-10-03"
         }
       ]
     },
@@ -327,31 +310,6 @@
           "quantity": 23.0,
           "unit": "kg",
           "delivery_date": "2025-10-24"
-        }
-      ]
-    },
-    {
-      "material": "Oat Milk",
-      "cost": 146.72,
-      "quantity": 68.0,
-      "unit": "L",
-      "delivery_date": "2025-09-30",
-      "suppliers": [
-        {
-          "supplier_id": "SUP-003",
-          "supplier": "Fresh Valley Dairy",
-          "cost": 73.44,
-          "quantity": 36.0,
-          "unit": "L",
-          "delivery_date": "2025-09-30"
-        },
-        {
-          "supplier_id": "SUP-004",
-          "supplier": "Meadowbrook Farms",
-          "cost": 73.28,
-          "quantity": 32.0,
-          "unit": "L",
-          "delivery_date": "2025-09-30"
         }
       ]
     },
@@ -398,5 +356,5 @@
       ]
     }
   ],
-  "generated_at": "2026-10-29T22:22:37.978186+00:00"
+  "generated_at": "2026-10-30T04:07:02.969869+00:00"
 }
