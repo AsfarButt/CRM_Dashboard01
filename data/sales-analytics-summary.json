@@ -1,22 +1,22 @@
 {
-  "total_revenue": 11528.5,
-  "L_total_revenue": 12206.0,
-  "total_sales": 1741,
-  "L_total_sales": 1834,
-  "total_supplycost": 989.9800000000001,
-  "L_total_supplycost": 426.06999999999994,
-  "total_profit": 10538.52,
-  "L_total_profit": 11779.93,
-  "revenue_scale": -5.55,
-  "sales_scale": -5.07,
-  "supplycost_scale": 132.35,
-  "profit_scale": -10.54,
+  "total_revenue": 11866.75,
+  "L_total_revenue": 11763.0,
+  "total_sales": 1798,
+  "L_total_sales": 1772,
+  "total_supplycost": 1148.98,
+  "L_total_supplycost": 387.52,
+  "total_profit": 10717.77,
+  "L_total_profit": 11375.48,
+  "revenue_scale": 0.88,
+  "sales_scale": 1.47,
+  "supplycost_scale": 196.5,
+  "profit_scale": -5.78,
   "branch_revenue_details": {
-    "Downtown_revenue": 4552.25,
-    "Downtown_supplycost": 350.48,
-    "Riverside_revenue": 3219.75,
+    "Downtown_revenue": 4631.5,
+    "Downtown_supplycost": 509.48,
+    "Riverside_revenue": 3339.0,
     "Riverside_supplycost": 155.92,
-    "Uptown_revenue": 3756.5,
+    "Uptown_revenue": 3896.25,
     "Uptown_supplycost": 483.58
   },
   "daily_revenue": [
@@ -251,6 +251,14 @@
         "Riverside": 82.0,
         "Uptown": 114.0
       }
+    },
+    {
+      "date": "2025-10-30",
+      "revenue": {
+        "Downtown": 79.25,
+        "Riverside": 119.25,
+        "Uptown": 139.75
+      }
     }
   ],
   "this_month_supply_order": [
@@ -314,9 +322,26 @@
       ]
     },
     {
+      "material": "Oat Milk",
+      "cost": 97.6,
+      "quantity": 40.0,
+      "unit": "L",
+      "delivery_date": "2025-10-30",
+      "suppliers": [
+        {
+          "supplier_id": "SUP-004",
+          "supplier": "Meadowbrook Farms",
+          "cost": 97.6,
+          "quantity": 40.0,
+          "unit": "L",
+          "delivery_date": "2025-10-30"
+        }
+      ]
+    },
+    {
       "material": "Paper Cups (12oz)",
-      "cost": 113.6,
-      "quantity": 1136.0,
+      "cost": 175.0,
+      "quantity": 1750.0,
       "unit": "count",
       "delivery_date": "2025-10-14",
       "suppliers": [
@@ -327,6 +352,14 @@
           "quantity": 1136.0,
           "unit": "count",
           "delivery_date": "2025-10-14"
+        },
+        {
+          "supplier_id": "SUP-008",
+          "supplier": "Standard Supply Co.",
+          "cost": 61.4,
+          "quantity": 614.0,
+          "unit": "count",
+          "delivery_date": "2025-10-30"
         }
       ]
     },
@@ -356,5 +389,5 @@
       ]
     }
   ],
-  "generated_at": "2026-10-30T21:53:56.742531+00:00"
+  "generated_at": "2026-10-31T03:51:20.732983+00:00"
 }
