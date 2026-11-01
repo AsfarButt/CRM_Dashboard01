@@ -1,33 +1,25 @@
 {
-  "total_revenue": 11866.75,
-  "L_total_revenue": 11763.0,
+  "total_revenue": 11859.25,
+  "L_total_revenue": 11794.0,
   "total_sales": 1798,
-  "L_total_sales": 1772,
-  "total_supplycost": 1148.98,
-  "L_total_supplycost": 387.52,
-  "total_profit": 10717.77,
-  "L_total_profit": 11375.48,
-  "revenue_scale": 0.88,
-  "sales_scale": 1.47,
-  "supplycost_scale": 196.5,
-  "profit_scale": -5.78,
+  "L_total_sales": 1778,
+  "total_supplycost": 1179.23,
+  "L_total_supplycost": 998.31,
+  "total_profit": 10680.02,
+  "L_total_profit": 10795.69,
+  "revenue_scale": 0.55,
+  "sales_scale": 1.12,
+  "supplycost_scale": 18.12,
+  "profit_scale": -1.07,
   "branch_revenue_details": {
-    "Downtown_revenue": 4631.5,
+    "Downtown_revenue": 4615.5,
     "Downtown_supplycost": 509.48,
-    "Riverside_revenue": 3339.0,
+    "Riverside_revenue": 3354.0,
     "Riverside_supplycost": 155.92,
-    "Uptown_revenue": 3896.25,
-    "Uptown_supplycost": 483.58
+    "Uptown_revenue": 3889.75,
+    "Uptown_supplycost": 513.8299999999999
   },
   "daily_revenue": [
-    {
-      "date": "2025-10-01",
-      "revenue": {
-        "Downtown": 178.5,
-        "Riverside": 111.5,
-        "Uptown": 96.5
-      }
-    },
     {
       "date": "2025-10-02",
       "revenue": {
@@ -259,6 +251,14 @@
         "Riverside": 119.25,
         "Uptown": 139.75
       }
+    },
+    {
+      "date": "2025-10-31",
+      "revenue": {
+        "Downtown": 162.5,
+        "Riverside": 126.5,
+        "Uptown": 90.0
+      }
     }
   ],
   "this_month_supply_order": [
@@ -387,7 +387,24 @@
           "delivery_date": "2025-10-02"
         }
       ]
+    },
+    {
+      "material": "Whole Milk",
+      "cost": 30.25,
+      "quantity": 25.0,
+      "unit": "L",
+      "delivery_date": "2025-10-31",
+      "suppliers": [
+        {
+          "supplier_id": "SUP-003",
+          "supplier": "Fresh Valley Dairy",
+          "cost": 30.25,
+          "quantity": 25.0,
+          "unit": "L",
+          "delivery_date": "2025-10-31"
+        }
+      ]
     }
   ],
-  "generated_at": "2026-10-31T20:55:25.146079+00:00"
+  "generated_at": "2026-11-01T03:59:55.550820+00:00"
 }
