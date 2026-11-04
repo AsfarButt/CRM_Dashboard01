@@ -1,33 +1,25 @@
 {
-  "total_revenue": 12273.75,
-  "L_total_revenue": 11744.25,
-  "total_sales": 1858,
-  "L_total_sales": 1776,
-  "total_supplycost": 803.86,
-  "L_total_supplycost": 1083.19,
-  "total_profit": 11469.89,
-  "L_total_profit": 10661.06,
-  "revenue_scale": 4.51,
-  "sales_scale": 4.62,
-  "supplycost_scale": -25.79,
-  "profit_scale": 7.59,
+  "total_revenue": 12250.5,
+  "L_total_revenue": 11815.25,
+  "total_sales": 1850,
+  "L_total_sales": 1775,
+  "total_supplycost": 866.5,
+  "L_total_supplycost": 1373.6799999999998,
+  "total_profit": 11384.0,
+  "L_total_profit": 10441.57,
+  "revenue_scale": 3.68,
+  "sales_scale": 4.23,
+  "supplycost_scale": -36.92,
+  "profit_scale": 9.03,
   "branch_revenue_details": {
-    "Downtown_revenue": 4700.5,
-    "Downtown_supplycost": 218.98999999999998,
-    "Riverside_revenue": 3539.0,
+    "Downtown_revenue": 4650.0,
+    "Downtown_supplycost": 281.63,
+    "Riverside_revenue": 3598.5,
     "Riverside_supplycost": 155.92,
-    "Uptown_revenue": 4034.25,
+    "Uptown_revenue": 4002.0,
     "Uptown_supplycost": 428.95
   },
   "daily_revenue": [
-    {
-      "date": "2025-10-04",
-      "revenue": {
-        "Downtown": 185.25,
-        "Riverside": 102.0,
-        "Uptown": 178.0
-      }
-    },
     {
       "date": "2025-10-05",
       "revenue": {
@@ -259,9 +251,34 @@
         "Riverside": 233.25,
         "Uptown": 175.75
       }
+    },
+    {
+      "date": "2025-11-03",
+      "revenue": {
+        "Downtown": 134.75,
+        "Riverside": 161.5,
+        "Uptown": 145.75
+      }
     }
   ],
   "this_month_supply_order": [
+    {
+      "material": "Caramel Syrup",
+      "cost": 62.64,
+      "quantity": 6.0,
+      "unit": "L",
+      "delivery_date": "2025-11-03",
+      "suppliers": [
+        {
+          "supplier_id": "SUP-009",
+          "supplier": "Sweetline Flavors",
+          "cost": 62.64,
+          "quantity": 6.0,
+          "unit": "L",
+          "delivery_date": "2025-11-03"
+        }
+      ]
+    },
     {
       "material": "Coffee Beans (Arabica)",
       "cost": 398.7,
@@ -390,5 +407,5 @@
       ]
     }
   ],
-  "generated_at": "2026-11-03T22:50:05.036593+00:00"
+  "generated_at": "2026-11-04T04:37:46.646774+00:00"
 }
