@@ -1,33 +1,25 @@
 {
-  "total_revenue": 12192.25,
-  "L_total_revenue": 11933.5,
-  "total_sales": 1849,
-  "L_total_sales": 1788,
-  "total_supplycost": 866.5,
+  "total_revenue": 12304.25,
+  "L_total_revenue": 11951.5,
+  "total_sales": 1868,
+  "L_total_sales": 1786,
+  "total_supplycost": 1033.42,
   "L_total_supplycost": 1373.6799999999998,
-  "total_profit": 11325.75,
-  "L_total_profit": 10559.82,
-  "revenue_scale": 2.17,
-  "sales_scale": 3.41,
-  "supplycost_scale": -36.92,
-  "profit_scale": 7.25,
+  "total_profit": 11270.83,
+  "L_total_profit": 10577.82,
+  "revenue_scale": 2.95,
+  "sales_scale": 4.59,
+  "supplycost_scale": -24.77,
+  "profit_scale": 6.55,
   "branch_revenue_details": {
-    "Downtown_revenue": 4505.0,
+    "Downtown_revenue": 4610.75,
     "Downtown_supplycost": 281.63,
-    "Riverside_revenue": 3631.0,
+    "Riverside_revenue": 3644.5,
     "Riverside_supplycost": 155.92,
-    "Uptown_revenue": 4056.25,
-    "Uptown_supplycost": 428.95
+    "Uptown_revenue": 4049.0,
+    "Uptown_supplycost": 595.87
   },
   "daily_revenue": [
-    {
-      "date": "2025-10-06",
-      "revenue": {
-        "Downtown": 103.5,
-        "Riverside": 103.0,
-        "Uptown": 126.5
-      }
-    },
     {
       "date": "2025-10-07",
       "revenue": {
@@ -259,6 +251,14 @@
         "Riverside": 128.75,
         "Uptown": 214.25
       }
+    },
+    {
+      "date": "2025-11-05",
+      "revenue": {
+        "Downtown": 209.25,
+        "Riverside": 116.5,
+        "Uptown": 119.25
+      }
     }
   ],
   "this_month_supply_order": [
@@ -373,6 +373,23 @@
       ]
     },
     {
+      "material": "Paper Cups (16oz)",
+      "cost": 166.92,
+      "quantity": 1391.0,
+      "unit": "count",
+      "delivery_date": "2025-11-05",
+      "suppliers": [
+        {
+          "supplier_id": "SUP-008",
+          "supplier": "Standard Supply Co.",
+          "cost": 166.92,
+          "quantity": 1391.0,
+          "unit": "count",
+          "delivery_date": "2025-11-05"
+        }
+      ]
+    },
+    {
       "material": "Vanilla Syrup",
       "cost": 51.8,
       "quantity": 5.0,
@@ -407,5 +424,5 @@
       ]
     }
   ],
-  "generated_at": "2026-11-05T23:12:49.367642+00:00"
+  "generated_at": "2026-11-06T04:51:41.732425+00:00"
 }
