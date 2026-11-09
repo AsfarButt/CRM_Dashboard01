@@ -3,35 +3,35 @@
     "annual_revenue": [
       {
         "year": 2025,
-        "revenue": 33755.75
+        "revenue": 33977.25
       }
     ],
     "best_sellers": {
       "name": [
         "Latte",
         "Chai Latte",
-        "Hot Chocolate"
+        "Espresso"
       ],
       "qty": [
         38,
-        31,
-        25
+        34,
+        27
       ],
       "scale": [
-        90.0,
-        14.81,
-        56.25
+        58.33,
+        41.67,
+        42.11
       ]
     },
     "snapshot_data": {
-      "today_revenue": 257.0,
-      "today_sales": 40,
-      "items_sold": 59,
-      "avg_order_value": 6.42,
-      "todays_revenue_scale": 26.45,
-      "today_sales_scale": 37.93,
-      "items_sold_scale": 25.53,
-      "avg_order_value_scale": -8.42
+      "today_revenue": 221.5,
+      "today_sales": 28,
+      "items_sold": 51,
+      "avg_order_value": 7.91,
+      "todays_revenue_scale": -13.81,
+      "today_sales_scale": -30.0,
+      "items_sold_scale": -13.56,
+      "avg_order_value_scale": 23.21
     },
     "monthly_revenue": [
       {
@@ -86,9 +86,9 @@
       {
         "month": 11,
         "year": 2026,
-        "revenue": 1524.0,
+        "revenue": 1745.5,
         "current_month": true,
-        "day": 8
+        "day": 9
       }
     ]
   },
@@ -96,35 +96,35 @@
     "annual_revenue": [
       {
         "year": 2025,
-        "revenue": 28117.0
+        "revenue": 28300.5
       }
     ],
     "best_sellers": {
       "name": [
-        "Iced Latte",
         "Americano",
+        "Iced Latte",
         "Cold Brew"
       ],
       "qty": [
-        30,
-        29,
-        23
+        31,
+        26,
+        24
       ],
       "scale": [
-        172.73,
-        61.11,
-        9.52
+        72.22,
+        73.33,
+        14.29
       ]
     },
     "snapshot_data": {
-      "today_revenue": 134.75,
-      "today_sales": 22,
-      "items_sold": 32,
-      "avg_order_value": 6.12,
-      "todays_revenue_scale": -24.51,
-      "today_sales_scale": -12.0,
-      "items_sold_scale": -23.81,
-      "avg_order_value_scale": -14.29
+      "today_revenue": 183.5,
+      "today_sales": 27,
+      "items_sold": 44,
+      "avg_order_value": 6.8,
+      "todays_revenue_scale": 36.18,
+      "today_sales_scale": 22.73,
+      "items_sold_scale": 37.5,
+      "avg_order_value_scale": 11.11
     },
     "monthly_revenue": [
       {
@@ -179,9 +179,9 @@
       {
         "month": 11,
         "year": 2026,
-        "revenue": 1316.75,
+        "revenue": 1500.25,
         "current_month": true,
-        "day": 8
+        "day": 9
       }
     ]
   },
@@ -189,35 +189,35 @@
     "annual_revenue": [
       {
         "year": 2025,
-        "revenue": 23695.75
+        "revenue": 23903.75
       }
     ],
     "best_sellers": {
       "name": [
         "Mocha",
-        "Iced Latte",
-        "Cold Brew"
+        "Chai Latte",
+        "Iced Latte"
       ],
       "qty": [
-        25,
-        22,
-        21
+        30,
+        23,
+        23
       ],
       "scale": [
-        127.27,
-        15.79,
-        23.53
+        150.0,
+        35.29,
+        21.05
       ]
     },
     "snapshot_data": {
-      "today_revenue": 165.75,
-      "today_sales": 25,
-      "items_sold": 39,
-      "avg_order_value": 6.63,
-      "todays_revenue_scale": 38.41,
-      "today_sales_scale": 56.25,
-      "items_sold_scale": 44.44,
-      "avg_order_value_scale": -11.36
+      "today_revenue": 208.0,
+      "today_sales": 32,
+      "items_sold": 48,
+      "avg_order_value": 6.5,
+      "todays_revenue_scale": 25.49,
+      "today_sales_scale": 28.0,
+      "items_sold_scale": 23.08,
+      "avg_order_value_scale": -1.96
     },
     "monthly_revenue": [
       {
@@ -272,12 +272,12 @@
       {
         "month": 11,
         "year": 2026,
-        "revenue": 1184.25,
+        "revenue": 1392.25,
         "current_month": true,
-        "day": 8
+        "day": 9
       }
     ]
   },
   "total_sales_records": 30014,
-  "generated_at": "2026-11-08T21:37:37.723565+00:00"
+  "generated_at": "2026-11-09T04:20:53.371324+00:00"
 }
