@@ -3,35 +3,35 @@
     "annual_revenue": [
       {
         "year": 2025,
-        "revenue": 33977.25
+        "revenue": 34105.5
       }
     ],
     "best_sellers": {
       "name": [
         "Latte",
         "Chai Latte",
-        "Espresso"
+        "Cappuccino"
       ],
       "qty": [
-        38,
-        34,
-        27
+        40,
+        33,
+        29
       ],
       "scale": [
-        58.33,
-        41.67,
-        42.11
+        66.67,
+        43.48,
+        20.83
       ]
     },
     "snapshot_data": {
-      "today_revenue": 221.5,
-      "today_sales": 28,
-      "items_sold": 51,
-      "avg_order_value": 7.91,
-      "todays_revenue_scale": -13.81,
-      "today_sales_scale": -30.0,
-      "items_sold_scale": -13.56,
-      "avg_order_value_scale": 23.21
+      "today_revenue": 128.25,
+      "today_sales": 20,
+      "items_sold": 30,
+      "avg_order_value": 6.41,
+      "todays_revenue_scale": -42.1,
+      "today_sales_scale": -28.57,
+      "items_sold_scale": -41.18,
+      "avg_order_value_scale": -18.96
     },
     "monthly_revenue": [
       {
@@ -86,9 +86,9 @@
       {
         "month": 11,
         "year": 2026,
-        "revenue": 1745.5,
+        "revenue": 1873.75,
         "current_month": true,
-        "day": 9
+        "day": 10
       }
     ]
   },
@@ -96,35 +96,35 @@
     "annual_revenue": [
       {
         "year": 2025,
-        "revenue": 28300.5
+        "revenue": 28454.25
       }
     ],
     "best_sellers": {
       "name": [
         "Americano",
-        "Iced Latte",
-        "Cold Brew"
+        "Cold Brew",
+        "Iced Latte"
       ],
       "qty": [
         31,
-        26,
+        25,
         24
       ],
       "scale": [
-        72.22,
-        73.33,
-        14.29
+        47.62,
+        8.7,
+        26.32
       ]
     },
     "snapshot_data": {
-      "today_revenue": 183.5,
-      "today_sales": 27,
-      "items_sold": 44,
-      "avg_order_value": 6.8,
-      "todays_revenue_scale": 36.18,
-      "today_sales_scale": 22.73,
-      "items_sold_scale": 37.5,
-      "avg_order_value_scale": 11.11
+      "today_revenue": 153.75,
+      "today_sales": 23,
+      "items_sold": 36,
+      "avg_order_value": 6.68,
+      "todays_revenue_scale": -16.21,
+      "today_sales_scale": -14.81,
+      "items_sold_scale": -18.18,
+      "avg_order_value_scale": -1.76
     },
     "monthly_revenue": [
       {
@@ -179,9 +179,9 @@
       {
         "month": 11,
         "year": 2026,
-        "revenue": 1500.25,
+        "revenue": 1654.0,
         "current_month": true,
-        "day": 9
+        "day": 10
       }
     ]
   },
@@ -189,35 +189,35 @@
     "annual_revenue": [
       {
         "year": 2025,
-        "revenue": 23903.75
+        "revenue": 24030.0
       }
     ],
     "best_sellers": {
       "name": [
         "Mocha",
         "Chai Latte",
-        "Iced Latte"
+        "Cappuccino"
       ],
       "qty": [
-        30,
+        28,
         23,
-        23
+        22
       ],
       "scale": [
-        150.0,
-        35.29,
-        21.05
+        75.0,
+        43.75,
+        15.79
       ]
     },
     "snapshot_data": {
-      "today_revenue": 208.0,
-      "today_sales": 32,
-      "items_sold": 48,
-      "avg_order_value": 6.5,
-      "todays_revenue_scale": 25.49,
-      "today_sales_scale": 28.0,
-      "items_sold_scale": 23.08,
-      "avg_order_value_scale": -1.96
+      "today_revenue": 126.25,
+      "today_sales": 20,
+      "items_sold": 28,
+      "avg_order_value": 6.31,
+      "todays_revenue_scale": -39.3,
+      "today_sales_scale": -37.5,
+      "items_sold_scale": -41.67,
+      "avg_order_value_scale": -2.92
     },
     "monthly_revenue": [
       {
@@ -272,12 +272,12 @@
       {
         "month": 11,
         "year": 2026,
-        "revenue": 1392.25,
+        "revenue": 1518.5,
         "current_month": true,
-        "day": 9
+        "day": 10
       }
     ]
   },
   "total_sales_records": 30014,
-  "generated_at": "2026-11-09T15:00:01.764701+00:00"
+  "generated_at": "2026-11-10T01:06:48.554706+00:00"
 }
