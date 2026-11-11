@@ -3,35 +3,35 @@
     "annual_revenue": [
       {
         "year": 2025,
-        "revenue": 34105.5
+        "revenue": 34296.0
       }
     ],
     "best_sellers": {
       "name": [
         "Latte",
         "Chai Latte",
-        "Cappuccino"
+        "Iced Latte"
       ],
       "qty": [
-        40,
-        33,
-        29
+        41,
+        32,
+        30
       ],
       "scale": [
-        66.67,
-        43.48,
-        20.83
+        78.26,
+        45.45,
+        42.86
       ]
     },
     "snapshot_data": {
-      "today_revenue": 128.25,
-      "today_sales": 20,
-      "items_sold": 30,
-      "avg_order_value": 6.41,
-      "todays_revenue_scale": -42.1,
-      "today_sales_scale": -28.57,
-      "items_sold_scale": -41.18,
-      "avg_order_value_scale": -18.96
+      "today_revenue": 190.5,
+      "today_sales": 25,
+      "items_sold": 45,
+      "avg_order_value": 7.62,
+      "todays_revenue_scale": 48.54,
+      "today_sales_scale": 25.0,
+      "items_sold_scale": 50.0,
+      "avg_order_value_scale": 18.88
     },
     "monthly_revenue": [
       {
@@ -86,9 +86,9 @@
       {
         "month": 11,
         "year": 2026,
-        "revenue": 1873.75,
+        "revenue": 2064.25,
         "current_month": true,
-        "day": 10
+        "day": 11
       }
     ]
   },
@@ -96,35 +96,35 @@
     "annual_revenue": [
       {
         "year": 2025,
-        "revenue": 28454.25
+        "revenue": 28566.0
       }
     ],
     "best_sellers": {
       "name": [
         "Americano",
-        "Cold Brew",
+        "Chai Latte",
         "Iced Latte"
       ],
       "qty": [
-        31,
-        25,
-        24
+        24,
+        24,
+        22
       ],
       "scale": [
-        47.62,
-        8.7,
-        26.32
+        -14.29,
+        33.33,
+        -12.0
       ]
     },
     "snapshot_data": {
-      "today_revenue": 153.75,
-      "today_sales": 23,
-      "items_sold": 36,
-      "avg_order_value": 6.68,
-      "todays_revenue_scale": -16.21,
-      "today_sales_scale": -14.81,
-      "items_sold_scale": -18.18,
-      "avg_order_value_scale": -1.76
+      "today_revenue": 111.75,
+      "today_sales": 18,
+      "items_sold": 26,
+      "avg_order_value": 6.21,
+      "todays_revenue_scale": -27.32,
+      "today_sales_scale": -21.74,
+      "items_sold_scale": -27.78,
+      "avg_order_value_scale": -7.04
     },
     "monthly_revenue": [
       {
@@ -179,9 +179,9 @@
       {
         "month": 11,
         "year": 2026,
-        "revenue": 1654.0,
+        "revenue": 1765.75,
         "current_month": true,
-        "day": 10
+        "day": 11
       }
     ]
   },
@@ -189,35 +189,35 @@
     "annual_revenue": [
       {
         "year": 2025,
-        "revenue": 24030.0
+        "revenue": 24207.75
       }
     ],
     "best_sellers": {
       "name": [
         "Mocha",
-        "Chai Latte",
-        "Cappuccino"
+        "Cappuccino",
+        "Americano"
       ],
       "qty": [
-        28,
+        30,
         23,
         22
       ],
       "scale": [
-        75.0,
-        43.75,
+        76.47,
+        21.05,
         15.79
       ]
     },
     "snapshot_data": {
-      "today_revenue": 126.25,
-      "today_sales": 20,
-      "items_sold": 28,
-      "avg_order_value": 6.31,
-      "todays_revenue_scale": -39.3,
-      "today_sales_scale": -37.5,
-      "items_sold_scale": -41.67,
-      "avg_order_value_scale": -2.92
+      "today_revenue": 177.75,
+      "today_sales": 27,
+      "items_sold": 42,
+      "avg_order_value": 6.58,
+      "todays_revenue_scale": 40.79,
+      "today_sales_scale": 35.0,
+      "items_sold_scale": 50.0,
+      "avg_order_value_scale": 4.28
     },
     "monthly_revenue": [
       {
@@ -272,12 +272,12 @@
       {
         "month": 11,
         "year": 2026,
-        "revenue": 1518.5,
+        "revenue": 1696.25,
         "current_month": true,
-        "day": 10
+        "day": 11
       }
     ]
   },
   "total_sales_records": 30014,
-  "generated_at": "2026-11-10T22:45:54.739953+00:00"
+  "generated_at": "2026-11-11T04:26:09.803563+00:00"
 }
