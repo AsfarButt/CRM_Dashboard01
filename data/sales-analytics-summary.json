@@ -1,33 +1,25 @@
 {
-  "total_revenue": 12938.0,
-  "L_total_revenue": 11970.75,
-  "total_sales": 1964,
-  "L_total_sales": 1777,
-  "total_supplycost": 1033.42,
-  "L_total_supplycost": 1298.8000000000002,
-  "total_profit": 11904.58,
-  "L_total_profit": 10671.95,
-  "revenue_scale": 8.08,
-  "sales_scale": 10.52,
-  "supplycost_scale": -20.43,
-  "profit_scale": 11.55,
+  "total_revenue": 12984.75,
+  "L_total_revenue": 11843.0,
+  "total_sales": 1977,
+  "L_total_sales": 1755,
+  "total_supplycost": 919.8199999999999,
+  "L_total_supplycost": 1217.04,
+  "total_profit": 12064.93,
+  "L_total_profit": 10625.96,
+  "revenue_scale": 9.64,
+  "sales_scale": 12.65,
+  "supplycost_scale": -24.42,
+  "profit_scale": 13.54,
   "branch_revenue_details": {
-    "Downtown_revenue": 4888.0,
+    "Downtown_revenue": 4921.75,
     "Downtown_supplycost": 281.63,
-    "Riverside_revenue": 3878.75,
-    "Riverside_supplycost": 155.92,
-    "Uptown_revenue": 4171.25,
+    "Riverside_revenue": 3904.0,
+    "Riverside_supplycost": 42.32,
+    "Uptown_revenue": 4159.0,
     "Uptown_supplycost": 595.87
   },
   "daily_revenue": [
-    {
-      "date": "2025-10-14",
-      "revenue": {
-        "Downtown": 136.5,
-        "Riverside": 118.25,
-        "Uptown": 141.25
-      }
-    },
     {
       "date": "2025-10-15",
       "revenue": {
@@ -259,6 +251,14 @@
         "Riverside": 120.75,
         "Uptown": 180.25
       }
+    },
+    {
+      "date": "2025-11-13",
+      "revenue": {
+        "Downtown": 170.25,
+        "Riverside": 143.5,
+        "Uptown": 129.0
+      }
     }
   ],
   "this_month_supply_order": [
@@ -349,19 +349,11 @@
     },
     {
       "material": "Paper Cups (12oz)",
-      "cost": 175.0,
-      "quantity": 1750.0,
+      "cost": 61.4,
+      "quantity": 614.0,
       "unit": "count",
-      "delivery_date": "2025-10-14",
+      "delivery_date": "2025-10-30",
       "suppliers": [
-        {
-          "supplier_id": "SUP-007",
-          "supplier": "EcoPack Solutions",
-          "cost": 113.6,
-          "quantity": 1136.0,
-          "unit": "count",
-          "delivery_date": "2025-10-14"
-        },
         {
           "supplier_id": "SUP-008",
           "supplier": "Standard Supply Co.",
@@ -424,5 +416,5 @@
       ]
     }
   ],
-  "generated_at": "2026-11-13T23:10:58.039656+00:00"
+  "generated_at": "2026-11-14T04:42:28.457613+00:00"
 }
