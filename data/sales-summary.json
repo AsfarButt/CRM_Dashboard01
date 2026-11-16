@@ -3,35 +3,35 @@
     "annual_revenue": [
       {
         "year": 2025,
-        "revenue": 35030.5
+        "revenue": 35225.25
       }
     ],
     "best_sellers": {
       "name": [
-        "Iced Latte",
-        "Cappuccino",
-        "Hot Chocolate"
+        "Hot Chocolate",
+        "Americano",
+        "Iced Latte"
       ],
       "qty": [
-        33,
-        32,
-        31
+        35,
+        27,
+        27
       ],
       "scale": [
-        57.14,
-        39.13,
-        24.0
+        52.17,
+        35.0,
+        8.0
       ]
     },
     "snapshot_data": {
-      "today_revenue": 233.0,
-      "today_sales": 38,
-      "items_sold": 54,
-      "avg_order_value": 6.13,
-      "todays_revenue_scale": 33.91,
-      "today_sales_scale": 40.74,
-      "items_sold_scale": 31.71,
-      "avg_order_value_scale": -4.81
+      "today_revenue": 194.75,
+      "today_sales": 31,
+      "items_sold": 47,
+      "avg_order_value": 6.28,
+      "todays_revenue_scale": -16.42,
+      "today_sales_scale": -18.42,
+      "items_sold_scale": -12.96,
+      "avg_order_value_scale": 2.45
     },
     "monthly_revenue": [
       {
@@ -86,9 +86,9 @@
       {
         "month": 11,
         "year": 2026,
-        "revenue": 2798.75,
+        "revenue": 2993.5,
         "current_month": true,
-        "day": 15
+        "day": 16
       }
     ]
   },
@@ -96,35 +96,35 @@
     "annual_revenue": [
       {
         "year": 2025,
-        "revenue": 29160.0
+        "revenue": 29340.25
       }
     ],
     "best_sellers": {
       "name": [
         "Chai Latte",
-        "Cold Brew",
-        "Hot Chocolate"
+        "Hot Chocolate",
+        "Mocha"
       ],
       "qty": [
-        29,
-        25,
-        25
+        28,
+        27,
+        22
       ],
       "scale": [
-        31.82,
-        8.7,
-        8.7
+        33.33,
+        28.57,
+        10.0
       ]
     },
     "snapshot_data": {
-      "today_revenue": 136.75,
-      "today_sales": 21,
-      "items_sold": 33,
-      "avg_order_value": 6.51,
-      "todays_revenue_scale": -7.6,
-      "today_sales_scale": 0.0,
-      "items_sold_scale": -5.71,
-      "avg_order_value_scale": -7.66
+      "today_revenue": 180.25,
+      "today_sales": 26,
+      "items_sold": 42,
+      "avg_order_value": 6.93,
+      "todays_revenue_scale": 31.81,
+      "today_sales_scale": 23.81,
+      "items_sold_scale": 27.27,
+      "avg_order_value_scale": 6.45
     },
     "monthly_revenue": [
       {
@@ -179,9 +179,9 @@
       {
         "month": 11,
         "year": 2026,
-        "revenue": 2359.75,
+        "revenue": 2540.0,
         "current_month": true,
-        "day": 15
+        "day": 16
       }
     ]
   },
@@ -189,7 +189,7 @@
     "annual_revenue": [
       {
         "year": 2025,
-        "revenue": 24802.25
+        "revenue": 25007.5
       }
     ],
     "best_sellers": {
@@ -199,25 +199,25 @@
         "Cold Brew"
       ],
       "qty": [
-        25,
-        25,
-        24
+        28,
+        28,
+        27
       ],
       "scale": [
-        56.25,
-        47.06,
-        14.29
+        100.0,
+        115.38,
+        68.75
       ]
     },
     "snapshot_data": {
-      "today_revenue": 189.5,
-      "today_sales": 28,
-      "items_sold": 44,
-      "avg_order_value": 6.77,
-      "todays_revenue_scale": 34.64,
-      "today_sales_scale": 27.27,
-      "items_sold_scale": 37.5,
-      "avg_order_value_scale": 5.78
+      "today_revenue": 205.25,
+      "today_sales": 30,
+      "items_sold": 50,
+      "avg_order_value": 6.84,
+      "todays_revenue_scale": 8.31,
+      "today_sales_scale": 7.14,
+      "items_sold_scale": 13.64,
+      "avg_order_value_scale": 1.03
     },
     "monthly_revenue": [
       {
@@ -272,12 +272,12 @@
       {
         "month": 11,
         "year": 2026,
-        "revenue": 2290.75,
+        "revenue": 2496.0,
         "current_month": true,
-        "day": 15
+        "day": 16
       }
     ]
   },
   "total_sales_records": 30014,
-  "generated_at": "2026-11-15T22:25:48.073229+00:00"
+  "generated_at": "2026-11-16T04:30:05.064068+00:00"
 }
