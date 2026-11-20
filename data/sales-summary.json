@@ -3,35 +3,35 @@
     "annual_revenue": [
       {
         "year": 2025,
-        "revenue": 35733.75
+        "revenue": 35850.5
       }
     ],
     "best_sellers": {
       "name": [
         "Cold Brew",
-        "Hot Chocolate",
-        "Americano"
+        "Iced Latte",
+        "Hot Chocolate"
       ],
       "qty": [
-        35,
-        31,
-        28
+        33,
+        27,
+        27
       ],
       "scale": [
-        75.0,
-        14.81,
-        21.74
+        37.5,
+        -6.9,
+        -3.57
       ]
     },
     "snapshot_data": {
-      "today_revenue": 148.5,
-      "today_sales": 26,
-      "items_sold": 35,
-      "avg_order_value": 5.71,
-      "todays_revenue_scale": -34.58,
-      "today_sales_scale": -18.75,
-      "items_sold_scale": -32.69,
-      "avg_order_value_scale": -19.46
+      "today_revenue": 116.75,
+      "today_sales": 20,
+      "items_sold": 28,
+      "avg_order_value": 5.84,
+      "todays_revenue_scale": -21.38,
+      "today_sales_scale": -23.08,
+      "items_sold_scale": -20.0,
+      "avg_order_value_scale": 2.28
     },
     "monthly_revenue": [
       {
@@ -86,9 +86,9 @@
       {
         "month": 11,
         "year": 2026,
-        "revenue": 3502.0,
+        "revenue": 3618.75,
         "current_month": true,
-        "day": 19
+        "day": 20
       }
     ]
   },
@@ -96,35 +96,35 @@
     "annual_revenue": [
       {
         "year": 2025,
-        "revenue": 29784.0
+        "revenue": 30012.75
       }
     ],
     "best_sellers": {
       "name": [
+        "Hot Chocolate",
         "Mocha",
-        "Cappuccino",
-        "Hot Chocolate"
+        "Cappuccino"
       ],
       "qty": [
-        31,
-        25,
-        24
+        27,
+        27,
+        26
       ],
       "scale": [
-        63.16,
-        31.58,
-        9.09
+        17.39,
+        50.0,
+        30.0
       ]
     },
     "snapshot_data": {
-      "today_revenue": 148.5,
-      "today_sales": 22,
-      "items_sold": 33,
-      "avg_order_value": 6.75,
-      "todays_revenue_scale": -11.08,
-      "today_sales_scale": -12.0,
-      "items_sold_scale": -15.38,
-      "avg_order_value_scale": 1.05
+      "today_revenue": 228.75,
+      "today_sales": 33,
+      "items_sold": 55,
+      "avg_order_value": 6.93,
+      "todays_revenue_scale": 54.04,
+      "today_sales_scale": 50.0,
+      "items_sold_scale": 66.67,
+      "avg_order_value_scale": 2.67
     },
     "monthly_revenue": [
       {
@@ -179,9 +179,9 @@
       {
         "month": 11,
         "year": 2026,
-        "revenue": 2983.75,
+        "revenue": 3212.5,
         "current_month": true,
-        "day": 19
+        "day": 20
       }
     ]
   },
@@ -189,35 +189,35 @@
     "annual_revenue": [
       {
         "year": 2025,
-        "revenue": 25417.5
+        "revenue": 25528.0
       }
     ],
     "best_sellers": {
       "name": [
-        "Cold Brew",
         "Hot Chocolate",
+        "Cold Brew",
         "Latte"
       ],
       "qty": [
-        30,
+        29,
         28,
         24
       ],
       "scale": [
-        114.29,
-        55.56,
-        33.33
+        45.0,
+        33.33,
+        20.0
       ]
     },
     "snapshot_data": {
-      "today_revenue": 153.25,
-      "today_sales": 22,
-      "items_sold": 35,
-      "avg_order_value": 6.97,
-      "todays_revenue_scale": 65.23,
-      "today_sales_scale": 69.23,
-      "items_sold_scale": 59.09,
-      "avg_order_value_scale": -2.24
+      "today_revenue": 110.5,
+      "today_sales": 17,
+      "items_sold": 25,
+      "avg_order_value": 6.5,
+      "todays_revenue_scale": -27.9,
+      "today_sales_scale": -22.73,
+      "items_sold_scale": -28.57,
+      "avg_order_value_scale": -6.74
     },
     "monthly_revenue": [
       {
@@ -272,12 +272,12 @@
       {
         "month": 11,
         "year": 2026,
-        "revenue": 2906.0,
+        "revenue": 3016.5,
         "current_month": true,
-        "day": 19
+        "day": 20
       }
     ]
   },
   "total_sales_records": 30014,
-  "generated_at": "2026-11-19T15:08:46.888879+00:00"
+  "generated_at": "2026-11-20T00:13:55.878578+00:00"
 }

@@ -1,33 +1,25 @@
 {
-  "total_revenue": 13491.25,
-  "L_total_revenue": 11855.5,
-  "total_sales": 2041,
-  "L_total_sales": 1770,
-  "total_supplycost": 919.8199999999999,
-  "L_total_supplycost": 1330.6399999999999,
-  "total_profit": 12571.43,
-  "L_total_profit": 10524.86,
-  "revenue_scale": 13.8,
-  "sales_scale": 15.31,
-  "supplycost_scale": -30.87,
-  "profit_scale": 19.45,
+  "total_revenue": 13619.0,
+  "L_total_revenue": 11829.5,
+  "total_sales": 2060,
+  "L_total_sales": 1768,
+  "total_supplycost": 1327.5200000000002,
+  "L_total_supplycost": 1324.6399999999999,
+  "total_profit": 12291.48,
+  "L_total_profit": 10504.86,
+  "revenue_scale": 15.13,
+  "sales_scale": 16.52,
+  "supplycost_scale": 0.22,
+  "profit_scale": 17.01,
   "branch_revenue_details": {
-    "Downtown_revenue": 5127.25,
+    "Downtown_revenue": 5139.25,
     "Downtown_supplycost": 281.63,
-    "Riverside_revenue": 4097.75,
-    "Riverside_supplycost": 42.32,
-    "Uptown_revenue": 4266.25,
+    "Riverside_revenue": 4141.75,
+    "Riverside_supplycost": 450.02,
+    "Uptown_revenue": 4338.0,
     "Uptown_supplycost": 595.87
   },
   "daily_revenue": [
-    {
-      "date": "2025-10-20",
-      "revenue": {
-        "Downtown": 136.5,
-        "Riverside": 109.25,
-        "Uptown": 76.75
-      }
-    },
     {
       "date": "2025-10-21",
       "revenue": {
@@ -259,6 +251,14 @@
         "Riverside": 92.75,
         "Uptown": 167.0
       }
+    },
+    {
+      "date": "2025-11-19",
+      "revenue": {
+        "Downtown": 148.5,
+        "Riverside": 153.25,
+        "Uptown": 148.5
+      }
     }
   ],
   "this_month_supply_order": [
@@ -281,8 +281,8 @@
     },
     {
       "material": "Coffee Beans (Arabica)",
-      "cost": 398.7,
-      "quantity": 30.0,
+      "cost": 806.4,
+      "quantity": 60.0,
       "unit": "kg",
       "delivery_date": "2025-10-25",
       "suppliers": [
@@ -293,6 +293,14 @@
           "quantity": 30.0,
           "unit": "kg",
           "delivery_date": "2025-10-25"
+        },
+        {
+          "supplier_id": "SUP-002",
+          "supplier": "Bean Traders Co.",
+          "cost": 407.7,
+          "quantity": 30.0,
+          "unit": "kg",
+          "delivery_date": "2025-11-19"
         }
       ]
     },
@@ -416,5 +424,5 @@
       ]
     }
   ],
-  "generated_at": "2026-11-19T15:08:47.774961+00:00"
+  "generated_at": "2026-11-20T00:13:56.756084+00:00"
 }
