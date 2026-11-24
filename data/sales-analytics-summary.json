@@ -1,33 +1,25 @@
 {
-  "total_revenue": 13990.0,
-  "L_total_revenue": 11732.75,
-  "total_sales": 2116,
-  "L_total_sales": 1750,
-  "total_supplycost": 1327.5200000000002,
+  "total_revenue": 14162.25,
+  "L_total_revenue": 11676.5,
+  "total_sales": 2146,
+  "L_total_sales": 1749,
+  "total_supplycost": 1310.42,
   "L_total_supplycost": 1278.24,
-  "total_profit": 12662.48,
-  "L_total_profit": 10454.51,
-  "revenue_scale": 19.24,
-  "sales_scale": 20.91,
-  "supplycost_scale": 3.86,
-  "profit_scale": 21.12,
+  "total_profit": 12851.83,
+  "L_total_profit": 10398.26,
+  "revenue_scale": 21.29,
+  "sales_scale": 22.7,
+  "supplycost_scale": 2.52,
+  "profit_scale": 23.6,
   "branch_revenue_details": {
-    "Downtown_revenue": 5320.0,
-    "Downtown_supplycost": 281.63,
-    "Riverside_revenue": 4241.75,
-    "Riverside_supplycost": 450.02,
-    "Uptown_revenue": 4428.25,
+    "Downtown_revenue": 5451.5,
+    "Downtown_supplycost": 306.84999999999997,
+    "Riverside_revenue": 4233.5,
+    "Riverside_supplycost": 407.7,
+    "Uptown_revenue": 4477.25,
     "Uptown_supplycost": 595.87
   },
   "daily_revenue": [
-    {
-      "date": "2025-10-24",
-      "revenue": {
-        "Downtown": 138.75,
-        "Riverside": 165.25,
-        "Uptown": 76.25
-      }
-    },
     {
       "date": "2025-10-25",
       "revenue": {
@@ -259,6 +251,14 @@
         "Riverside": 189.0,
         "Uptown": 152.5
       }
+    },
+    {
+      "date": "2025-11-23",
+      "revenue": {
+        "Downtown": 270.25,
+        "Riverside": 157.0,
+        "Uptown": 125.25
+      }
     }
   ],
   "this_month_supply_order": [
@@ -323,18 +323,18 @@
     },
     {
       "material": "Flour",
-      "cost": 42.32,
-      "quantity": 23.0,
+      "cost": 25.22,
+      "quantity": 13.0,
       "unit": "kg",
-      "delivery_date": "2025-10-24",
+      "delivery_date": "2025-11-23",
       "suppliers": [
         {
           "supplier_id": "SUP-006",
           "supplier": "Artisan Bakery Supply",
-          "cost": 42.32,
-          "quantity": 23.0,
+          "cost": 25.22,
+          "quantity": 13.0,
           "unit": "kg",
-          "delivery_date": "2025-10-24"
+          "delivery_date": "2025-11-23"
         }
       ]
     },
@@ -424,5 +424,5 @@
       ]
     }
   ],
-  "generated_at": "2026-11-23T17:13:42.364400+00:00"
+  "generated_at": "2026-11-24T03:44:45.660620+00:00"
 }
