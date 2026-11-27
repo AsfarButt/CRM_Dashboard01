@@ -1,33 +1,25 @@
 {
-  "total_revenue": 14115.0,
-  "L_total_revenue": 11708.75,
-  "total_sales": 2137,
-  "L_total_sales": 1761,
-  "total_supplycost": 911.7199999999999,
-  "L_total_supplycost": 1719.2599999999998,
-  "total_profit": 13203.28,
-  "L_total_profit": 9989.49,
-  "revenue_scale": 20.55,
-  "sales_scale": 21.35,
-  "supplycost_scale": -46.97,
-  "profit_scale": 32.17,
+  "total_revenue": 14178.75,
+  "L_total_revenue": 11678.25,
+  "total_sales": 2156,
+  "L_total_sales": 1759,
+  "total_supplycost": 1000.1999999999999,
+  "L_total_supplycost": 1540.7800000000002,
+  "total_profit": 13178.55,
+  "L_total_profit": 10137.47,
+  "revenue_scale": 21.41,
+  "sales_scale": 22.57,
+  "supplycost_scale": -35.08,
+  "profit_scale": 30.0,
   "branch_revenue_details": {
-    "Downtown_revenue": 5407.0,
+    "Downtown_revenue": 5400.0,
     "Downtown_supplycost": 306.84999999999997,
-    "Riverside_revenue": 4249.5,
+    "Riverside_revenue": 4261.5,
     "Riverside_supplycost": 407.7,
-    "Uptown_revenue": 4458.5,
-    "Uptown_supplycost": 197.17
+    "Uptown_revenue": 4517.25,
+    "Uptown_supplycost": 285.65
   },
   "daily_revenue": [
-    {
-      "date": "2025-10-27",
-      "revenue": {
-        "Downtown": 144.25,
-        "Riverside": 125.5,
-        "Uptown": 69.0
-      }
-    },
     {
       "date": "2025-10-28",
       "revenue": {
@@ -259,6 +251,14 @@
         "Riverside": 146.0,
         "Uptown": 153.75
       }
+    },
+    {
+      "date": "2025-11-26",
+      "revenue": {
+        "Downtown": 137.25,
+        "Riverside": 137.5,
+        "Uptown": 127.75
+      }
     }
   ],
   "this_month_supply_order": [
@@ -276,6 +276,23 @@
           "quantity": 6.0,
           "unit": "L",
           "delivery_date": "2025-11-03"
+        }
+      ]
+    },
+    {
+      "material": "Chai Concentrate",
+      "cost": 88.48,
+      "quantity": 7.0,
+      "unit": "L",
+      "delivery_date": "2025-11-26",
+      "suppliers": [
+        {
+          "supplier_id": "SUP-010",
+          "supplier": "Cascade Syrup Works",
+          "cost": 88.48,
+          "quantity": 7.0,
+          "unit": "L",
+          "delivery_date": "2025-11-26"
         }
       ]
     },
@@ -416,5 +433,5 @@
       ]
     }
   ],
-  "generated_at": "2026-11-26T16:16:35.178407+00:00"
+  "generated_at": "2026-11-27T01:26:51.222671+00:00"
 }
